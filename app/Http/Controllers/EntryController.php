@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Content\HighlightsLoader;
 use App\Content\ResponseLadder;
 use App\Enums\Category;
 use App\Models\Entry;
@@ -15,13 +16,14 @@ class EntryController extends Controller
      * The full list is small enough to ship in one page and filter
      * client-side, which keeps every URL cacheable.
      */
-    public function index(): Response
+    public function index(HighlightsLoader $highlights): Response
     {
         $entries = Entry::published()->orderByDesc('date')->get();
 
         return Inertia::render('Home', [
             'entries' => $entries->map->toCard()->values(),
             'categories' => Category::options(),
+            'highlights' => $highlights->load(config('csfo.highlights_path')),
             'retaliation' => ResponseLadder::build($entries, 'retaliation'),
         ])->withViewData(['meta' => [
             'title' => config('app.name'),

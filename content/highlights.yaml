@@ -1,0 +1,26 @@
+# Headline numbers shown at the top of the home page, in display order.
+# Each needs a source a reader can check in one click.
+highlights:
+  - value: 39%
+    label: of Democrats approved of the job Schumer was doing in December 2025, down from 76% two years earlier.
+    source:
+      outlet: Gallup
+      title: Americans End Year in Gloomy Mood
+      url: https://news.gallup.com/poll/700241/americans-end-year-gloomy-mood.aspx
+      date: 2025-12-22
+
+  - value: 13%
+    label: of registered voters viewed Schumer positively days before the 2026 midterms. 53% viewed him negatively.
+    source:
+      outlet: NBC News
+      title: "Poll: Voters demand change and a check on Trump"
+      url: https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183
+      date: 2026-11-01
+
+  - value: 32%
+    label: of New York voters viewed their own senior senator favorably, his worst rating in 21 years of Siena polling.
+    source:
+      outlet: Siena Research Institute
+      title: Schumer has worst ever favorability rating, 32-55%
+      url: https://sri.siena.edu/2025/11/18/hochul-approval-favorability-ratings-down-a-little-maintains-huge-lead-over-delgado-among-dems-leads-stefanik-by-20-points-down-from-25-in-september/
+      date: 2025-11-18

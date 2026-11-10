@@ -4,47 +4,86 @@
 @source '../../storage/framework/views/*.php';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: var(--font-barlow-condensed), 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+    --font-ui: var(--font-barlow), 'Helvetica Neue', Arial, sans-serif;
+    --font-serif: var(--font-source-serif-4), Georgia, 'Times New Roman', serif;
 }
 
 :root {
     color-scheme: light;
-    --surface: #faf9f6;
-    --surface-raised: #ffffff;
-    --text-primary: #141312;
-    --text-secondary: #52514e;
-    --text-muted: #7a7873;
-    --rule: #e4e2dc;
-    --accent: #d93a3a;
+    --paper: #f2f5fc;
+    --paper-raised: #ffffff;
+    --ink: #000c2e;
+    --ink-secondary: #3b4766;
+    --ink-muted: #5d6886;
+    --rule: #d3dbee;
+    --blue: #0047cb;
+    --blue-strong: #00349a;
+    --highlight: #ffd84d;
+    --on-highlight: #000c2e;
+    --band: #000c2e;
+    --on-band: #f2f5fc;
 }
 
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme='light']) {
         color-scheme: dark;
-        --surface: #161514;
-        --surface-raised: #1f1e1c;
-        --text-primary: #f0efec;
-        --text-secondary: #c3c2b7;
-        --text-muted: #8f8d86;
-        --rule: #33312e;
-        --accent: #e66767;
+        --paper: #000c2e;
+        --paper-raised: #0a1a47;
+        --ink: #eef2fc;
+        --ink-secondary: #c2cbe3;
+        --ink-muted: #8f9bbd;
+        --rule: #1e2d5c;
+        --blue: #7ba4ff;
+        --blue-strong: #a9c4ff;
+        --band: #0047cb;
+        --on-band: #ffffff;
     }
 }
 
 :root[data-theme='dark'] {
     color-scheme: dark;
-    --surface: #161514;
-    --surface-raised: #1f1e1c;
-    --text-primary: #f0efec;
-    --text-secondary: #c3c2b7;
-    --text-muted: #8f8d86;
-    --rule: #33312e;
-    --accent: #e66767;
+    --paper: #000c2e;
+    --paper-raised: #0a1a47;
+    --ink: #eef2fc;
+    --ink-secondary: #c2cbe3;
+    --ink-muted: #8f9bbd;
+    --rule: #1e2d5c;
+    --blue: #7ba4ff;
+    --blue-strong: #a9c4ff;
+    --band: #0047cb;
+    --on-band: #ffffff;
 }
 
 body {
-    background: var(--surface);
-    color: var(--text-primary);
-    font-family: var(--font-sans);
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-serif);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+}
+
+:focus-visible {
+    outline: 3px solid var(--blue);
+    outline-offset: 2px;
+}
+
+/* Marker swipe behind a phrase. Clone keeps the swipe on every wrapped line. */
+.hl {
+    padding: 0 0.15em;
+    margin: 0 -0.05em;
+    color: var(--on-highlight);
+    background: linear-gradient(100deg, transparent 0.4%, var(--highlight) 1.2%, var(--highlight) 98.5%, transparent 99.6%)
+        0 0 / 100% 100% no-repeat;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.prose-measure {
+    max-width: 68ch;
 }

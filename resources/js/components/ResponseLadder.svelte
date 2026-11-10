@@ -1,4 +1,6 @@
 <script>
+    import { formatDate } from '../lib/format.js';
+
     /** @type {{ ladder: { total: number, actions: number, levels: Array<{ value: string, label: string, description: string, action: boolean, entries: Array<{ slug: string, title: string, date: string }> }> } }} */
     let { ladder } = $props();
 
@@ -20,7 +22,7 @@
                 <a
                     class="dot"
                     href="/entries/{entry.slug}"
-                    aria-label="{entry.title} ({entry.date})"
+                    aria-label="{entry.title} ({formatDate(entry.date)})"
                     onmouseenter={() => (hovered = entry.slug)}
                     onmouseleave={() => (hovered = null)}
                     onfocus={() => (hovered = entry.slug)}
@@ -29,7 +31,7 @@
                     {#if hovered === entry.slug}
                         <span class="tip" role="tooltip">
                             <span class="tip-title">{entry.title}</span>
-                            <span class="tip-date">{entry.date}</span>
+                            <span class="tip-date">{formatDate(entry.date)}</span>
                         </span>
                     {/if}
                 </a>
@@ -61,65 +63,70 @@
         {/each}
     </ul>
 
-    <p class="note">Each dot is one documented incident, placed by the strongest response we could find. Select a dot for sources.</p>
+    <p class="note">Each dot is one documented incident, placed by the strongest response we could find. Select a dot to read it with sources.</p>
 </section>
 
 <style>
     .ladder {
-        max-width: 44rem;
+        --l-ink: var(--on-band);
+        --l-muted: color-mix(in srgb, var(--on-band) 68%, transparent);
+        --l-rule: color-mix(in srgb, var(--on-band) 22%, transparent);
+        max-width: 48rem;
+        color: var(--l-ink);
     }
 
     .hero {
         display: flex;
         align-items: baseline;
-        gap: 0.5rem;
+        gap: 0.75rem;
         margin: 0;
-        line-height: 1;
+        font-family: var(--font-display);
+        line-height: 0.9;
     }
 
     .hero-number {
-        font-size: clamp(4rem, 14vw, 7rem);
-        font-weight: 600;
-        color: var(--accent);
+        font-size: clamp(6rem, 18vw, 10rem);
+        font-weight: 800;
+        color: var(--highlight);
     }
 
     .hero-of {
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: var(--text-secondary);
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 700;
+        color: var(--l-muted);
     }
 
     h2 {
-        margin: 0.75rem 0 2rem;
-        font-size: 1.25rem;
-        font-weight: 500;
-        line-height: 1.35;
-        color: var(--text-primary);
+        max-width: 30ch;
+        margin: 1rem 0 2.5rem;
+        font-family: var(--font-display);
+        font-size: clamp(1.625rem, 3.5vw, 2.25rem);
+        font-weight: 700;
+        line-height: 1.15;
     }
 
     .group {
-        margin: 1.25rem 0 0.25rem;
-        font-size: 0.75rem;
+        margin: 1.75rem 0 0.25rem;
+        font-family: var(--font-ui);
+        font-size: 0.9375rem;
         font-weight: 600;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--text-muted);
+        color: var(--l-muted);
     }
 
     ul {
         margin: 0;
         padding: 0;
         list-style: none;
-        border-top: 1px solid var(--rule);
+        border-top: 1px solid var(--l-rule);
     }
 
     .row {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) 2rem minmax(0, 1.2fr);
+        grid-template-columns: minmax(0, 1fr) 2.5rem minmax(0, 1.2fr);
         align-items: center;
-        gap: 0.75rem;
-        padding: 0.75rem 0;
-        border-bottom: 1px solid var(--rule);
+        gap: 1rem;
+        padding: 0.875rem 0;
+        border-bottom: 1px solid var(--l-rule);
     }
 
     .label {
@@ -129,25 +136,30 @@
     }
 
     .name {
-        font-weight: 600;
-        color: var(--text-primary);
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.2;
     }
 
     .desc {
-        font-size: 0.8125rem;
-        color: var(--text-secondary);
+        font-family: var(--font-ui);
+        font-size: 0.875rem;
+        line-height: 1.4;
+        color: var(--l-muted);
     }
 
     .count {
         text-align: right;
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        font-weight: 800;
         font-variant-numeric: tabular-nums;
-        font-weight: 600;
-        color: var(--text-primary);
     }
 
-    .empty .count,
-    .empty .name {
-        color: var(--text-muted);
+    .empty .name,
+    .empty .count {
+        color: var(--l-muted);
     }
 
     .track {
@@ -159,18 +171,18 @@
     }
 
     .empty .track {
-        border-bottom: 1px dashed var(--rule);
         height: 0;
         min-height: 0;
+        border-bottom: 2px dashed var(--l-rule);
     }
 
     .dot {
         position: relative;
-        width: 1.25rem;
-        height: 1.25rem;
+        width: 1.375rem;
+        height: 1.375rem;
         border-radius: 999px;
-        background: var(--accent);
-        box-shadow: 0 0 0 2px var(--surface);
+        background: var(--highlight);
+        box-shadow: 0 0 0 2px var(--band);
         outline-offset: 3px;
     }
 
@@ -184,8 +196,12 @@
     .dot:hover,
     .dot:focus-visible {
         box-shadow:
-            0 0 0 2px var(--surface),
-            0 0 0 4px var(--accent);
+            0 0 0 2px var(--band),
+            0 0 0 4px var(--highlight);
+    }
+
+    .dot:focus-visible {
+        outline: none;
     }
 
     .tip {
@@ -199,34 +215,37 @@
         width: max-content;
         max-width: min(18rem, 80vw);
         padding: 0.5rem 0.75rem;
-        border: 1px solid var(--rule);
-        border-radius: 0.375rem;
-        background: var(--surface-raised);
-        box-shadow: 0 4px 16px rgb(0 0 0 / 0.12);
+        border-radius: 0.25rem;
+        background: var(--paper-raised);
+        box-shadow: 0 6px 20px rgb(0 0 0 / 0.3);
         transform: translateX(-50%);
         pointer-events: none;
     }
 
     .tip-title {
-        font-size: 0.8125rem;
-        font-weight: 500;
-        color: var(--text-primary);
+        font-family: var(--font-ui);
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1.3;
+        color: var(--ink);
     }
 
     .tip-date {
-        font-size: 0.75rem;
-        color: var(--text-muted);
+        font-family: var(--font-ui);
+        font-size: 0.8125rem;
+        color: var(--ink-muted);
     }
 
     .note {
-        margin-top: 1rem;
-        font-size: 0.8125rem;
-        color: var(--text-muted);
+        margin-top: 1.25rem;
+        font-family: var(--font-ui);
+        font-size: 0.875rem;
+        color: var(--l-muted);
     }
 
     @media (max-width: 40rem) {
         .row {
-            grid-template-columns: minmax(0, 1fr) 2rem;
+            grid-template-columns: minmax(0, 1fr) 2.5rem;
         }
 
         .track {

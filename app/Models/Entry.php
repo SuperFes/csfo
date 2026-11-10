@@ -80,6 +80,12 @@ class Entry extends Model
             ...$this->toCard(),
             'context' => $this->context,
             'schumer_response' => $this->schumer_response,
+            'response' => $this->response_level ? [
+                'value' => $this->response_level->value,
+                'label' => $this->response_level->label(),
+                'description' => $this->response_level->description(),
+                'action' => $this->response_level->isAction(),
+            ] : null,
             'sources' => $this->sources,
         ];
     }

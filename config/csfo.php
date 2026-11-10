@@ -4,6 +4,8 @@ return [
 
     'content_path' => env('CSFO_CONTENT_PATH', base_path('content/entries')),
 
+    'highlights_path' => env('CSFO_HIGHLIGHTS_PATH', base_path('content/highlights.yaml')),
+
     // Show needs-review entries; keep false in production.
     'show_unverified' => (bool) env('CSFO_SHOW_UNVERIFIED', false),
 

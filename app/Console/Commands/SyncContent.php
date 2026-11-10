@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Content\ContentSync;
+use App\Content\HighlightsLoader;
 use App\Content\InvalidContentException;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
@@ -13,11 +14,13 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 #[Description('Validate content/entries/*.yaml and sync it into the database')]
 class SyncContent extends Command
 {
-    public function handle(ContentSync $sync): int
+    public function handle(ContentSync $sync, HighlightsLoader $highlights): int
     {
         $path = config('csfo.content_path');
 
         try {
+            $highlights->load(config('csfo.highlights_path'));
+
             if ($this->option('check')) {
                 $count = count($sync->load($path));
                 $this->info("{$count} entries valid.");
@@ -36,9 +39,8 @@ class SyncContent extends Command
             return self::FAILURE;
         }
 
-        if ($stats['created'] || $stats['updated'] || $stats['deleted']) {
-            ResponseCache::clear();
-        }
+        // Highlights aren't tracked in the database, so always start fresh.
+        ResponseCache::clear();
 
         $this->info(vsprintf('created %d, updated %d, unchanged %d, deleted %d', array_values($stats)));
 

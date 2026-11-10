@@ -10,8 +10,15 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
             fonts: [
-                bunny('Instrument Sans', {
-                    weights: [400, 500, 600],
+                bunny('Barlow Condensed', {
+                    weights: [600, 700, 800],
+                }),
+                bunny('Barlow', {
+                    weights: [500, 600],
+                }),
+                bunny('Source Serif 4', {
+                    weights: [400, 600],
+                    styles: ['normal', 'italic'],
                 }),
             ],
         }),

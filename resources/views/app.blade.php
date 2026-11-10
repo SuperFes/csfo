@@ -13,6 +13,8 @@
     <meta property="og:description" content="{{ $meta['description'] ?? '' }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#000c2e">
+    @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <x-inertia::head />
 </head>

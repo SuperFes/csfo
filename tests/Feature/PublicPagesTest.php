@@ -42,7 +42,8 @@ class PublicPagesTest extends TestCase
                 ->has('entries', 2)
                 ->where('entries.0.slug', 'verified-one')
                 ->where('entries.1.slug', 'verified-two')
-                ->has('categories'));
+                ->has('categories')
+                ->has('highlights'));
     }
 
     public function test_home_includes_retaliation_ladder(): void
