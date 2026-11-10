@@ -1,0 +1,59 @@
+slug: smp-dark-money-reliance
+title: Schumer-aligned super PAC took $102M from a nonprofit that hides its donors
+date: 2026-10-14
+category: ethics-and-corruption
+status: needs-review
+summary: >
+  FEC filings show Senate Majority PAC (SMP), the super PAC AP describes as closely aligned with Schumer,
+  received $102 million from Majority Forward between January 2025 and September 2026. That is about 29%
+  of SMP's $354 million in 2025-26 receipts. Majority Forward is a 501(c)(4) that does not disclose its
+  donors. SMP is headed by J.B. Poersch, a former DSCC executive director. Fox News reported that Poersch
+  also leads Majority Forward and that the two groups share office space and staff. Public Citizen found
+  that 80% of SMP's 2026 receipts came from 44 donors who each gave $1 million or more.
+could_have: >
+  Schumer could have asked his allied groups to voluntarily disclose all donors, or to refuse transfers
+  from non-disclosing nonprofits, consistent with the disclosure rules Senate Democrats have proposed.
+context: >
+  Republican leadership-aligned groups use the same structure: One Nation and the Senate Leadership Fund.
+  Democrats argue they cannot unilaterally disarm under Citizens United. SMP itself files with the FEC
+  and itemizes donors over $200. Only Majority Forward's donors are hidden. Fox News, a partisan outlet,
+  has contrasted this funding with Schumer's 2022 floor push for the DISCLOSE Act, when he said "we must
+  cure this cancer of dark money." That quote has not yet been confirmed against a primary transcript.
+schumer_response: null
+sources:
+- title: 'FEC Schedule A: SMP (C00484642) receipts from Majority Forward, 2025-2026'
+  outlet: Federal Election Commission
+  url: >-
+    https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&committee_id=C00484642&contributor_name=MAJORITY%20FORWARD&two_year_transaction_period=2026&per_page=100
+  date: 2026-09-30
+  type: data
+- title: 'FEC committee totals: SMP (C00484642), 2026 cycle'
+  outlet: Federal Election Commission
+  url: https://www.fec.gov/data/committee/C00484642/?cycle=2026
+  date: 2026-10-14
+  type: data
+- title: Millionaires and Billionaires Fuel 2026 Super PAC Spending
+  outlet: Public Citizen
+  url: >-
+    https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/
+  date: 2026-10-27
+  type: data
+- title: Senate Majority PAC (profile)
+  outlet: FactCheck.org
+  url: https://www.factcheck.org/2026/08/senate-majority-pac-7/
+  date: 2026-08-07
+  type: article
+- title: >-
+    Chuck Schumer has broad support from his caucus, but the midterms could decide his future as leader
+  outlet: AP (via PBS NewsHour)
+  url: >-
+    https://www.pbs.org/newshour/politics/chuck-schumer-has-broad-support-from-his-caucus-but-the-midterms-could-decide-his-future-as-leader
+  date: 2026-10-12
+  type: article
+- title: >-
+    Schumer-aligned group pulled in $270M from secret donors in recent years as he decried dark money
+  outlet: Fox News
+  url: >-
+    https://www.foxnews.com/politics/schumer-aligned-group-pulled-in-270m-from-secret-donors-in-recent-years-as-he-decried-dark-money
+  date: 2023-07-07
+  type: article
