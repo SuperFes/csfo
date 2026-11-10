@@ -1,0 +1,37 @@
+slug: aoc-2028-primary-threat
+title: Polling shows Ocasio-Cortez leading Schumer in a possible 2028 primary
+date: 2025-04-04
+category: party-and-primaries
+status: needs-review
+summary: >
+  A Data for Progress poll of 767 likely New York Democratic primary voters (March 26-31, 2025) found
+  Rep. Alexandria Ocasio-Cortez leading Schumer 55% to 36% in a hypothetical 2028 Senate primary. Schumer
+  is up for reelection in 2028. On Nov. 10, 2026, Ocasio-Cortez declined to say whether she backs Schumer
+  for leader ("that's up to their decision") and declined to discuss a 2028 primary.
+could_have: >
+  Clarify whether he will seek another Senate term, which would shape both the 2028 race and the leadership
+  succession.
+context: >
+  Data for Progress is a progressive firm, and a poll this far ahead of a primary is not predictive. Ocasio-Cortez
+  has not announced a Senate run and has been mentioned as a possible 2028 presidential candidate (TIME).
+schumer_response: null
+sources:
+- title: >-
+    Alexandria Ocasio-Cortez Leads Chuck Schumer in Hypothetical 2028 Matchup by 19 Points
+  outlet: Data for Progress
+  url: >-
+    https://www.dataforprogress.org/blog/2025/4/4/alexandria-ocasio-cortez-leads-chuck-schumer-in-hypothetical-2028-matchup-by-19-points
+  date: 2025-04-04
+  type: poll
+- title: Ocasio-Cortez doesn't back Schumer in Senate leadership vote
+  outlet: The Hill (via Yahoo News)
+  url: >-
+    https://www.yahoo.com/news/politics/articles/ocasio-cortez-doesn-t-back-154803426.html
+  date: 2026-11-10
+  type: article
+- title: The Base Wants Someone Else. Schumer Has the Votes
+  outlet: TIME
+  url: >-
+    https://time.com/article/2026/11/06/schumer-has-the-votes-senate-majority-leader/
+  date: 2026-11-06
+  type: article

@@ -1,0 +1,41 @@
+polls:
+- pollster: Economist/YouGov
+  date: 2025-03-18
+  question: Favorability of Chuck Schumer among Democrats (field Mar. 16-18, 2025)
+  result: 39% favorable / 41% unfavorable, down from 57% / 18% on Feb. 23-25; overall net favorability
+    -33
+  url: https://yougov.com/en-us/articles/51856-congressional-democrats-government-cuts-deportations-immigration-economy-march-16-18-2025-economist-yougov-poll
+- pollster: Data for Progress
+  date: 2025-03-31
+  question: Hypothetical 2028 NY Democratic Senate primary, Ocasio-Cortez vs. Schumer (767 likely primary
+    voters, Mar. 26-31, 2025)
+  result: Ocasio-Cortez 55%, Schumer 36%, 9% undecided
+  url: https://www.dataforprogress.org/blog/2025/4/4/alexandria-ocasio-cortez-leads-chuck-schumer-in-hypothetical-2028-matchup-by-19-points
+- pollster: Pew Research Center
+  date: 2025-09-28
+  question: Favorable/unfavorable view of Chuck Schumer (3,445 U.S. adults, Sept. 22-28, 2025)
+  result: All adults 21% favorable / 50% unfavorable; Democrats and leaners 35% / 39% (vs. 47% / 26% in
+    May 2024)
+  url: https://www.pewresearch.org/short-reads/2025/09/30/americans-view-trump-vance-and-congressional-leaders-in-both-parties-more-negatively-than-positively/
+- pollster: Siena Research Institute
+  date: 2025-11-12
+  question: Favorability of Chuck Schumer among New York registered voters (802 RVs, Nov. 10-12, 2025)
+  result: 32% favorable / 55% unfavorable, his worst in 21 years of Siena polling; Democrats 45% / 43%
+    (down from 52% / 36% in September)
+  url: https://sri.siena.edu/2025/11/18/hochul-approval-favorability-ratings-down-a-little-maintains-huge-lead-over-delgado-among-dems-leads-stefanik-by-20-points-down-from-25-in-september/
+- pollster: Gallup
+  date: 2025-12-15
+  question: Approval of the job Chuck Schumer is doing (1,016 U.S. adults, Dec. 1-15, 2025)
+  result: 28% approve overall; Democrats 39% approve / 56% disapprove (vs. 76% / 20% two years earlier)
+  url: https://news.gallup.com/poll/700241/americans-end-year-gloomy-mood.aspx
+- pollster: Economist/YouGov
+  date: 2026-01-26
+  question: Net job approval of congressional leaders (Jan. 23-26, 2026)
+  result: Schumer net -41, vs. Jeffries -26, Thune -21, Johnson -21; his net approval among Democrats
+    fell 5 points in a month
+  url: https://yougov.com/en-us/articles/53956-opinion-of-congressional-democrats-plunges-flagging-support-within-democratic-party-january-23-26-2026-economist-yougov-poll
+- pollster: NBC News
+  date: 2026-10-30
+  question: Positive/negative view of Chuck Schumer (1,000 registered voters, Oct. 28-30, 2026, MoE +/-3.1)
+  result: 13% positive / 53% negative
+  url: https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183

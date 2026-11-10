@@ -1,0 +1,64 @@
+slug: march-2025-cr-reversal-cloture-vote
+title: >-
+  Schumer says GOP lacks votes for its funding bill, then supplies them two days later
+date: 2025-03-14
+category: shutdowns-and-funding
+status: verified
+summary: >
+  On March 12, 2025, Schumer said on the Senate floor that "Republicans do not have the votes in the Senate
+  to invoke cloture on the House CR" and that his caucus was "unified on a clean April 11 CR." On March
+  14, cloture on the House-passed full-year continuing resolution (H.R. 1968) was invoked 62-38. Schumer
+  was one of ten members of the Democratic caucus voting yes (with Cortez Masto, Durbin, Fetterman, Gillibrand,
+  Hassan, King, Peters, Schatz and Shaheen).
+could_have: >
+  Hold the caucus against cloture, which Republicans could not reach with their 53 seats alone, and force
+  a vote on the short-term clean CR he had proposed. Failing that, coordinate the shift with House Democratic
+  leaders, whom Pelosi praised the same day for rejecting the bill.
+context: >
+  Schumer argued a shutdown would hand the Trump administration and DOGE more power to decide which government
+  functions continued. After supplying a cloture vote, Schumer voted no on final passage, which succeeded
+  54-46 with a simple majority, so the decisive vote was cloture.
+schumer_response: >
+  On the floor on March 14 he said, "The CR is a bad bill. But as bad as the CR is, I believe allowing
+  Donald Trump to take even much more power via a government shutdown is a far worse option," and that
+  voting to keep the government open was "the best way to minimize the harm" (Congressional Record).
+sources:
+- title: >-
+    Roll Call Vote 119th Congress, 1st Session, Vote 128: On the Cloture Motion (H.R. 1968)
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.htm
+  date: 2025-03-14
+  type: vote
+- title: >-
+    Roll Call Vote 119th Congress, 1st Session, Vote 133: On Passage of the Bill (H.R. 1968)
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.htm
+  date: 2025-03-14
+  type: vote
+- title: 'Congressional Record, Vol. 171, No. 47 (Senate, March 12, 2025): Schumer remarks'
+  outlet: Congressional Record (GovInfo)
+  url: >-
+    https://www.govinfo.gov/content/pkg/CREC-2025-03-12/html/CREC-2025-03-12-pt1-PgS1690-5.htm
+  date: 2025-03-12
+  type: vote
+- title: Senate Democrats play hardball, won't advance House stopgap
+  outlet: Roll Call
+  url: >-
+    https://rollcall.com/2025/03/12/senate-democrats-play-hardball-wont-advance-house-stopgap/
+  date: 2025-03-12
+  type: article
+- title: >-
+    Congressional Record, Vol. 171, No. 49 (Senate, March 14, 2025): Government Funding
+  outlet: Congressional Record (GovInfo)
+  url: >-
+    https://www.govinfo.gov/content/pkg/CREC-2025-03-14/html/CREC-2025-03-14-pt1-PgS1754-2.htm
+  date: 2025-03-14
+  type: vote
+- title: Senate advances plan to avert shutdown in vote that exposes Democratic rifts
+  outlet: NPR (via The Public's Radio)
+  url: >-
+    https://thepublicsradio.org/npr/senate-advances-plan-to-avert-shutdown-in-vote-that-exposes-democratic-rifts/
+  date: 2025-03-14
+  type: article
