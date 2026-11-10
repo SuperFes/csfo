@@ -1,8 +1,9 @@
 <script>
+    import PolicyList from '../components/PolicyList.svelte';
     import SiteLayout from '../layouts/SiteLayout.svelte';
     import { formatDate, reportErrorUrl } from '../lib/format.js';
 
-    let { entry, categories } = $props();
+    let { entry, categories, policies } = $props();
 
     const categoryLabel = $derived(categories.find((c) => c.value === entry.category)?.label);
 
@@ -78,10 +79,17 @@
             </section>
         {/if}
 
+        {#if policies.length}
+            <section aria-labelledby="policies-heading">
+                <h2 id="policies-heading">Related policies</h2>
+                <PolicyList {policies} compact />
+            </section>
+        {/if}
+
         <section aria-labelledby="sources-heading">
             <h2 id="sources-heading">Sources</h2>
             <ul class="sources">
-                {#each entry.sources as source (source.url)}
+                {#each entry.sources as source}
                     <li>
                         <span class="source-meta">
                             <span class="outlet">{source.outlet}</span>

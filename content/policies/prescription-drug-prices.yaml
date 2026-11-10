@@ -1,0 +1,101 @@
+slug: prescription-drug-prices
+title: Fair prices for prescription drugs
+tagline: "Americans pay 2.78x what other wealthy countries pay for prescription drugs"
+category: healthcare
+status: verified
+summary: >
+  Let the government negotiate drug prices for everyone, not just a few drugs in
+  Medicare, and cap what patients pay out of pocket, so Americans stop paying
+  several times what patients in other wealthy countries pay for the same medicines.
+problem: >
+  HHS analysts found U.S. prescription drug prices in 2022 were nearly 2.78 times
+  prices in comparison countries, and at least 3.22 times as high for brand-name
+  drugs even after estimated rebates. A KFF poll found about a quarter of adults
+  have difficulty affording their prescriptions, rising to 37% among people taking
+  four or more.
+peers: >
+  Other wealthy countries negotiate or regulate drug prices nationally. That is
+  the main reason HHS found U.S. prices are nearly three times theirs.
+record: >
+  Democrats' Inflation Reduction Act, passed 50–50 with Vice President Harris
+  breaking the tie in August 2022, let Medicare negotiate prices for the first
+  time, capped Part D out-of-pocket costs at $2,000 starting in 2025, capped
+  Medicare insulin at $35 a month, and required inflation rebates. Negotiation is
+  limited to Medicare and phased in slowly: 10 drugs with prices effective in 2026,
+  15 in 2027, and 15 more (including Part B) in 2028. Privately insured patients
+  get no negotiated prices. CBO estimated the negotiation provision saves Medicare
+  $98.5 billion over 2022–2031.
+stats:
+  - label: U.S. drug prices vs. comparison countries (all drugs)
+    value: "2.78x"
+    as_of: "2022"
+    source_url: https://aspe.hhs.gov/reports/comparing-prescription-drugs
+  - label: U.S. brand-name drug prices vs. comparison countries (after rebates)
+    value: "at least 3.22x"
+    as_of: "2022"
+    source_url: https://aspe.hhs.gov/reports/comparing-prescription-drugs
+  - label: Drugs with Medicare-negotiated prices in effect, first year
+    value: "10"
+    as_of: "2026-01-01"
+    source_url: https://www.cms.gov/priorities/medicare-prescription-drug-affordability/overview/medicare-drug-price-negotiation-program/selected-drugs-negotiated-prices
+  - label: CBO estimate of Medicare savings from negotiation, 2022–2031
+    value: "$98.5 billion"
+    as_of: "2022"
+    source_url: https://www.kff.org/health-costs/issue-brief/explaining-the-prescription-drug-provisions-in-the-inflation-reduction-act/
+  - label: Medicare Part D annual out-of-pocket cap (IRA)
+    value: "$2,000"
+    as_of: "2025"
+    source_url: https://www.kff.org/health-costs/issue-brief/explaining-the-prescription-drug-provisions-in-the-inflation-reduction-act/
+polling:
+  - pollster: KFF Health Tracking Poll
+    date: 2024-09-04
+    question: >
+      Support for allowing the federal government to negotiate with drug
+      companies, the IRA provision (fielded Aug. 26–Sept. 4, 2024).
+    result: "85% support (Democrats 90%, independents 87%, Republicans 79%)"
+    url: https://www.kff.org/health-costs/public-opinion-on-prescription-drugs-and-their-prices/
+  - pollster: KFF Health Tracking Poll
+    date: 2023-07-19
+    question: Difficulty affording prescription drugs (fielded July 11–19, 2023).
+    result: "About 1 in 4 adults report difficulty; 37% of those taking 4+ prescriptions"
+    url: https://www.kff.org/health-costs/public-opinion-on-prescription-drugs-and-their-prices/
+  - pollster: Morning Consult
+    date: 2026-03-18
+    question: >
+      Support for capping insulin prices (one of 25 policies tested, March 17–18,
+      2026, 1,100 adults).
+    result: "Over 70% support among Democrats, Republicans, and independents"
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+related_entries:
+  - ira-drops-care-agenda-ctc-not-restored
+sources:
+  - title: "Comparing Prescription Drugs in the U.S. and Other Countries: Prices and Availability"
+    outlet: HHS Office of the Assistant Secretary for Planning and Evaluation (ASPE)
+    url: https://aspe.hhs.gov/reports/comparing-prescription-drugs
+    date: 2024-01-31
+    type: data
+  - title: Selected Drugs and Negotiated Prices
+    outlet: Centers for Medicare & Medicaid Services
+    url: https://www.cms.gov/priorities/medicare-prescription-drug-affordability/overview/medicare-drug-price-negotiation-program/selected-drugs-negotiated-prices
+    date: 2026-06-15
+    type: primary
+  - title: Explaining the Prescription Drug Provisions in the Inflation Reduction Act
+    outlet: KFF
+    url: https://www.kff.org/health-costs/issue-brief/explaining-the-prescription-drug-provisions-in-the-inflation-reduction-act/
+    date: 2023-01-24
+    type: article
+  - title: Public Opinion on Prescription Drugs and Their Prices
+    outlet: KFF
+    url: https://www.kff.org/health-costs/public-opinion-on-prescription-drugs-and-their-prices/
+    date: 2026-03-31
+    type: poll
+  - title: Americans Have Broad Agreements on Economic Policy
+    outlet: Morning Consult
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+    date: 2026-03-26
+    type: poll
+  - title: "Roll Call Vote 117th Congress, 2nd Session, Vote 325: On Passage of H.R. 5376"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.htm
+    date: 2022-08-07
+    type: vote

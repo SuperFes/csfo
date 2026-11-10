@@ -1,0 +1,123 @@
+slug: money-out-of-politics
+title: Get big money out of politics
+tagline: "Super PACs spent a record $2.7 billion in 2024; 72% of Americans want limits on campaign spending"
+category: democracy-and-ethics
+status: needs-review
+review_note: >
+  Whether a congressional stock-trading ban passed in 2025 or 2026 has not been checked, and the 2026 polls cited use opt-in online panels.
+summary: >
+  Overturn Citizens United with a constitutional amendment that lets Congress and
+  the states limit election spending, require disclosure of "dark money" donors,
+  and ban members of Congress from trading individual stocks.
+problem: >
+  Since Citizens United (2010), super PACs spent about $6.4 billion on federal
+  elections through 2022 and a record of at least $2.7 billion in 2024 alone.
+  Dark money spending grew from under $5 million in 2006 to more than $1 billion
+  in the 2024 presidential election (Brennan Center). Pew found 80% of Americans
+  say big campaign donors have too much influence on Congress, and 81% say
+  members do a bad job of keeping their personal financial interests separate
+  from their work.
+peers: null
+record: >
+  Senate Democrats have held floor votes but have not changed Senate rules to pass
+  reform. A constitutional amendment to overturn Citizens United (S.J.Res. 19)
+  failed cloture 54–42 in September 2014. The DISCLOSE Act failed cloture 49–49
+  on September 22, 2022, with every Republican present voting no. In January 2022,
+  Schumer's attempt to change the filibuster rule to pass the Freedom to Vote
+  Act, which included disclosure provisions, failed 52–48 when Manchin and Sinema
+  joined Republicans. Democrats also did not pass a
+  congressional stock-trading ban while they controlled both chambers in 2021–22.
+stats:
+  - label: Approximate super PAC spending on federal elections, 2010–2022
+    value: "$6.4 billion"
+    as_of: "2022"
+    source_url: https://www.brennancenter.org/our-work/research-reports/citizens-united-explained
+  - label: Super PAC spending in 2024 (record)
+    value: "at least $2.7 billion"
+    as_of: "2024"
+    source_url: https://www.brennancenter.org/our-work/research-reports/citizens-united-explained
+  - label: Dark money spending, 2006 vs. 2024 presidential elections
+    value: "under $5 million vs. more than $1 billion"
+    as_of: "2024"
+    source_url: https://www.brennancenter.org/our-work/research-reports/citizens-united-explained
+  - label: Americans who say big donors have too much influence in Congress
+    value: "80%"
+    as_of: "2023"
+    source_url: https://www.pewresearch.org/politics/2023/09/19/americans-dismal-views-of-the-nations-politics/
+polling:
+  - pollster: Pew Research Center
+    date: 2023-07-16  # report draws on surveys fielded June 5–11 and July 10–16, 2023; item-level date not stated
+    question: >
+      Should there be limits on the amount of money individuals and organizations
+      can spend on political campaigns? (published Sept. 19, 2023)
+    result: "72% say yes (Democrats 76%, Republicans 71%)"
+    url: https://www.pewresearch.org/politics/2023/09/19/money-power-and-the-influence-of-ordinary-people-in-american-politics/
+  - pollster: Program for Public Consultation, University of Maryland
+    date: 2026-02-26
+    question: >
+      A constitutional amendment allowing Congress and state legislatures to
+      restrict or prohibit corporate and PAC election spending (national, 2,509
+      adults, Feb. 11–26, 2026; opt-in online panels).
+    result: "82% favor (Democrats 85%, Republicans 82%)"
+    url: https://publicconsultation.org/redistricting/major-political-reforms-favored-by-both-democrats-and-republicans-in-the-battlegrounds/
+  - pollster: Program for Public Consultation, University of Maryland
+    date: 2026-02-26
+    question: >
+      Prohibit members of Congress from trading individual company stocks while
+      still allowing broad funds (national, Feb. 11–26, 2026).
+    result: "76% favor (Democrats 75%, Republicans 78%)"
+    url: https://publicconsultation.org/redistricting/major-political-reforms-favored-by-both-democrats-and-republicans-in-the-battlegrounds/
+  - pollster: Program for Public Consultation, University of Maryland
+    date: 2023-05-30
+    question: >
+      Prohibit stock trading in individual companies by members of Congress
+      (2,625 registered voters, probability-based sample, May 19–30, 2023).
+    result: "86% favor (Republicans 87%, Democrats 88%, independents 81%)"
+    url: https://publicconsultation.org/united-states/stock-trading-by-members-of-congress/
+related_entries:
+  - voting-rights-single-rules-vote-fails
+  - congressional-stock-trading-ban-no-floor-vote
+  - stock-trading-ban-punted-2022
+  - smp-dark-money-reliance
+  - wall-street-donor-profile
+sources:
+  - title: Citizens United, Explained
+    outlet: Brennan Center for Justice
+    url: https://www.brennancenter.org/our-work/research-reports/citizens-united-explained
+    date: 2025-01-29
+    type: article
+  - title: Americans' Dismal Views of the Nation's Politics
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/politics/2023/09/19/americans-dismal-views-of-the-nations-politics/
+    date: 2023-09-19
+    type: poll
+  - title: Money, power and the influence of ordinary people in American politics
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/politics/2023/09/19/money-power-and-the-influence-of-ordinary-people-in-american-politics/
+    date: 2023-09-19
+    type: poll
+  - title: Major Political Reforms Favored by Both Democrats and Republicans in the Battlegrounds
+    outlet: Program for Public Consultation, University of Maryland
+    url: https://publicconsultation.org/redistricting/major-political-reforms-favored-by-both-democrats-and-republicans-in-the-battlegrounds/
+    date: 2026-10-08
+    type: poll
+  - title: Ban on Stock Trading for Members of Congress Favored by Overwhelming Bipartisan Majority
+    outlet: Program for Public Consultation, University of Maryland
+    url: https://publicconsultation.org/united-states/stock-trading-by-members-of-congress/
+    date: 2023-07-19
+    type: poll
+  - title: "Roll Call Vote 113th Congress, 2nd Session, Vote 261: Cloture on S.J.Res. 19"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_113_2.htm
+    date: 2014-09-11
+    type: vote
+  - title: "Roll Call Vote 117th Congress, 2nd Session, Vote 346: Cloture on Motion to Proceed to S. 4822 (DISCLOSE Act)"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00346.htm
+    date: 2022-09-22
+    type: vote
+  - title: "Roll Call Vote 117th Congress, 2nd Session, Vote 10: Decision of the Chair (filibuster rules change on H.R. 5746)"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00010.htm
+    date: 2022-01-19
+    type: vote

@@ -1,10 +1,11 @@
 <script>
     import Highlights from '../components/Highlights.svelte';
+    import PolicyList from '../components/PolicyList.svelte';
     import Record from '../components/Record.svelte';
     import ResponseLadder from '../components/ResponseLadder.svelte';
     import SiteLayout from '../layouts/SiteLayout.svelte';
 
-    let { entries, categories, highlights, retaliation } = $props();
+    let { entries, categories, highlights, retaliation, policies } = $props();
 </script>
 
 <SiteLayout>
@@ -26,6 +27,16 @@
             <div class="wrap">
                 <ResponseLadder ladder={retaliation} />
             </div>
+        </section>
+    {/if}
+
+    {#if policies.length}
+        <section class="wrap should-have" aria-labelledby="should-have-heading">
+            <h2 id="should-have-heading">What America should already have</h2>
+            <p class="section-deck">
+                Ideas that draw majority support in recent polling and that Democratic leadership has not delivered.
+            </p>
+            <PolicyList {policies} />
         </section>
     {/if}
 
@@ -73,6 +84,27 @@
 
     .highlights {
         margin-top: clamp(3rem, 6vw, 4.5rem);
+    }
+
+    .should-have {
+        margin-bottom: clamp(3.5rem, 8vw, 6rem);
+    }
+
+    .should-have h2 {
+        max-width: 18ch;
+        margin: 0;
+        font-family: var(--font-display);
+        font-size: clamp(2.75rem, 7vw, 4.5rem);
+        font-weight: 800;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    .section-deck {
+        max-width: 40rem;
+        margin: 0.75rem 0 2.5rem;
+        font-size: 1.25rem;
+        color: var(--ink-secondary);
     }
 
     .band {

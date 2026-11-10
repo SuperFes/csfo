@@ -1,0 +1,122 @@
+slug: child-tax-credit
+title: Bring back the expanded Child Tax Credit
+tagline: "Child poverty hit a record-low 5.2% in 2021, then more than doubled once the credit lapsed"
+category: families
+status: verified
+summary: >
+  Restore the 2021 expanded Child Tax Credit: up to $3,000 per child ($3,600 under
+  age six), fully refundable so the poorest families get the whole amount, and
+  paid monthly.
+problem: >
+  Under the Census Bureau's Supplemental Poverty Measure, child poverty fell to
+  5.2% in 2021 while the expanded credit was in effect. It more than doubled to
+  12.4% in 2022 after the credit expired, and it stood at 13.4% in 2025. The 2025
+  tax law raised the maximum credit to $2,200 but kept the earnings phase-in, so
+  about 17 million children in low-income families still get a partial credit
+  or none.
+peers: null
+record: >
+  Democrats created the expansion in the American Rescue Plan, which passed the
+  Senate 50–49 in March 2021 without a Republican vote. It covered only 2021, and
+  the extension died when Build Back Better stalled in the 50–50 Senate. In August 2024, after the House passed a bipartisan
+  tax bill with a partial CTC expansion 357–70, Schumer's cloture motion failed
+  48–44, short of the 60 needed. Most Republicans opposed it, and Manchin and
+  Sanders also voted no. Schumer switched his own vote to no as a routine
+  procedural step that would let him bring the motion back.
+stats:
+  - label: Child poverty (SPM) with the expanded credit (as first published)
+    value: "5.2%"
+    as_of: "2021"
+    source_url: https://www.census.gov/library/publications/2023/demo/p60-280.html
+  - label: Child poverty (SPM) the year after it expired
+    value: "12.4%"
+    as_of: "2022"
+    source_url: https://www.census.gov/library/publications/2023/demo/p60-280.html
+  - label: Child poverty (SPM), latest
+    value: "13.4%"
+    as_of: "2025"
+    source_url: https://www.census.gov/library/publications/2026/demo/p60-290.html
+  - label: Children lifted out of poverty by refundable tax credits (EITC + refundable CTC), 2025
+    value: "3.3 million"
+    as_of: "2025"
+    source_url: https://www2.census.gov/library/publications/2026/demo/p60-290.pdf
+  - label: Low-income children receiving no or only a partial credit
+    value: "about 17 million"
+    as_of: "2025"
+    source_url: https://www.brookings.edu/articles/will-the-reconciliation-bills-child-tax-credit-changes-leave-out-children-in-low-income-working-families/
+polling:
+  - pollster: Morning Consult
+    date: 2026-03-18
+    question: >
+      Support for the child tax credit, tested with "President Trump proposed"
+      and "Democrats in Congress proposed" framings (1,100 adults, March 17–18, 2026).
+      Exact wording not published.
+    result: "80% support under both framings"
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+  - pollster: Washington Post/Ipsos (as reported by AP)
+    date: 2025-06-01
+    question: >
+      Support increasing the child tax credit from $2,000 to $2,500 for parents
+      who are U.S. citizens (June 2025; exact field dates not given in AP report).
+    result: "About 7 in 10 support; about 8 in 10 of both Republicans and Democrats"
+    url: https://www.pbs.org/newshour/politics/majority-of-u-s-adults-say-child-care-costs-are-major-problem-half-want-government-to-help-ap-norc-poll-finds
+related_entries:
+  - build-back-better-vote-promised-never-held
+  - ira-drops-care-agenda-ctc-not-restored
+  - schumer-signed-manchin-topline-memo
+sources:
+  - title: "Poverty in the United States: 2022 (P60-280)"
+    outlet: U.S. Census Bureau
+    url: https://www.census.gov/library/publications/2023/demo/p60-280.html
+    date: 2023-09-12
+    type: data
+  - title: "Poverty in the United States: 2025 (P60-290)"
+    outlet: U.S. Census Bureau
+    url: https://www.census.gov/library/publications/2026/demo/p60-290.html
+    date: 2026-09-15
+    type: data
+  - title: "Poverty in the United States: 2025 (full report PDF, Figure 3 and refundable tax credit section)"
+    outlet: U.S. Census Bureau
+    url: https://www2.census.gov/library/publications/2026/demo/p60-290.pdf
+    date: 2026-09-15
+    type: data
+  - title: Revising Supplemental Poverty Measure Estimates from 2019 to 2024 (SEHSD-WP2026-17)
+    outlet: U.S. Census Bureau
+    url: https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-17.html
+    date: 2026-08-19
+    type: data
+  - title: Will the reconciliation bill's child tax credit changes leave out children in low-income working families?
+    outlet: Brookings / The Hamilton Project
+    url: https://www.brookings.edu/articles/will-the-reconciliation-bills-child-tax-credit-changes-leave-out-children-in-low-income-working-families/
+    date: 2025-05-29
+    type: article
+  - title: "ITEP analysis of Census data: child SPM poverty rose from 5.2% (2021) to 13.4% (2024)"
+    outlet: Institute on Taxation and Economic Policy
+    url: https://itep.org/child-poverty-remains-unacceptably-child-tax-credit-changes/
+    date: 2025-09-16
+    type: article
+  - title: "Roll Call Vote 117th Congress, 1st Session, Vote 110: On Passage of H.R. 1319 (American Rescue Plan)"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00110.htm
+    date: 2021-03-06
+    type: vote
+  - title: "Roll Call Vote 118th Congress, 2nd Session, Vote 230: Cloture on Motion to Proceed to H.R. 7024"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00230.htm
+    date: 2024-08-01
+    type: vote
+  - title: U.S. Senate fails to advance expanded child tax credit, despite broad House support
+    outlet: States Newsroom (Wisconsin Examiner)
+    url: https://wisconsinexaminer.com/2024/08/01/u-s-senate-fails-to-advance-expanded-child-tax-credit-despite-broad-house-support/
+    date: 2024-08-01
+    type: article
+  - title: Americans Have Broad Agreements on Economic Policy
+    outlet: Morning Consult
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+    date: 2026-03-26
+    type: poll
+  - title: Majority of U.S. adults say child care costs are a major problem, half want government to help, AP-NORC poll finds
+    outlet: PBS NewsHour / Associated Press
+    url: https://www.pbs.org/newshour/politics/majority-of-u-s-adults-say-child-care-costs-are-major-problem-half-want-government-to-help-ap-norc-poll-finds
+    date: 2025-07-10
+    type: article

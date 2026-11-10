@@ -1,0 +1,100 @@
+slug: minimum-wage
+title: A living federal minimum wage
+tagline: "$7.25 since July 2009, the longest freeze in the federal minimum wage's history"
+category: wages-and-labor
+status: verified
+summary: >
+  Raise the federal minimum wage from $7.25 an hour (the main Democratic proposal
+  has been $15) and index it so it keeps pace with prices and wages.
+problem: >
+  The federal minimum has been $7.25 since July 24, 2009, more than 17 years and
+  the longest stretch without an increase since it was created in 1938. Inflation
+  has cut its buying power by about 36%: $7.25 in October 2026 buys what $4.63
+  bought in July 2009, and simply matching 2009's value would take $11.36. Twenty
+  states still use $7.25 as their floor.
+peers: null
+record: >
+  Congress has not raised the minimum wage since the step that took effect in
+  July 2009. In 2021, with Democrats controlling Congress, a $15 increase was
+  dropped from the American Rescue Plan after the parliamentarian's ruling. On March 5, 2021, Sanders' motion to waive budget rules
+  and restore it failed 42–58, with
+  eight Democratic-caucus senators voting no (Carper, Coons, Hassan, King, Manchin,
+  Shaheen, Sinema, Tester). Even with every Democrat, a standalone bill would have
+  needed 10 Republican votes to clear the filibuster.
+stats:
+  - label: Federal minimum wage, unchanged since July 2009
+    value: "$7.25"
+    as_of: "2009-07-24"
+    source_url: https://www.dol.gov/agencies/whd/minimum-wage/history/chart
+  - label: "$7.25 needed to match July 2009 buying power (CPI-U, Oct. 2026)"
+    value: "$11.36"
+    as_of: "2026-10"
+    source_url: https://www.bls.gov/news.release/cpi.nr0.htm
+  - label: Buying power lost since 2009 (CPI-U 215.351 to 337.511)
+    value: "about 36%"
+    as_of: "2026-10"
+    source_url: https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2009&endyear=2009
+  - label: Full-time, year-round pay at $7.25 (2,080 hours)
+    value: "$15,080"
+    as_of: "2026"
+    source_url: https://www.dol.gov/agencies/whd/minimum-wage/history/chart
+  - label: States where $7.25 is still the effective minimum
+    value: "20"
+    as_of: "2026-11-05"
+    source_url: https://www.dol.gov/agencies/whd/minimum-wage/state
+  - label: Longest previous freeze (Sept. 1997 to July 2007)
+    value: "about 10 years"
+    as_of: "2007"
+    source_url: https://www.dol.gov/agencies/whd/minimum-wage/history/chart
+polling:
+  - pollster: Morning Consult
+    date: 2026-03-18
+    question: >
+      Support raising the federal minimum wage to $15/hour for all workers (1,100
+      adults, March 17–18, 2026; one of 25 policies tested).
+    result: "About 3 in 4 support, including 75% of Republicans and 73% of independents"
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+  - pollster: Pew Research Center
+    date: 2021-04-11
+    question: >
+      Favor or oppose raising the federal minimum wage to $15 an hour (April 5–11, 2021).
+    result: "62% favor (87% of Democrats); 72% of Republicans opposed"
+    url: https://www.pewresearch.org/short-reads/2021/04/22/most-americans-support-a-15-federal-minimum-wage/
+related_entries:
+  - minimum-wage-parliamentarian-ruling-accepted
+sources:
+  - title: Changes in Basic Minimum Wages in Non-Farm Employment Under Federal Law, 1938–2009
+    outlet: U.S. Department of Labor, Wage and Hour Division
+    url: https://www.dol.gov/agencies/whd/minimum-wage/history/chart
+    date: 2009-07-24
+    type: data
+  - title: State Minimum Wage Laws
+    outlet: U.S. Department of Labor, Wage and Hour Division
+    url: https://www.dol.gov/agencies/whd/minimum-wage/state
+    date: 2026-11-05
+    type: data
+  - title: Consumer Price Index, October 2026
+    outlet: Bureau of Labor Statistics
+    url: https://www.bls.gov/news.release/cpi.nr0.htm
+    date: 2026-11-10
+    type: data
+  - title: CPI-U All Items, U.S. City Average (series CUUR0000SA0), 2009
+    outlet: Bureau of Labor Statistics
+    url: https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2009&endyear=2009
+    date: 2009-07-31
+    type: data
+  - title: "Roll Call Vote 117th Congress, 1st Session, Vote 74: Motion to Waive re: Sanders Amdt. No. 972"
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    date: 2021-03-05
+    type: vote
+  - title: Americans Have Broad Agreements on Economic Policy
+    outlet: Morning Consult
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+    date: 2026-03-26
+    type: poll
+  - title: Most Americans support a $15 federal minimum wage
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/short-reads/2021/04/22/most-americans-support-a-15-federal-minimum-wage/
+    date: 2021-04-22
+    type: poll

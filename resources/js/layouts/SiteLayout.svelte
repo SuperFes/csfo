@@ -12,6 +12,7 @@
         <a class="wordmark" href="/">{page.props.site.name}</a>
         <nav aria-label="Site">
             <a href="/#record">The record</a>
+            <a href="/policies">What we should have</a>
             <a href={repoUrl} rel="noopener noreferrer">Source on GitHub</a>
         </nav>
     </div>
@@ -84,13 +85,15 @@
 
     nav {
         display: flex;
-        gap: 1.25rem;
+        flex-wrap: wrap;
+        gap: 0.25rem 1.25rem;
         font-family: var(--font-ui);
         font-size: 0.9375rem;
         font-weight: 600;
     }
 
     nav a {
+        white-space: nowrap;
         text-decoration: none;
         opacity: 0.85;
     }

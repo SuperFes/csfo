@@ -1,0 +1,96 @@
+slug: pro-act-labor-rights
+title: The freedom to form a union (PRO Act)
+tagline: "71% of Americans approve of unions, but just 10% of workers belong to one"
+category: wages-and-labor
+status: needs-review
+review_note: >
+  The Senate bill numbers, cosponsor counts and the absence of a Senate floor vote come from Wikipedia because congress.gov could not be reached, and the description of what the bill does is not yet tied to a source.
+summary: >
+  The PRO Act would strengthen workers' ability to organize. It adds penalties for
+  employers who illegally retaliate against organizers, limits captive-audience
+  anti-union meetings, and overrides state "right-to-work" laws that let workers
+  covered by a union contract opt out of paying for representation.
+problem: >
+  Union membership was 10.0% of wage and salary workers in 2025 (5.9% in the
+  private sector), down from 20.1% in 1983, per BLS. That decline has happened
+  even as public approval of unions sits near its modern high. In a 2025 Pew
+  survey, 62% of adults said the decline in union membership has been bad for
+  working people.
+peers: null
+record: >
+  The House passed the PRO Act 225–206 on March 9, 2021, with all but one
+  Democrat in favor. Senate versions were introduced in every Congress since
+  (S.420 in 2021, S.567 in 2023, S.852 in 2025), but none got a floor vote while
+  Democrats held the majority from 2021 to 2025. The bill never had the 60 votes
+  needed to overcome a filibuster, and not every Democratic senator cosponsored it.
+stats:
+  - label: Union membership rate, all wage and salary workers
+    value: "10.0%"
+    as_of: "2025"
+    source_url: https://www.bls.gov/news.release/union2.nr0.htm
+  - label: Union membership rate, private sector
+    value: "5.9%"
+    as_of: "2025"
+    source_url: https://www.bls.gov/news.release/union2.nr0.htm
+  - label: Union membership rate in 1983
+    value: "20.1%"
+    as_of: "1983"
+    source_url: https://www.bls.gov/news.release/union2.nr0.htm
+  - label: Union approval (Gallup), matching 2022's modern-era peak
+    value: "71%"
+    as_of: "2026"
+    source_url: https://news.gallup.com/poll/713936/record-high-unions-influence.aspx
+polling:
+  - pollster: Gallup
+    date: 2026-08-24
+    question: Do you approve or disapprove of labor unions? (Aug. 3–24, 2026)
+    result: "71% approve (Democrats 89%, independents 70%, Republicans 52%)"
+    url: https://news.gallup.com/poll/713936/record-high-unions-influence.aspx
+  - pollster: Gallup
+    date: 2026-08-24
+    question: Whether labor unions should have more influence, the same, or less (Aug. 3–24, 2026)
+    result: "Record-high 47% want more influence (Democrats 73%, independents 45%, Republicans 19%)"
+    url: https://news.gallup.com/poll/713936/record-high-unions-influence.aspx
+  - pollster: Pew Research Center
+    date: 2025-08-10
+    question: Has the decline in union membership been good or bad for working people / for the country? (3,554 adults, Aug. 4–10, 2025)
+    result: "62% bad for working people; 60% bad for the country (Democrats 85% and 82%; most Republicans say good)"
+    url: https://www.pewresearch.org/short-reads/2025/08/27/majorities-of-adults-see-decline-of-union-membership-as-bad-for-the-us-and-working-people/
+related_entries:
+  - pro-act-no-senate-vote
+sources:
+  - title: Union Members — 2025
+    outlet: Bureau of Labor Statistics
+    url: https://www.bls.gov/news.release/union2.nr0.htm
+    date: 2026-02-18
+    type: data
+  - title: Record-High 47% Want Unions to Have More Influence
+    outlet: Gallup
+    url: https://news.gallup.com/poll/713936/record-high-unions-influence.aspx
+    date: 2026-09-01
+    type: poll
+  - title: Majorities of adults see decline of union membership as bad for the U.S. and working people
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/short-reads/2025/08/27/majorities-of-adults-see-decline-of-union-membership-as-bad-for-the-us-and-working-people/
+    date: 2025-08-27
+    type: poll
+  - title: "Roll Call 70, 117th Congress: On Passage of H.R. 842, Protecting the Right to Organize Act"
+    outlet: Office of the Clerk, U.S. House
+    url: https://clerk.house.gov/Votes/202170
+    date: 2021-03-09
+    type: vote
+  - title: S.420 — PRO Act (117th Congress)
+    outlet: congress.gov
+    url: https://www.congress.gov/bill/117th-congress/senate-bill/420
+    date: 2021-02-24
+    type: bill
+  - title: S.567 — PRO Act (118th Congress)
+    outlet: congress.gov
+    url: https://www.congress.gov/bill/118th-congress/senate-bill/567
+    date: 2023-02-28
+    type: bill
+  - title: S.852 — PRO Act (119th Congress)
+    outlet: congress.gov
+    url: https://www.congress.gov/bill/119th-congress/senate-bill/852
+    date: 2025-03-05
+    type: bill

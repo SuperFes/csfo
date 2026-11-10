@@ -1,0 +1,93 @@
+slug: paid-family-medical-leave
+title: National paid family and medical leave
+tagline: "The U.S. was the only one of 41 wealthy nations studied that guarantees new parents no paid leave"
+category: families
+status: verified
+summary: >
+  A national insurance program that pays workers part of their wages while they
+  take time off to care for a new child, a seriously ill family member, or their
+  own serious health condition.
+problem: >
+  No federal law guarantees private-sector workers paid family or medical leave.
+  The FMLA guarantees only unpaid, job-protected leave. In March 2026, 49% of
+  private-industry workers had access to paid family and medical leave through
+  their employer, per BLS. In a Pew survey of working parents, 84% said paid leave
+  would be extremely or very helpful, but only 50% said their job offers it.
+peers: >
+  Pew's analysis of OECD data (as of April 2018) found the U.S. was the only one of
+  41 countries that mandates no paid leave for new parents. The smallest guarantee
+  among the other 40 was about two months, and Estonia offered more than a year
+  and a half.
+record: >
+  Congress gave federal employees 12 weeks of paid parental leave in the December
+  2019 defense authorization law (P.L. 116-92, the Federal Employee Paid Leave Act).
+  A national program for all workers was included in the House-passed Build Back
+  Better Act but died in the 50–50 Senate. Private-sector
+  workers still have no federal right to paid leave, and coverage depends on the
+  employer or on the state they live in.
+stats:
+  - label: Private-industry workers with employer paid family/medical leave (new BLS definition)
+    value: "49%"
+    as_of: "2026-03"
+    source_url: https://www.bls.gov/news.release/ebs2.nr0.htm
+  - label: Working parents who say paid leave would help vs. who have it at their job
+    value: "84% vs. 50%"
+    as_of: "2026-03"
+    source_url: https://www.pewresearch.org/social-trends/2026/10/22/women-work-and-caregiving-through-the-arc-of-family-life/
+  - label: Countries out of 41 that mandate no paid leave for new parents
+    value: "1 (the U.S.)"
+    as_of: "2018-04"
+    source_url: https://www.pewresearch.org/short-reads/2019/12/16/u-s-lacks-mandated-paid-parental-leave/
+  - label: Paid parental leave guaranteed to federal employees (since Oct. 2020)
+    value: "12 weeks"
+    as_of: "2020"
+    source_url: https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/fact-sheets/paid-parental-leave/
+polling:
+  - pollster: Pew Research Center (as reported by Newsweek)
+    date: 2025-09-08
+    question: >
+      Favor or oppose the federal government requiring employers to provide paid
+      family leave (8,750 adults, Sept. 2–8, 2025).
+    result: "69% support; 59% of Republicans support"
+    url: https://www.newsweek.com/polls-democratic-socialist-positions-traction-republicans-midterms-12353898
+  - pollster: AP-NORC
+    date: 2025-06-09
+    question: >
+      Favor or oppose requiring employers to provide paid family leave for new
+      parents (1,158 adults, June 5–9, 2025).
+    result: "About two-thirds support; popular across party lines, though Democrats are more supportive"
+    url: https://www.pbs.org/newshour/politics/majority-of-u-s-adults-say-child-care-costs-are-major-problem-half-want-government-to-help-ap-norc-poll-finds
+related_entries:
+  - build-back-better-vote-promised-never-held
+  - ira-drops-care-agenda-ctc-not-restored
+sources:
+  - title: Employee Benefits in the United States, March 2026
+    outlet: Bureau of Labor Statistics
+    url: https://www.bls.gov/news.release/ebs2.nr0.htm
+    date: 2026-09-25
+    type: data
+  - title: Women, Work and Caregiving Through the Arc of Family Life
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/social-trends/2026/10/22/women-work-and-caregiving-through-the-arc-of-family-life/
+    date: 2026-10-22
+    type: poll
+  - title: Of 41 countries, only U.S. lacks paid parental leave
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/short-reads/2019/12/16/u-s-lacks-mandated-paid-parental-leave/
+    date: 2019-12-16
+    type: data
+  - title: Paid Parental Leave fact sheet (Federal Employee Paid Leave Act, P.L. 116-92)
+    outlet: U.S. Office of Personnel Management
+    url: https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/fact-sheets/paid-parental-leave/
+    date: 2019-12-20
+    type: primary
+  - title: The Democratic Socialist policies seeing support among Republicans
+    outlet: Newsweek
+    url: https://www.newsweek.com/polls-democratic-socialist-positions-traction-republicans-midterms-12353898
+    date: 2026-08-03  # publication date not shown on page; article cites polls fielded through Aug. 3, 2026
+    type: article
+  - title: Majority of U.S. adults say child care costs are a major problem, half want government to help, AP-NORC poll finds
+    outlet: PBS NewsHour / Associated Press
+    url: https://www.pbs.org/newshour/politics/majority-of-u-s-adults-say-child-care-costs-are-major-problem-half-want-government-to-help-ap-norc-poll-finds
+    date: 2025-07-10
+    type: article

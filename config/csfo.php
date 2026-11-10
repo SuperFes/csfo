@@ -11,6 +11,8 @@ return [
 
     'content_path' => env('CSFO_CONTENT_PATH', base_path('content/entries')),
 
+    'policies_path' => env('CSFO_POLICIES_PATH', base_path('content/policies')),
+
     'highlights_path' => env('CSFO_HIGHLIGHTS_PATH', base_path('content/highlights.yaml')),
 
     // Publish needs-review entries, labeled with their review note.

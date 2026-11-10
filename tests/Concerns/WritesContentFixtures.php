@@ -12,8 +12,12 @@ trait WritesContentFixtures
     protected function setUpContentDir(): void
     {
         $this->contentDir = sys_get_temp_dir().'/csfo-content-'.bin2hex(random_bytes(6));
-        File::ensureDirectoryExists($this->contentDir);
-        config(['csfo.content_path' => $this->contentDir]);
+        File::ensureDirectoryExists($this->contentDir.'/policies');
+        config([
+            'csfo.content_path' => $this->contentDir,
+            'csfo.policies_path' => $this->contentDir.'/policies',
+            'csfo.highlights_path' => $this->contentDir.'/highlights.yaml',
+        ]);
     }
 
     protected function tearDownContentDir(): void
@@ -49,6 +53,37 @@ trait WritesContentFixtures
                 'type' => 'vote',
             ]],
         ], $overrides);
+    }
+
+    /**
+     * @param  array<string, mixed>  $overrides
+     */
+    protected function writePolicy(string $slug, array $overrides = []): string
+    {
+        if (($overrides['status'] ?? null) === 'needs-review') {
+            $overrides += ['review_note' => 'Waiting on a second source.'];
+        }
+
+        $data = array_replace([
+            'slug' => $slug,
+            'title' => 'Sample policy',
+            'tagline' => 'A short line.',
+            'category' => 'healthcare',
+            'status' => 'verified',
+            'summary' => 'What it is.',
+            'problem' => 'Why it matters.',
+            'peers' => null,
+            'record' => 'What leadership did.',
+            'stats' => [['label' => 'A number', 'value' => '42%', 'as_of' => '2026', 'source_url' => 'https://example.com/data']],
+            'polling' => [['pollster' => 'Pollster', 'date' => '2026-01-01', 'question' => 'Q?', 'result' => '60% support', 'url' => 'https://example.com/poll']],
+            'related_entries' => [],
+            'sources' => [['title' => 'Data', 'outlet' => 'Agency', 'url' => 'https://example.com/data', 'date' => '2026-01-01', 'type' => 'data']],
+        ], $overrides);
+
+        $path = "{$this->contentDir}/policies/{$slug}.yaml";
+        File::put($path, Yaml::dump($data, 4));
+
+        return $path;
     }
 
     /**

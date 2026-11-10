@@ -5,25 +5,29 @@ namespace App\Console\Commands;
 use App\Content\ContentSync;
 use App\Content\HighlightsLoader;
 use App\Content\InvalidContentException;
+use App\Content\PolicyLoader;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
 use Spatie\ResponseCache\Facades\ResponseCache;
 
 #[Signature('content:sync {--check : Validate content without writing to the database}')]
-#[Description('Validate content/entries/*.yaml and sync it into the database')]
+#[Description('Validate all content and sync entries into the database')]
 class SyncContent extends Command
 {
-    public function handle(ContentSync $sync, HighlightsLoader $highlights): int
+    public function handle(ContentSync $sync, HighlightsLoader $highlights, PolicyLoader $policies): int
     {
         $path = config('csfo.content_path');
 
         try {
             $highlights->load(config('csfo.highlights_path'));
+            $entries = $sync->load($path);
+            $policyCount = count($policies->load(config('csfo.policies_path'), array_keys($entries)));
 
             if ($this->option('check')) {
-                $count = count($sync->load($path));
+                $count = count($entries);
                 $this->info("{$count} entries valid.");
+                $this->info("{$policyCount} policies valid.");
 
                 return self::SUCCESS;
             }

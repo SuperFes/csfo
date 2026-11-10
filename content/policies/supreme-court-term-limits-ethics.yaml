@@ -1,0 +1,92 @@
+slug: supreme-court-term-limits-ethics
+title: Supreme Court term limits and an enforceable ethics code
+tagline: "Supreme Court approval hit a record-low 33% in 2026, and its ethics code has no enforcement"
+category: courts
+status: needs-review
+review_note: >
+  The ethics bill's committee vote and the absence of a floor vote are not yet tied to a primary source, and the term-limits poll is from 2022.
+summary: >
+  Give justices fixed, staggered terms (commonly proposed as 18 years) instead of
+  life tenure, and require a binding Supreme Court ethics code with an independent
+  way to investigate and enforce violations.
+problem: >
+  Gallup measured Supreme Court job approval at 33% in July 2026, the lowest in its
+  trend, with 61% disapproving. The Court adopted its first written Code of Conduct
+  in November 2023 after reports on undisclosed gifts to justices. The justices
+  described the code as a codification of principles they had long followed, and
+  it names no one to decide whether a justice has broken it.
+peers: null
+record: >
+  Sen. Sheldon Whitehouse's Supreme Court Ethics, Recusal, and Transparency Act,
+  which would require an enforceable code investigated by panels of appellate
+  judges, cleared the Democratic-led Senate Judiciary Committee on a party-line
+  vote in July 2023. It then stalled because of Republican opposition and did not
+  get a Senate floor vote under Majority Leader Schumer. Term-limits proposals have
+  not advanced in the Senate.
+stats:
+  - label: Supreme Court job approval, a record low (61% disapprove)
+    value: "33%"
+    as_of: "2026-07-19"
+    source_url: https://news.gallup.com/poll/713096/supreme-court-job-approval-slumps-record-low.aspx
+  - label: Democrats' approval of the Court
+    value: "12%"
+    as_of: "2026-07-19"
+    source_url: https://news.gallup.com/poll/713096/supreme-court-job-approval-slumps-record-low.aspx
+  - label: Year the Court adopted its first written ethics code (no enforcement mechanism)
+    value: "2023"
+    as_of: "2023-11-13"
+    source_url: https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_November_13_2023.pdf
+polling:
+  - pollster: AP-NORC
+    date: 2022-07-17
+    question: >
+      Support a proposal to set a specific number of years that justices serve
+      instead of life terms (1,085 adults, July 14–17, 2022).
+    result: "67% support (Democrats 82%, Republicans 57%)"
+    url: https://apnorc.org/ap-norc-poll-2-in-3-in-us-favor-term-limits-for-justices/
+  - pollster: Program for Public Consultation, University of Maryland
+    date: 2026-02-26
+    question: >
+      Require Supreme Court justices to follow the same ethics standards as other
+      federal judges (2,509 adults, Feb. 11–26, 2026; opt-in online panels).
+    result: "85% favor (Democrats 86%, Republicans 87%)"
+    url: https://publicconsultation.org/redistricting/major-political-reforms-favored-by-both-democrats-and-republicans-in-the-battlegrounds/
+  - pollster: Gallup
+    date: 2026-07-19
+    question: Do you approve or disapprove of the way the Supreme Court is handling its job? (1,200 adults, July 1–19, 2026)
+    result: "33% approve, 61% disapprove (Republicans 58%, independents 35%, Democrats 12% approve)"
+    url: https://news.gallup.com/poll/713096/supreme-court-job-approval-slumps-record-low.aspx
+related_entries:
+  - supreme-court-ethics-bill-no-floor-vote
+  - august-2018-judges-fast-track-deal
+sources:
+  - title: Supreme Court Job Approval Slumps to Record Low
+    outlet: Gallup
+    url: https://news.gallup.com/poll/713096/supreme-court-job-approval-slumps-record-low.aspx
+    date: 2026-07-28
+    type: poll
+  - title: Statement of the Court Regarding the Code of Conduct / Code of Conduct for Justices
+    outlet: Supreme Court of the United States
+    url: https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_November_13_2023.pdf
+    date: 2023-11-13
+    type: primary
+  - title: "ProPublica report on the Court's new ethics code and its lack of enforcement"
+    outlet: ProPublica
+    url: https://www.propublica.org/article/supreme-court-adopts-ethics-code-scotus-thomas-alito-crow
+    date: 2023-11-13
+    type: article
+  - title: Senate Judiciary Committee advances Supreme Court ethics bill on party lines
+    outlet: CNN
+    url: https://www.cnn.com/2023/07/20/politics/supreme-court-ethics-bill-senate-judiciary/index.html
+    date: 2023-07-20
+    type: article
+  - title: "AP-NORC poll: 2 in 3 in US favor term limits for justices"
+    outlet: AP-NORC Center for Public Affairs Research
+    url: https://apnorc.org/ap-norc-poll-2-in-3-in-us-favor-term-limits-for-justices/
+    date: 2022-07-25
+    type: poll
+  - title: Major Political Reforms Favored by Both Democrats and Republicans in the Battlegrounds
+    outlet: Program for Public Consultation, University of Maryland
+    url: https://publicconsultation.org/redistricting/major-political-reforms-favored-by-both-democrats-and-republicans-in-the-battlegrounds/
+    date: 2026-10-08
+    type: poll

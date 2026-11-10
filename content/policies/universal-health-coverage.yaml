@@ -1,0 +1,143 @@
+slug: universal-health-coverage
+title: Health coverage for everyone
+tagline: "U.S. health spending is nearly double its peers' per person, yet 26.7 million have no coverage"
+category: healthcare
+status: verified
+summary: >
+  Guarantee health coverage to every resident, either through a public option
+  anyone can buy into or a single national plan (Medicare for All). Every other
+  wealthy nation guarantees coverage in some form.
+problem: >
+  In 2025, 26.7 million people (7.9%) had no health insurance for the entire year,
+  according to the Census Bureau. Coverage is now eroding: the Commonwealth Fund
+  found the uninsured rate among working-age adults rose from 8.9% in 2024 to
+  11.2% in 2026, and 46% of working-age adults were uninsured, had a coverage gap,
+  or were underinsured. About 20 million adults owe medical debt, and the total
+  owed is at least $220 billion (Peterson-KFF, using December 2021 SIPP data).
+peers: >
+  The U.S. spent $14,775 per person on health in 2024, compared with an average
+  of $7,860 in comparable wealthy countries. Even so, U.S. life expectancy (79.0
+  years in 2024) trails the peer average (82.7 years) by about 3.7 years.
+record: >
+  Democrats passed the ACA in 2010 without a public option. Enhanced ACA premium subsidies came in the 2021 American
+  Rescue Plan, and Democrats' 2022 Inflation Reduction Act extended them only
+  through 2025, which set up the expiration cliff. In fall 2025 Senate Democrats
+  forced a record-long shutdown over the subsidies. It ended on November 10, 2025,
+  when eight Democratic-caucus senators voted with Republicans (Schumer voted no)
+  in exchange for only a promise of a vote. That vote came on December 11, 2025,
+  and the Democratic three-year extension failed 51–48, short of the 60 needed.
+stats:
+  - label: People uninsured for all of 2025 (7.9% of the population)
+    value: "26.7 million"
+    as_of: "2025"
+    source_url: https://www.census.gov/library/publications/2026/demo/p60-291.html
+  - label: Working-age adult uninsured rate, 2026 (up from 8.9% in 2024)
+    value: "11.2%"
+    as_of: "2026"
+    source_url: https://www.ajmc.com/view/uninsured-rate-rises-to-11-2-as-coverage-erodes-before-medicaid-cuts
+  - label: Working-age adults inadequately insured (uninsured, coverage gap, or underinsured)
+    value: "46%"
+    as_of: "2026"
+    source_url: https://www.ajmc.com/view/uninsured-rate-rises-to-11-2-as-coverage-erodes-before-medicaid-cuts
+  - label: U.S. health spending per person vs. peer average
+    value: "$14,775 vs. $7,860"
+    as_of: "2024"
+    source_url: https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries/
+  - label: Health spending as share of GDP, U.S. vs. peer average
+    value: "17.2% vs. 11.2%"
+    as_of: "2024"
+    source_url: https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries/
+  - label: Life expectancy at birth, U.S. vs. peer average
+    value: "79.0 vs. 82.7 years"
+    as_of: "2024"
+    source_url: https://www.kff.org/health-costs/life-expectancy-in-the-u-s-and-how-it-compares-to-other-countries-slideshow/
+  - label: Adults who owe medical debt
+    value: "20 million"
+    as_of: "2021-12"
+    source_url: https://www.healthsystemtracker.org/brief/the-burden-of-medical-debt-in-the-united-states/
+  - label: Total medical debt owed (conservative estimate)
+    value: "$220 billion"
+    as_of: "2021-12"
+    source_url: https://www.healthsystemtracker.org/brief/the-burden-of-medical-debt-in-the-united-states/
+polling:
+  - pollster: KFF Health Tracking Poll
+    date: 2026-09-21
+    question: >
+      Favor or oppose a national health plan, sometimes called Medicare for All,
+      in which all Americans would get their insurance from a single government
+      plan (fielded Sept. 16–21, 2026).
+    result: "66% favor, 34% oppose (Democrats 84%, independents 72%, Republicans 34% favor)"
+    url: https://www.kff.org/public-opinion/current-and-historical-public-opinion-on-medicare-for-all-and-other-national-health-plan-proposals/
+  - pollster: KFF Health Tracking Poll
+    date: 2026-09-21
+    question: >
+      Same national health plan question, after respondents were told it would
+      eliminate private insurance plans.
+    result: "52% favor"
+    url: https://www.kff.org/public-opinion/current-and-historical-public-opinion-on-medicare-for-all-and-other-national-health-plan-proposals/
+  - pollster: West Health-Gallup
+    date: 2025-11-25
+    question: >
+      Is it the responsibility of the federal government to make sure all
+      Americans have health care coverage? (survey fielded November 2025)
+    result: "Almost two-thirds say yes (per Gallup's Frank Newport, Jan. 2026)"
+    url: https://news.gallup.com/opinion/polling-matters/700268/history-suggests-next-move-healthcare.aspx
+related_entries:
+  - fall-2025-shutdown-ends-without-aca-extension
+  - aca-wrong-problem-speech-2014
+sources:
+  - title: "Health Insurance Coverage in the United States: 2025 (P60-291)"
+    outlet: U.S. Census Bureau
+    url: https://www.census.gov/library/publications/2026/demo/p60-291.html
+    date: 2026-09-15
+    type: data
+  - title: Uninsured Rate Rises to 11.2% as Coverage Erodes Before Medicaid Cuts
+    outlet: AJMC (reporting Commonwealth Fund 2026 Biennial Health Insurance Survey)
+    url: https://www.ajmc.com/view/uninsured-rate-rises-to-11-2-as-coverage-erodes-before-medicaid-cuts
+    date: 2026-10-22
+    type: article
+  - title: State of Health Insurance Coverage 2026 Biennial Survey
+    outlet: Commonwealth Fund
+    url: https://www.commonwealthfund.org/publications/surveys/2026/oct/state-health-insurance-coverage-2026-biennial-survey
+    date: 2026-10-22
+    type: data
+  - title: How does health spending in the U.S. compare to other countries?
+    outlet: Peterson-KFF Health System Tracker
+    url: https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries/
+    date: 2026-03-11
+    type: data
+  - title: How Does U.S. Life Expectancy Compare to Other Countries?
+    outlet: KFF
+    url: https://www.kff.org/health-costs/life-expectancy-in-the-u-s-and-how-it-compares-to-other-countries-slideshow/
+    date: 2026-03-31
+    type: data
+  - title: The burden of medical debt in the United States
+    outlet: Peterson-KFF Health System Tracker
+    url: https://www.healthsystemtracker.org/brief/the-burden-of-medical-debt-in-the-united-states/
+    date: 2024-02-12
+    type: data
+  - title: Current and Historical Public Opinion on Medicare-for-All and Other National Health Plan Proposals
+    outlet: KFF
+    url: https://www.kff.org/public-opinion/current-and-historical-public-opinion-on-medicare-for-all-and-other-national-health-plan-proposals/
+    date: 2026-10-06
+    type: poll
+  - title: History Suggests Next Move on Healthcare
+    outlet: Gallup
+    url: https://news.gallup.com/opinion/polling-matters/700268/history-suggests-next-move-healthcare.aspx
+    date: 2026-01-02
+    type: poll
+  - title: "Inflation Reduction Act Health Insurance Subsidies: What is Their Impact and What Would Happen if They Expire?"
+    outlet: KFF
+    url: https://www.kff.org/affordable-care-act/issue-brief/inflation-reduction-act-health-insurance-subsidies-what-is-their-impact-and-what-would-happen-if-they-expire/
+    date: 2024-07-26
+    type: article
+  - title: Senate passes bill to reopen government, sends it to the House
+    outlet: NBC News
+    url: https://www.nbcnews.com/politics/congress/senate-passes-bill-reopen-government-sends-to-house-rcna243120
+    date: 2025-11-10
+    type: article
+  - title: Senate rejects extension of ACA tax credits, with millions to likely face rising costs
+    outlet: KATV (syndicated national report)
+    url: https://katv.com/news/nation-world/senate-rejects-extension-of-aca-tax-credits-with-millions-to-likely-face-rising-costs-affordable-care-act-obamacare-health-healthcare-subsidies-republicans-democrats-politics
+    date: 2025-12-11
+    type: article

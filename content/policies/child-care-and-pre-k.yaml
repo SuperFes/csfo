@@ -1,0 +1,88 @@
+slug: child-care-and-pre-k
+title: Affordable child care and universal pre-K
+tagline: "Child care averaged $13,128 a year in 2024, and only 37% of 4-year-olds attend state pre-K"
+category: families
+status: verified
+summary: >
+  Federal funding to cap what families pay for child care and to make free,
+  high-quality pre-kindergarten available to every 3- and 4-year-old.
+problem: >
+  The national average price of child care was $13,128 in 2024, which equals 10% of
+  median income for a married couple with children and 35% for a single parent
+  (Child Care Aware of America). BLS price data show day care and preschool prices
+  rose about 22% from January 2020 to September 2024. Only 37% of 4-year-olds and
+  9% of 3-year-olds were enrolled in state-funded preschool in 2024–25, and six
+  states fund no qualifying program.
+peers: null
+record: >
+  Universal pre-K and federal child care subsidies were the core of the
+  House-passed Build Back Better Act, which died in the 50–50 Senate after
+  Sen. Joe Manchin withdrew support. There is still no
+  federal guarantee of affordable child care or pre-K, so access depends on
+  state programs, and six states fund no qualifying pre-K program at all.
+stats:
+  - label: National average annual price of child care
+    value: "$13,128"
+    as_of: "2024"
+    source_url: https://www.childcareaware.org/price-landscape24/
+  - label: Share of a single parent's median income for average child care
+    value: "35%"
+    as_of: "2024"
+    source_url: https://www.childcareaware.org/price-landscape24/
+  - label: Rise in day care and preschool prices, Jan. 2020 to Sept. 2024 (CPI)
+    value: "about 22%"
+    as_of: "2024-09"
+    source_url: https://www.pewresearch.org/short-reads/2024/10/25/5-facts-about-child-care-costs-in-the-us/
+  - label: 4-year-olds enrolled in state-funded preschool
+    value: "37%"
+    as_of: "2025"
+    source_url: https://nieer.org/yearbook/2025/executive-summary
+  - label: States with no state-funded preschool program
+    value: "6"
+    as_of: "2025"
+    source_url: https://nieer.org/yearbook/2025/executive-summary
+polling:
+  - pollster: AP-NORC
+    date: 2025-06-09
+    question: >
+      Whether child care costs are a problem, and favor or oppose free or low-cost
+      day care for children too young for public school (1,158 adults, June 5–9, 2025).
+    result: "About 3 in 4 call child care costs a major problem; about 2 in 3 support free or low-cost day care"
+    url: https://www.pbs.org/newshour/politics/majority-of-u-s-adults-say-child-care-costs-are-major-problem-half-want-government-to-help-ap-norc-poll-finds
+  - pollster: Morning Consult
+    date: 2026-03-18
+    question: >
+      Support for capping child care costs, tested with "President Trump proposed"
+      and "Democrats in Congress proposed" framings (1,100 adults, March 17–18, 2026).
+    result: "78% support under both framings"
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+related_entries:
+  - build-back-better-vote-promised-never-held
+  - ira-drops-care-agenda-ctc-not-restored
+  - schumer-signed-manchin-topline-memo
+sources:
+  - title: "Child care price landscape, 2024 data"
+    outlet: Child Care Aware of America
+    url: https://www.childcareaware.org/price-landscape24/
+    date: 2025-05-01  # page says "Published May 2025"
+    type: data
+  - title: 5 facts about child care costs in the U.S.
+    outlet: Pew Research Center
+    url: https://www.pewresearch.org/short-reads/2024/10/25/5-facts-about-child-care-costs-in-the-us/
+    date: 2024-10-25
+    type: data
+  - title: "The State of Preschool 2025: Executive Summary"
+    outlet: National Institute for Early Education Research (NIEER)
+    url: https://nieer.org/yearbook/2025/executive-summary
+    date: 2026-04-01  # page gives year 2026 only; report PDF filed April 2026
+    type: data
+  - title: Majority of U.S. adults say child care costs are a major problem, half want government to help, AP-NORC poll finds
+    outlet: PBS NewsHour / Associated Press
+    url: https://www.pbs.org/newshour/politics/majority-of-u-s-adults-say-child-care-costs-are-major-problem-half-want-government-to-help-ap-norc-poll-finds
+    date: 2025-07-10
+    type: poll
+  - title: Americans Have Broad Agreements on Economic Policy
+    outlet: Morning Consult
+    url: https://morningconsult.com/articles/american-economic-policy-polling
+    date: 2026-03-26
+    type: poll
