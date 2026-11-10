@@ -2,9 +2,7 @@ slug: supreme-court-term-limits-ethics
 title: Supreme Court term limits and an enforceable ethics code
 tagline: "Supreme Court approval hit a record-low 33% in 2026, and its ethics code has no enforcement"
 category: courts
-status: needs-review
-review_note: >
-  The ethics bill's committee vote and the absence of a floor vote are not yet tied to a primary source, and the term-limits poll is from 2022.
+status: verified
 summary: >
   Give justices fixed, staggered terms (commonly proposed as 18 years) instead of
   life tenure, and require a binding Supreme Court ethics code with an independent
@@ -21,8 +19,8 @@ record: >
   which would require an enforceable code investigated by panels of appellate
   judges, cleared the Democratic-led Senate Judiciary Committee on a party-line
   vote in July 2023. It then stalled because of Republican opposition and did not
-  get a Senate floor vote under Majority Leader Schumer. Term-limits proposals have
-  not advanced in the Senate.
+  get a Senate floor vote under Majority Leader Schumer: after it was reported on
+  Sept. 5, 2023 it sat on the Senate calendar for the rest of the Congress.
 stats:
   - label: Supreme Court job approval, a record low (61% disapprove)
     value: "33%"
@@ -90,3 +88,13 @@ sources:
     url: https://publicconsultation.org/redistricting/major-political-reforms-favored-by-both-democrats-and-republicans-in-the-battlegrounds/
     date: 2026-10-08
     type: poll
+  - title: Executive business meeting results, July 20, 2023
+    outlet: Senate Judiciary Committee
+    url: https://www.judiciary.senate.gov/imo/media/doc/2023-07-20_-_ebm_-_results.pdf
+    date: 2023-07-20
+    type: primary
+  - title: "Actions - S.359 - 118th Congress: Supreme Court Ethics, Recusal, and Transparency Act of 2023"
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/118th-congress/senate-bill/359/all-actions
+    date: 2024-12-31
+    type: bill

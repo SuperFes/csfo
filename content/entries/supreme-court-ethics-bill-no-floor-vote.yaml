@@ -54,3 +54,8 @@ sources:
   url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_118_2.htm
   date: 2024-12-21
   type: vote
+- title: "Actions - S.359 - 118th Congress: Supreme Court Ethics, Recusal, and Transparency Act of 2023"
+  outlet: Congress.gov
+  url: https://www.congress.gov/bill/118th-congress/senate-bill/359/all-actions
+  date: 2024-12-31
+  type: bill

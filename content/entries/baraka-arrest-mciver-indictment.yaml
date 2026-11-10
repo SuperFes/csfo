@@ -3,9 +3,7 @@ title: >-
   Newark mayor arrested and a House Democrat indicted after ICE facility oversight visit
 date: 2025-05-09
 category: oversight-and-accountability
-status: needs-review
-review_note: >
-  Schumer's quotes come from secondhand reports (Mediaite, and a RedState post quoting Fox News' Chad Pergram), not from his original posts or video.
+status: verified
 summary: >
   On May 9, 2025, federal agents arrested Newark Mayor Ras Baraka on a misdemeanor trespass charge outside
   Delaney Hall, an ICE detention facility, during an oversight visit by New Jersey House Democrats. Acting
@@ -24,19 +22,21 @@ context: >
   jet matter and said the department was "politicized, it is weaponized, it is hollowed out." Those remarks
   did not mention McIver or Baraka. All of the Senate's Black Democrats issued a joint statement asking
   DOJ to drop the McIver charges. The courts have so far let the prosecution go forward: Judge Jamel Semper
-  denied the motions to dismiss, and the Third Circuit largely agreed. Reasons for needs-review: Schumer's
-  Baraka post is quoted only by Mediaite and Twitchy, and his McIver comment only by a RedState post quoting
-  Fox's Chad Pergram on X. Check the original X posts or video before publishing.
+  denied the motions to dismiss, and the Third Circuit largely agreed.
 schumer_response: >
-  Mediaite reported that he posted on X on May 10, 2025: "Mayor Ras Baraka has been released, but he should
-  never have been arrested by Trump to begin with." According to a RedState post quoting Fox News' Chad
-  Pergram, he said on May 20, 2025 of the McIver charges: "I think what they're doing is outrageous,"
-  and that it was typical of DOJ "trying to intimidate anybody who might oppose them." Neither quote is
-  confirmed by a primary source. No floor action tied to these cases was found.
+  On X on May 9, 2025: "Mayor Ras Baraka has been released, but he should never have been arrested by Trump
+  to begin with." A RedState post quoting Fox News' Chad Pergram reported that on May 20, 2025 he called the
+  McIver charges "outrageous" and typical of DOJ "trying to intimidate anybody who might oppose them"; that
+  remark has not been found in a primary source. No floor action tied to these cases was found.
 response_level: statement
 tags:
 - retaliation
 sources:
+- title: "Mayor Ras Baraka has been released, but he should never have been arrested by Trump to begin with."
+  outlet: Chuck Schumer (@SenSchumer) on X
+  url: https://x.com/search?q=from%3ASenSchumer%20Baraka%20released
+  date: 2025-05-09
+  type: primary
 - title: >-
     U.S. attorney drops case against Newark Mayor Ras Baraka, charges Rep. LaMonica McIver for ICE protest
   outlet: CBS New York

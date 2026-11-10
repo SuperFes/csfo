@@ -17,18 +17,27 @@ could_have: >
   support on a broader version with a weaker chance of passage. In 2021 and 2022 leadership could have
   made the provision a priority in earlier reconciliation talks, or forced a standalone recorded vote.
 context: >
-  In 2022 the decisive actor was Sinema, who refused to let the bill proceed unless the provision came
-  out. She had received at least $2 million from the securities and investment industry since 2018, per
-  CNBC. Schumer said he personally pushed to include it. In 2007 other Democrats, including Chris Dodd,
-  also hesitated, and an opinion column noted heavy giving to the DSCC from private equity and hedge fund
-  employees at the time; no quid pro quo has been established. His backers argue that taxing all carried
-  interest as ordinary income was the more principled position.
+  In 2022 the decisive actor was Sinema, who refused to let the bill proceed unless the provision came out.
+  She had received at least $2 million from the securities and investment industry since 2018, per CNBC.
+  Schumer said he personally pushed to include it. In 2007 other Democrats, including Chris Dodd, also
+  hesitated. The New York Times reported that in June 2007 alone Schumer raised more than $1 million from
+  private equity and hedge funds for the DSCC he chaired, and that the DSCC took in nearly $2 million from
+  those industries in the first half of the year; Schumer rejected any suggestion that the money
+  influenced him. His backers argue that taxing all carried interest as ordinary income was the more
+  principled position.
 schumer_response: >
-  In 2007 his spokesman said the broader approach was "broader, fairer and will raise more revenue than
-  targeting only publicly traded partnerships" (Bloomberg via InvestmentNews). In 2022: "I pushed for
-  it to be in this bill... Senator Sinema said she would not vote for the bill, not even move to proceed
-  unless we took it out. So we had no choice" (Aug. 5, 2022).
+  In 2007 he told the New York Times the increase could drive jobs out of New York and that he worried the
+  industry was being unfairly singled out: "Unintended consequences often occur when you do major tax
+  work. And you have to be careful." He acknowledged, the Times reported, that extending it to other
+  industries might make it harder to pass, but said it would be fairer: "It's fair for New York." In
+  2022: "I pushed for it to be in this bill... Senator Sinema said she would not vote for the bill, not
+  even move to proceed unless we took it out. So we had no choice" (Aug. 5, 2022).
 sources:
+- title: In Opposing Tax Plan, Schumer Breaks With Party
+  outlet: The New York Times
+  url: https://www.nytimes.com/2007/07/30/washington/30schumer.html
+  date: 2007-07-30
+  type: article
 - title: >-
     Schumer says Sinema left 'no choice' but to cut carried interest provision from tax and climate bill
   outlet: CNBC (via NBC Connecticut)

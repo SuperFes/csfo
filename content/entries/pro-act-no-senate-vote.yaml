@@ -3,20 +3,21 @@ title: >-
   House passes the PRO Act; Senate never votes on it in four years of Democratic control
 date: 2021-03-09
 category: economy-and-labor
-status: needs-review
-review_note: >
-  The report that Schumer promised a vote once the bill reached 50 cosponsors comes from one outlet citing anonymous sources, and the final cosponsor count has not been confirmed on congress.gov.
+status: verified
 summary: >
   The House passed the PRO Act, the most significant pro-union labor-law overhaul in decades, 225-206
-  on March 9, 2021. The Intercept reported that Schumer told AFL-CIO President Richard Trumka the Senate
-  would vote on it once it had 50 cosponsors. In April 2021 it had 46, with Sinema, Kelly, Warner and
-  King not signed on. Senate roll-call records for 2021-2024 show no vote on the bill.
+  on March 9, 2021. The Intercept, citing unnamed sources, reported that Schumer told AFL-CIO President
+  Richard Trumka the Senate would vote on it once it had 50 cosponsors. The Senate bill, S.420, ended the
+  117th Congress with 46 cosponsors plus its sponsor, 47 of the 50 Democratic-caucus senators; Sinema,
+  Kelly and Warner never signed on. The HELP Committee never marked it up, and Senate roll-call records
+  for 2021-2024 show no vote on it.
 could_have: >
   Leadership could have held a recorded cloture vote without waiting for 50 cosponsors, as it did with
   other bills that lacked 60 votes (voting rights, abortion rights).
 context: >
   No Republican support was expected, so passage required eliminating the filibuster, which Manchin and
-  Sinema opposed; the bill did not even have 50 Democratic cosponsors.
+  Sinema opposed. By the reported 50-cosponsor standard the bill never qualified for a vote, since three
+  Democrats never signed on; Schumer himself was an original cosponsor.
 schumer_response: >
   Per The Intercept, Schumer set 50 cosponsors as the threshold for a floor vote. No on-record Schumer
   statement was located.
@@ -38,3 +39,13 @@ sources:
     https://www.constructiondive.com/news/pro-act-one-step-closer-to-vote-with-sen-manchins-backing/598713/
   date: 2021-04-20
   type: article
+- title: "Cosponsors - S.420 - 117th Congress: Protecting the Right to Organize Act of 2021"
+  outlet: Congress.gov
+  url: https://www.congress.gov/bill/117th-congress/senate-bill/420/cosponsors
+  date: 2022-12-31
+  type: bill
+- title: "Actions - S.420 - 117th Congress: Protecting the Right to Organize Act of 2021"
+  outlet: Congress.gov
+  url: https://www.congress.gov/bill/117th-congress/senate-bill/420/all-actions
+  date: 2022-12-31
+  type: bill

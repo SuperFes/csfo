@@ -4,7 +4,7 @@ tagline: "71% of Americans approve of unions, but just 10% of workers belong to 
 category: wages-and-labor
 status: needs-review
 review_note: >
-  The Senate bill numbers, cosponsor counts and the absence of a Senate floor vote come from Wikipedia because congress.gov could not be reached, and the description of what the bill does is not yet tied to a source.
+  The 2023 and 2025 Senate versions and the summary of the bill's provisions are not yet tied to a primary source.
 summary: >
   The PRO Act would strengthen workers' ability to organize. It adds penalties for
   employers who illegally retaliate against organizers, limits captive-audience
@@ -22,7 +22,8 @@ record: >
   Democrat in favor. Senate versions were introduced in every Congress since
   (S.420 in 2021, S.567 in 2023, S.852 in 2025), but none got a floor vote while
   Democrats held the majority from 2021 to 2025. The bill never had the 60 votes
-  needed to overcome a filibuster, and not every Democratic senator cosponsored it.
+  needed to overcome a filibuster, and three Democratic-caucus senators (Sinema, Kelly
+  and Warner) never cosponsored the 2021 version.
 stats:
   - label: Union membership rate, all wage and salary workers
     value: "10.0%"
@@ -93,4 +94,9 @@ sources:
     outlet: congress.gov
     url: https://www.congress.gov/bill/119th-congress/senate-bill/852
     date: 2025-03-05
+    type: bill
+  - title: "Cosponsors - S.420 - 117th Congress: Protecting the Right to Organize Act of 2021"
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/117th-congress/senate-bill/420/cosponsors
+    date: 2022-12-31
     type: bill
