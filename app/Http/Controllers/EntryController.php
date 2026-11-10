@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Content\ResponseLadder;
 use App\Enums\Category;
 use App\Models\Entry;
 use Illuminate\Support\Str;
@@ -21,6 +22,7 @@ class EntryController extends Controller
         return Inertia::render('Home', [
             'entries' => $entries->map->toCard()->values(),
             'categories' => Category::options(),
+            'retaliation' => ResponseLadder::build($entries, 'retaliation'),
         ])->withViewData(['meta' => [
             'title' => config('app.name'),
             'description' => 'A sourced record of what Senate Democratic leadership could have done, and didn\'t.',

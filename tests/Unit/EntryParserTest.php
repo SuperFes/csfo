@@ -61,6 +61,25 @@ class EntryParserTest extends TestCase
         $this->assertSame('2022-01-20', $entry['sources'][0]['date']);
     }
 
+    public function test_response_level_and_tags_are_optional(): void
+    {
+        $entry = $this->parser->parseFile($this->writeEntry('sample-entry'));
+
+        $this->assertNull($entry['response_level']);
+        $this->assertSame([], $entry['tags']);
+    }
+
+    public function test_parses_response_level_and_dedupes_tags(): void
+    {
+        $entry = $this->parser->parseFile($this->writeEntry('sample-entry', [
+            'response_level' => 'letter',
+            'tags' => ['retaliation', 'retaliation', 'doj'],
+        ]));
+
+        $this->assertSame('letter', $entry['response_level']);
+        $this->assertSame(['retaliation', 'doj'], $entry['tags']);
+    }
+
     public function test_blank_optional_text_is_null(): void
     {
         $entry = $this->parser->parseFile($this->writeEntry('sample-entry', ['context' => "  \n"]));
@@ -88,6 +107,8 @@ class EntryParserTest extends TestCase
             'missing summary' => [['summary' => null], 'summary'],
             'source without url' => [['sources' => [['title' => 't', 'outlet' => 'o', 'type' => 'article']]], 'url'],
             'source bad type' => [['sources' => [['title' => 't', 'outlet' => 'o', 'url' => 'https://x.test', 'type' => 'rumor']]], 'type'],
+            'bad response level' => [['response_level' => 'sternly-worded'], 'response level'],
+            'bad tag' => [['tags' => ['Not Kebab']], 'tags'],
             'non-http url' => [['sources' => [['title' => 't', 'outlet' => 'o', 'url' => 'javascript:alert(1)', 'type' => 'article']]], 'url'],
         ];
     }

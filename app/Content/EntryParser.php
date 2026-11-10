@@ -4,6 +4,7 @@ namespace App\Content;
 
 use App\Enums\Category;
 use App\Enums\EntryStatus;
+use App\Enums\ResponseLevel;
 use App\Enums\SourceType;
 use DateTimeInterface;
 use Illuminate\Support\Facades\Validator;
@@ -68,6 +69,8 @@ class EntryParser
             'could_have' => trim($data['could_have']),
             'context' => $this->optionalText($data['context'] ?? null),
             'schumer_response' => $this->optionalText($data['schumer_response'] ?? null),
+            'response_level' => $data['response_level'] ?? null,
+            'tags' => array_values(array_unique($data['tags'] ?? [])),
             'sources' => array_map(fn (array $s) => [
                 'title' => trim($s['title']),
                 'outlet' => trim($s['outlet']),
@@ -94,6 +97,9 @@ class EntryParser
             'could_have' => ['required', 'string'],
             'context' => ['nullable', 'string'],
             'schumer_response' => ['nullable', 'string'],
+            'response_level' => ['nullable', Rule::enum(ResponseLevel::class)],
+            'tags' => ['nullable', 'array'],
+            'tags.*' => ['string', 'regex:/^[a-z0-9]+(?:-[a-z0-9]+)*$/'],
             'sources' => ['required', 'array', 'min:1'],
             'sources.*.title' => ['required', 'string'],
             'sources.*.outlet' => ['required', 'string'],

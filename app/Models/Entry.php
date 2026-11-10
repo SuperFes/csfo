@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Enums\Category;
 use App\Enums\EntryStatus;
+use App\Enums\ResponseLevel;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,6 +20,8 @@ class Entry extends Model
         'could_have',
         'context',
         'schumer_response',
+        'response_level',
+        'tags',
         'sources',
     ];
 
@@ -28,6 +31,8 @@ class Entry extends Model
             'date' => 'date:Y-m-d',
             'category' => Category::class,
             'status' => EntryStatus::class,
+            'response_level' => ResponseLevel::class,
+            'tags' => 'array',
             'sources' => 'array',
         ];
     }
@@ -60,6 +65,8 @@ class Entry extends Model
             'status' => $this->status->value,
             'summary' => $this->summary,
             'could_have' => $this->could_have,
+            'response_level' => $this->response_level?->value,
+            'tags' => $this->tags ?? [],
             'source_count' => count($this->sources),
         ];
     }

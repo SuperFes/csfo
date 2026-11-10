@@ -45,6 +45,19 @@ class PublicPagesTest extends TestCase
                 ->has('categories'));
     }
 
+    public function test_home_includes_retaliation_ladder(): void
+    {
+        $this->writeEntry('silence', ['response_level' => 'none', 'tags' => ['retaliation']]);
+        $this->writeEntry('hold', ['response_level' => 'procedural', 'tags' => ['retaliation']]);
+        app(ContentSync::class)->sync($this->contentDir);
+
+        $this->get('/')->assertInertia(fn (Assert $page) => $page
+            ->where('retaliation.total', 2)
+            ->where('retaliation.actions', 1)
+            ->where('retaliation.levels.1.entries.0.slug', 'hold')
+            ->where('retaliation.levels.5.entries.0.slug', 'silence'));
+    }
+
     public function test_unverified_entries_visible_when_enabled(): void
     {
         config(['csfo.show_unverified' => true]);
