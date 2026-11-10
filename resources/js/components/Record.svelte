@@ -92,7 +92,7 @@
                                 <time datetime={e.date}>{formatShortDate(e.date)}</time>
                                 <span>{labels[e.category]}</span>
                                 {#if e.status === 'needs-review'}
-                                    <span class="review">Needs review</span>
+                                    <span class="review">Under review</span>
                                 {/if}
                             </span>
                             <span class="title">{e.title}</span>
@@ -155,6 +155,21 @@
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
+    }
+
+    /* One swipeable row on phones instead of a screen full of chips. */
+    @media (max-width: 40rem) {
+        .chips {
+            flex-wrap: nowrap;
+            margin: 0 -1rem;
+            padding: 0.25rem 1rem;
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+
+        .chips button {
+            flex: none;
+        }
     }
 
     .chips button {

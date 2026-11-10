@@ -37,12 +37,17 @@
         <p class="meta">
             <time datetime={entry.date}>{formatDate(entry.date)}</time>
             <a href="/?category={entry.category}#record">{categoryLabel}</a>
-            {#if entry.status === 'needs-review'}
-                <span class="review">Needs review: not shown in production</span>
-            {/if}
         </p>
 
         <h1>{entry.title}</h1>
+
+        {#if entry.status === 'needs-review'}
+            <p class="under-review">
+                <strong>Under review.</strong>
+                {entry.review_note}
+                Know a better source? <a href={reportErrorUrl(entry.title)} rel="noopener noreferrer">Send it in</a>.
+            </p>
+        {/if}
 
         <p class="summary">{entry.summary}</p>
 
@@ -135,11 +140,19 @@
         color: var(--blue);
     }
 
-    .review {
-        padding: 0 0.5rem;
+    .under-review {
+        margin: 1.5rem 0 0;
+        padding: 0.875rem 1.125rem;
         border-radius: 0.25rem;
         background: var(--highlight);
         color: var(--on-highlight);
+        font-family: var(--font-ui);
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .under-review a {
+        color: inherit;
         font-weight: 600;
     }
 
@@ -154,7 +167,7 @@
 
     .summary {
         margin: 1.5rem 0 0;
-        font-size: 1.25rem;
+        font-size: clamp(1.125rem, 2.5vw, 1.25rem);
         line-height: 1.6;
     }
 

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\HandleInertiaRequests;
+use App\Http\Middleware\ResolveSite;
 use App\Http\Middleware\SetPublicCacheHeaders;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -24,6 +25,7 @@ return Application::configure(basePath: dirname(__DIR__))
         // Stateless: no session, cookies, or CSRF, so responses can be cached
         // at the edge and at the origin.
         $middleware->group('public', [
+            ResolveSite::class,
             ThrottleRequests::class.':public',
             SetPublicCacheHeaders::class,
             CacheResponse::class,
@@ -31,7 +33,9 @@ return Application::configure(basePath: dirname(__DIR__))
             HandleInertiaRequests::class,
         ]);
 
-        $middleware->web(append: [
+        $middleware->web(prepend: [
+            ResolveSite::class,
+        ], append: [
             HandleInertiaRequests::class,
         ]);
     })

@@ -9,10 +9,11 @@ use Tests\TestCase;
 
 class ResponseLadderTest extends TestCase
 {
-    private function entry(string $slug, ?string $level, array $tags = ['retaliation'], string $date = '2025-06-12'): Entry
+    private function entry(string $slug, ?string $level, array $tags = ['retaliation'], string $date = '2025-06-12', string $status = 'verified'): Entry
     {
         return new Entry([
             'slug' => $slug,
+            'status' => $status,
             'title' => ucfirst($slug),
             'date' => $date,
             'response_level' => $level,
@@ -42,6 +43,16 @@ class ResponseLadderTest extends TestCase
 
         $this->assertSame(1, $ladder['total']);
         $this->assertSame(['tagged'], array_column($ladder['levels'][5]['entries'], 'slug'));
+    }
+
+    public function test_unverified_entries_are_left_out(): void
+    {
+        $ladder = ResponseLadder::build(new Collection([
+            $this->entry('checked', 'none'),
+            $this->entry('pending', 'none', status: 'needs-review'),
+        ]), 'retaliation');
+
+        $this->assertSame(1, $ladder['total']);
     }
 
     public function test_actions_count_only_levels_that_cost_something(): void

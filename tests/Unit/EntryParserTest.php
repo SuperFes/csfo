@@ -107,6 +107,7 @@ class EntryParserTest extends TestCase
             'missing summary' => [['summary' => null], 'summary'],
             'source without url' => [['sources' => [['title' => 't', 'outlet' => 'o', 'type' => 'article']]], 'url'],
             'source bad type' => [['sources' => [['title' => 't', 'outlet' => 'o', 'url' => 'https://x.test', 'type' => 'rumor']]], 'type'],
+            'needs-review without note' => [['status' => 'needs-review', 'review_note' => null], 'review note'],
             'bad response level' => [['response_level' => 'sternly-worded'], 'response level'],
             'bad tag' => [['tags' => ['Not Kebab']], 'tags'],
             'non-http url' => [['sources' => [['title' => 't', 'outlet' => 'o', 'url' => 'javascript:alert(1)', 'type' => 'article']]], 'url'],

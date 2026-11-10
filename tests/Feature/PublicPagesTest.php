@@ -59,6 +59,25 @@ class PublicPagesTest extends TestCase
             ->where('retaliation.levels.5.entries.0.slug', 'silence'));
     }
 
+    public function test_site_name_follows_the_domain(): void
+    {
+        $this->get('http://chuckschumergoaway.com/')
+            ->assertSee('<title>Chuck Schumer Go Away</title>', false)
+            ->assertInertia(fn (Assert $page) => $page
+                ->where('site.name', 'Chuck Schumer Go Away')
+                ->where('site.alternates.0.url', 'https://chuckschumerfuckoff.com'));
+
+        $this->get('http://chuckschumerfuckoff.com/entries/verified-one')
+            ->assertSee('<title>Sample entry — Chuck Schumer Fuck Off</title>', false);
+    }
+
+    public function test_alias_domains_redirect_permanently_keeping_the_path(): void
+    {
+        $this->get('http://www.chuckschumergoaway.org/entries/verified-one?x=1')
+            ->assertStatus(301)
+            ->assertRedirect('https://chuckschumergoaway.com/entries/verified-one?x=1');
+    }
+
     public function test_unverified_entries_visible_when_enabled(): void
     {
         config(['csfo.show_unverified' => true]);

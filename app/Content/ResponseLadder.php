@@ -2,13 +2,15 @@
 
 namespace App\Content;
 
+use App\Enums\EntryStatus;
 use App\Enums\ResponseLevel;
 use App\Models\Entry;
 use Illuminate\Support\Collection;
 
 /**
  * Groups tagged entries by how strongly leadership responded, so the page can
- * show every level, including the empty ones, which are the point.
+ * show every level, including the empty ones, which are the point. Only
+ * verified entries count toward a headline number.
  */
 class ResponseLadder
 {
@@ -19,7 +21,9 @@ class ResponseLadder
     public static function build(Collection $entries, string $tag): array
     {
         $tagged = $entries
-            ->filter(fn (Entry $e) => $e->response_level && in_array($tag, $e->tags ?? [], true))
+            ->filter(fn (Entry $e) => $e->status === EntryStatus::Verified
+                && $e->response_level
+                && in_array($tag, $e->tags ?? [], true))
             ->sortByDesc('date');
 
         $levels = array_map(function (ResponseLevel $level) use ($tagged) {

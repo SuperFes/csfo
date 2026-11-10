@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Support\Site;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -37,7 +38,10 @@ class HandleInertiaRequests extends Middleware
     {
         return [
             ...parent::share($request),
-            //
+            'site' => fn () => app()->bound(Site::class) ? [
+                'name' => app(Site::class)->name,
+                'alternates' => app(Site::class)->alternates,
+            ] : ['name' => config('app.name'), 'alternates' => []],
         ];
     }
 }

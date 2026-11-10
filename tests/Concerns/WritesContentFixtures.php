@@ -27,6 +27,10 @@ trait WritesContentFixtures
      */
     protected function entryData(string $slug = 'sample-entry', array $overrides = []): array
     {
+        if (($overrides['status'] ?? null) === 'needs-review') {
+            $overrides += ['review_note' => 'Waiting on a second source.'];
+        }
+
         return array_replace([
             'slug' => $slug,
             'title' => 'Sample entry',

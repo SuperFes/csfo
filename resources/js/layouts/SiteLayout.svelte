@@ -1,4 +1,5 @@
 <script>
+    import { page } from '@inertiajs/svelte';
     import { repoUrl } from '../lib/format.js';
 
     let { children } = $props();
@@ -8,7 +9,7 @@
 
 <header class="site-header">
     <div class="inner">
-        <a class="wordmark" href="/">Chuck Schumer Fuck Off</a>
+        <a class="wordmark" href="/">{page.props.site.name}</a>
         <nav aria-label="Site">
             <a href="/#record">The record</a>
             <a href={repoUrl} rel="noopener noreferrer">Source on GitHub</a>
@@ -23,6 +24,9 @@
 <footer class="site-footer">
     <div class="inner">
         <p>Every entry links to its sources. If something is wrong, <a href="{repoUrl}/issues/new" rel="noopener noreferrer">open a correction on GitHub</a> and it will be fixed.</p>
+        {#each page.props.site.alternates as alt (alt.url)}
+            <p>The same record is also at <a href={alt.url}>{alt.url.replace('https://', '')}</a>.</p>
+        {/each}
         <p class="disclaimer">An independent project. Not affiliated with, endorsed by, or paid for by the Democratic Party, any candidate, or any campaign committee.</p>
     </div>
 </footer>

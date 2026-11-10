@@ -2,12 +2,19 @@
 
 return [
 
+    // Each canonical host gets its own site name. www. and .org variants
+    // redirect to the matching canonical host.
+    'sites' => [
+        'chuckschumerfuckoff.com' => 'Chuck Schumer Fuck Off',
+        'chuckschumergoaway.com' => 'Chuck Schumer Go Away',
+    ],
+
     'content_path' => env('CSFO_CONTENT_PATH', base_path('content/entries')),
 
     'highlights_path' => env('CSFO_HIGHLIGHTS_PATH', base_path('content/highlights.yaml')),
 
-    // Show needs-review entries; keep false in production.
-    'show_unverified' => (bool) env('CSFO_SHOW_UNVERIFIED', false),
+    // Publish needs-review entries, labeled with their review note.
+    'show_unverified' => (bool) env('CSFO_SHOW_UNVERIFIED', true),
 
     // Comma-separated proxy IPs/CIDRs, or "*". Only use "*" when the origin
     // firewall admits nothing but the CDN, otherwise clients can spoof IPs.
