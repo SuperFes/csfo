@@ -2,25 +2,28 @@ slug: wall-street-donor-profile
 title: Securities and investment has long been Schumer's top donor industry
 date: 2015-03-27
 category: ethics-and-corruption
-status: needs-review
+status: verified
 summary: >
   Per Center for Responsive Politics (OpenSecrets) data, the securities and investment industry was Schumer's
   top donor sector from 1989 to 2014, giving more than $10.4 million. His top contributors over that period
-  were Goldman Sachs ($543,000), Citigroup ($484,000) and JPMorgan Chase ($365,000). CBS News, citing
-  a 2008 New York Times investigation, reported that Schumer had repeatedly shielded the financial industry
-  from oversight and helped companies avoid large taxes and fees. CBS also noted he voted in 2011 to delay
-  a cap on debit-card swipe fees that banks had lobbied against.
+  were Goldman Sachs ($543,000), Citigroup ($484,000) and JPMorgan Chase ($365,000). As DSCC chairman
+  for the 2006 and 2008 cycles he relied heavily on lower-Manhattan donors to outraise Republicans, Roll
+  Call reported. CBS News, citing a 2008 New York Times investigation, reported that he had repeatedly
+  shielded the financial industry from oversight and helped companies avoid large taxes and fees, and
+  noted he voted in 2011 to delay a cap on debit-card swipe fees that banks had lobbied against.
 could_have: >
   Schumer could have limited his reliance on the industry he oversees from the Banking and Finance committees,
-  and taken positions on carried interest and swipe fees that did not track industry lobbying.
+  especially while chairing the party's Senate fundraising arm, and taken positions on carried interest
+  and swipe fees that did not track industry lobbying.
 context: >
-  Wall Street is a major New York employer, and allies argue a New York senator naturally draws from it.
-  Schumer also pushed for executive-pay clawbacks, SEC funding and curbs on high-frequency trading after
-  2008. These figures are dated: current career totals by industry from OpenSecrets were not accessible
-  for this compilation and need to be pulled before publishing.
+  Schumer represents the state that houses Wall Street, so heavy industry giving is unsurprising. He backed
+  Dodd-Frank in 2010, which Roll Call reported angered many of his financial-industry backers, and after
+  2008 he pushed for executive-pay clawbacks, SEC funding and curbs on high-frequency trading. Figures
+  here run through 2014; current career totals by industry have not yet been added.
 schumer_response: >
   "When Wall Street comes in conflict with Main Street, I tend to side with Main Street" (Bloomberg News,
-  2009, quoted by CBS News).
+  2009, quoted by CBS News). In 2010 he told Roll Call, "I believe that there were significant excesses
+  in the financial services industry that led to the crisis."
 sources:
 - title: Schumer's road to the top greased by donations to colleagues
   outlet: Center for Public Integrity
@@ -38,4 +41,9 @@ sources:
   url: >-
     https://rollcall.com/2015/03/30/supporters-say-schumers-ties-interests-go-beyond-wall-street/
   date: 2015-03-30
+  type: article
+- title: Wall Street's Faith in Schumer Slips
+  outlet: Roll Call
+  url: https://rollcall.com/2010/04/21/wall-streets-faith-in-schumer-slips/
+  date: 2010-04-21
   type: article

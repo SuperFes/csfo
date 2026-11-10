@@ -1,28 +1,33 @@
 slug: carried-interest-loophole-survives
-title: The carried-interest break for fund managers survived Schumer's majority again
+title: The carried-interest break for fund managers survived Schumer for 15 years
 date: 2022-08-05
 category: economy-and-labor
 status: verified
 summary: >
-  The carried-interest provision in the Inflation Reduction Act would have narrowed a tax break that lets
-  private-equity and hedge-fund managers pay capital-gains rates on their pay. It would have raised about
-  $14 billion over a decade. It was dropped in August 2022 to win Sen. Kyrsten Sinema's vote, and a 1%
-  tax on stock buybacks was added in its place. This followed a longer pattern. In 2007, Schumer insisted
-  that any carried-interest change also cover real estate, venture capital and other sectors, a broadening
-  that ProPublica and opponents of the break said increased resistance and helped stall reform for years.
-  Schumer's top donor sectors have been finance and real estate.
+  Carried interest lets private-equity and hedge-fund managers pay capital-gains rates on their pay. In
+  2007, as House Democrats and a bipartisan Senate Finance proposal moved to tax it as ordinary income,
+  Schumer, then DSCC chairman, opposed the targeted measures as unfairly singling out an industry important
+  to his constituents and said any change should also cover real estate, venture capital and energy partnerships.
+  Critics called that a "poison pill," and ProPublica and opponents of the break said the broadening increased
+  resistance and helped stall reform for years. In August 2022 the Inflation Reduction Act's carried-interest
+  provision, worth about $14 billion over a decade, was dropped to win Sen. Kyrsten Sinema's vote, and
+  a 1% tax on stock buybacks was added in its place.
 could_have: >
-  In 2007 Schumer could have backed the narrower House proposal aimed at fund managers instead of demanding
-  a broader version. In 2021 and 2022 leadership could have made the provision a priority in earlier reconciliation
-  talks, or forced a standalone recorded vote.
+  In 2007 Schumer could have backed the narrower proposals already on the table instead of conditioning
+  support on a broader version with a weaker chance of passage. In 2021 and 2022 leadership could have
+  made the provision a priority in earlier reconciliation talks, or forced a standalone recorded vote.
 context: >
   In 2022 the decisive actor was Sinema, who refused to let the bill proceed unless the provision came
   out. She had received at least $2 million from the securities and investment industry since 2018, per
-  CNBC. Schumer said he personally pushed to include it. His backers argue that taxing all carried interest
-  as ordinary income, including real estate, was the more principled position.
+  CNBC. Schumer said he personally pushed to include it. In 2007 other Democrats, including Chris Dodd,
+  also hesitated, and an opinion column noted heavy giving to the DSCC from private equity and hedge fund
+  employees at the time; no quid pro quo has been established. His backers argue that taxing all carried
+  interest as ordinary income was the more principled position.
 schumer_response: >
-  "I pushed for it to be in this bill... Senator Sinema said she would not vote for the bill, not even
-  move to proceed unless we took it out. So we had no choice" (Aug. 5, 2022).
+  In 2007 his spokesman said the broader approach was "broader, fairer and will raise more revenue than
+  targeting only publicly traded partnerships" (Bloomberg via InvestmentNews). In 2022: "I pushed for
+  it to be in this bill... Senator Sinema said she would not vote for the bill, not even move to proceed
+  unless we took it out. So we had no choice" (Aug. 5, 2022).
 sources:
 - title: >-
     Schumer says Sinema left 'no choice' but to cut carried interest provision from tax and climate bill
@@ -50,4 +55,20 @@ sources:
   url: >-
     https://rollcall.com/2015/03/30/supporters-say-schumers-ties-interests-go-beyond-wall-street/
   date: 2015-03-30
+  type: article
+- title: Schumer Bucks Party on Wall St. Tax Hikes (summarizing The New York Times)
+  outlet: Newser
+  url: https://www.newser.com/story/4974/schumer-bucks-party-on-wall-st-tax-hikes.html
+  date: 2007-07-30
+  type: article
+- title: Schumer backs carried interest tax boost
+  outlet: InvestmentNews (Bloomberg)
+  url: >-
+    https://www.investmentnews.com/tax/schumer-backs-carried-interest-tax-boost/10727
+  date: 2007-08-16
+  type: article
+- title: Democrats bow to rich donors, too (opinion column by Froma Harrop)
+  outlet: The Spokesman-Review (Providence Journal)
+  url: https://www.spokesman.com/stories/2007/jun/29/democrats-bow-to-rich-donors-too/
+  date: 2007-06-29
   type: article
