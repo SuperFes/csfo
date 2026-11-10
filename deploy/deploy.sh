@@ -21,4 +21,7 @@ php artisan view:cache
 # Opcache doesn't revalidate files in production; reload to pick up new code.
 sudo /usr/bin/systemctl reload php8.5-fpm
 
+# A failed purge shouldn't fail the deploy; pages expire on their own.
+php artisan cdn:purge || echo "CDN purge failed; purge manually in Cloudflare."
+
 echo "Deployed $(git rev-parse --short HEAD)"

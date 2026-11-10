@@ -25,6 +25,13 @@ return [
     // Per-IP requests per minute reaching the origin.
     'rate_limit' => (int) env('CSFO_RATE_LIMIT', 120),
 
+    // Cloudflare cache purge on deploy. Token needs Zone > Cache Purge on
+    // each zone; zone IDs are comma-separated. Purge is skipped when unset.
+    'cloudflare' => [
+        'token' => env('CLOUDFLARE_API_TOKEN'),
+        'zones' => array_filter(explode(',', (string) env('CLOUDFLARE_ZONE_IDS', ''))),
+    ],
+
     // Browser and shared (CDN) cache lifetimes for public pages, in seconds.
     'cache' => [
         'max_age' => (int) env('CSFO_CACHE_MAX_AGE', 300),
