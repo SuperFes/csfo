@@ -1,0 +1,72 @@
+slug: voting-rights-single-rules-vote-fails
+title: >-
+  Voting-rights bills die after one rules-change vote, seven months after first filibuster
+date: 2022-01-19
+category: voting-rights
+status: verified
+summary: >
+  On Jan. 19, 2022, Republicans blocked cloture on the combined Freedom to Vote: John R. Lewis Act (vehicle
+  H.R. 5746), 49-51; Schumer voted no for procedural reasons so the bill could be brought back. Schumer
+  then sought a "talking filibuster" rules change; the chair's ruling against it was sustained 52-48,
+  with Democrats Joe Manchin and Kyrsten Sinema voting with all Republicans. This was the only rules-change
+  vote; it came after three failed cloture votes on voting bills in 2021 (June 22: 50-50; Oct. 20: 49-51;
+  Nov. 3: 50-49).
+could_have: >
+  The majority leader controls the floor calendar. Leadership could have forced the rules-change confrontation
+  when the bills first failed in June 2021, rather than seven months and three failed cloture votes later.
+context: >
+  Any rules change needed all 50 Democratic votes plus the vice president. Manchin and Sinema said publicly
+  that they backed the bills but would not change the filibuster on a party-line vote, and voted that
+  way. There is no evidence their votes would have been different at an earlier date.
+schumer_response: >
+  On the floor before the vote, Schumer asked: "Isn't the protection of voting rights, the most fundamental
+  wellspring of this democracy, more important than a rule in this chamber?" (NPR). He said afterward
+  that the effort was not finished (PBS/AP).
+sources:
+- title: >-
+    Roll Call Vote 117th Congress, 2nd Session, Vote 10: On the Decision of the Chair (H.R. 5746)
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00010.htm
+  date: 2022-01-19
+  type: vote
+- title: >-
+    Roll Call Vote 117th Congress, 2nd Session, Vote 9: Cloture on Motion to Concur, H.R. 5746
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00009.htm
+  date: 2022-01-19
+  type: vote
+- title: >-
+    Democrats fail to change Senate rules to overcome GOP opposition on voting rights
+  outlet: NPR
+  url: https://www.npr.org/2022/01/19/1073908955/senate-voting-rights-bills-filibuster
+  date: 2022-01-19
+  type: article
+- title: Voting rights bill blocked by Republican filibuster
+  outlet: PBS NewsHour (AP)
+  url: >-
+    https://www.pbs.org/newshour/politics/voting-rights-bill-blocked-by-republican-filibuster
+  date: 2022-01-19
+  type: article
+- title: >-
+    Roll Call Vote 117th Congress, 1st Session, Vote 246: Cloture on Motion to Proceed, S. 2093
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00246.htm
+  date: 2021-06-22
+  type: vote
+- title: >-
+    Roll Call Vote 117th Congress, 1st Session, Vote 420: Cloture on Motion to Proceed, S. 2747
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00420.htm
+  date: 2021-10-20
+  type: vote
+- title: >-
+    Roll Call Vote 117th Congress, 1st Session, Vote 459: Cloture on Motion to Proceed, S. 4
+  outlet: U.S. Senate
+  url: >-
+    https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00459.htm
+  date: 2021-11-03
+  type: vote
