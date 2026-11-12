@@ -1,9 +1,10 @@
 <script>
+    import MemberList from '../components/MemberList.svelte';
     import PolicyList from '../components/PolicyList.svelte';
     import SiteLayout from '../layouts/SiteLayout.svelte';
     import { formatDate, reportErrorUrl } from '../lib/format.js';
 
-    let { entry, categories, policies } = $props();
+    let { entry, categories, policies, members } = $props();
 
     const categoryLabel = $derived(categories.find((c) => c.value === entry.category)?.label);
 
@@ -83,6 +84,13 @@
             <section aria-labelledby="policies-heading">
                 <h2 id="policies-heading">Related policies</h2>
                 <PolicyList {policies} compact />
+            </section>
+        {/if}
+
+        {#if members.length}
+            <section aria-labelledby="members-heading">
+                <h2 id="members-heading">Follow the money</h2>
+                <MemberList {members} compact />
             </section>
         {/if}
 

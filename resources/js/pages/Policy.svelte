@@ -1,8 +1,9 @@
 <script>
+    import MemberList from '../components/MemberList.svelte';
     import SiteLayout from '../layouts/SiteLayout.svelte';
     import { formatDate, reportErrorUrl } from '../lib/format.js';
 
-    let { policy, related } = $props();
+    let { policy, related, members } = $props();
 
     const sourceTypes = {
         article: 'Reporting',
@@ -88,6 +89,14 @@
             <h2 id="record-heading">What Democratic leadership did</h2>
             <p>{policy.record}</p>
         </section>
+
+        {#if members.length}
+            <section aria-labelledby="members-heading">
+                <h2 id="members-heading">Follow the money</h2>
+                <p class="members-note">Members with a recorded vote on this. Each page shows the vote, what it did, and who funds them.</p>
+                <MemberList {members} compact />
+            </section>
+        {/if}
 
         {#if related.length}
             <section aria-labelledby="related-heading">
@@ -339,6 +348,13 @@
         color: var(--blue);
         text-decoration: underline;
         text-underline-offset: 4px;
+    }
+
+    .members-note {
+        margin: 0 0 1rem;
+        font-family: var(--font-ui);
+        font-size: 0.9375rem;
+        color: var(--ink-muted);
     }
 
     .report {

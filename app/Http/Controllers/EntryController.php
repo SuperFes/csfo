@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Content\HighlightsLoader;
+use App\Content\MemberCatalog;
 use App\Content\PolicyCatalog;
 use App\Content\ResponseLadder;
 use App\Enums\Category;
@@ -33,7 +34,7 @@ class EntryController extends Controller
         ]]);
     }
 
-    public function show(string $slug, PolicyCatalog $policies): Response
+    public function show(string $slug, PolicyCatalog $policies, MemberCatalog $members): Response
     {
         $entry = Entry::published()->where('slug', $slug)->firstOrFail();
 
@@ -41,6 +42,7 @@ class EntryController extends Controller
             'entry' => $entry->toDetail(),
             'categories' => Category::options(),
             'policies' => $policies->cardsForEntry($entry->slug),
+            'members' => $members->cardsForEntry($entry->slug),
         ])->withViewData(['meta' => [
             'title' => $entry->title.' — '.config('app.name'),
             'description' => Str::limit($entry->summary, 200),

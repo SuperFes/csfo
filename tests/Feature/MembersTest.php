@@ -75,4 +75,19 @@ class MembersTest extends TestCase
 
         $this->get('/money/leader')->assertNotFound();
     }
+
+    public function test_policy_and_entry_pages_link_members(): void
+    {
+        $this->writePolicy('wages');
+        $this->writeMember('voter', ['votes' => [$this->voteData(['policy' => 'wages'])]]);
+        $this->writeMember('bystander', ['related_entries' => ['min-wage-vote']]);
+
+        $this->get('/policies/wages')->assertInertia(fn (Assert $page) => $page
+            ->has('members', 1)
+            ->where('members.0.slug', 'voter'));
+
+        $this->get('/entries/min-wage-vote')->assertInertia(fn (Assert $page) => $page
+            ->has('members', 1)
+            ->where('members.0.slug', 'bystander'));
+    }
 }

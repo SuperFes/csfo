@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Content\MemberCatalog;
 use App\Content\PolicyCatalog;
 use App\Models\Entry;
 use Illuminate\Support\Str;
@@ -22,7 +23,7 @@ class PolicyController extends Controller
         ]]);
     }
 
-    public function show(string $slug): Response
+    public function show(string $slug, MemberCatalog $members): Response
     {
         $policy = $this->catalog->find($slug) ?? abort(404);
 
@@ -36,6 +37,7 @@ class PolicyController extends Controller
         return Inertia::render('Policy', [
             'policy' => $policy,
             'related' => $related,
+            'members' => $members->cardsForPolicy($slug),
         ])->withViewData(['meta' => [
             'title' => $policy['title'].' — '.config('app.name'),
             'description' => Str::limit($policy['tagline'].' '.$policy['summary'], 200),
