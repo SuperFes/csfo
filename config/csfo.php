@@ -13,6 +13,8 @@ return [
 
     'policies_path' => env('CSFO_POLICIES_PATH', base_path('content/policies')),
 
+    'members_path' => env('CSFO_MEMBERS_PATH', base_path('content/members')),
+
     'highlights_path' => env('CSFO_HIGHLIGHTS_PATH', base_path('content/highlights.yaml')),
 
     // Publish needs-review entries, labeled with their review note.

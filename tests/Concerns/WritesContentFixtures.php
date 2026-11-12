@@ -13,9 +13,11 @@ trait WritesContentFixtures
     {
         $this->contentDir = sys_get_temp_dir().'/csfo-content-'.bin2hex(random_bytes(6));
         File::ensureDirectoryExists($this->contentDir.'/policies');
+        File::ensureDirectoryExists($this->contentDir.'/members');
         config([
             'csfo.content_path' => $this->contentDir,
             'csfo.policies_path' => $this->contentDir.'/policies',
+            'csfo.members_path' => $this->contentDir.'/members',
             'csfo.highlights_path' => $this->contentDir.'/highlights.yaml',
         ]);
     }
@@ -96,5 +98,53 @@ trait WritesContentFixtures
         File::put($path, $yaml);
 
         return $path;
+    }
+
+    /**
+     * @param  array<string, mixed>  $overrides
+     */
+    protected function writeMember(string $slug, array $overrides = []): string
+    {
+        if (($overrides['status'] ?? null) === 'needs-review') {
+            $overrides += ['review_note' => 'Waiting on a second source.'];
+        }
+
+        $data = array_replace([
+            'slug' => $slug,
+            'name' => 'Sample Member',
+            'party' => 'D',
+            'chamber' => 'senate',
+            'state' => 'NY',
+            'role' => 'Democratic Leader',
+            'inclusion' => ['leadership'],
+            'status' => 'verified',
+            'summary' => 'Who they are.',
+            'funding' => [['label' => 'Raised, career', 'value' => '$1M', 'as_of' => '2026', 'source_url' => 'https://example.com/fec']],
+            'industries' => [['name' => 'Securities & investment', 'amount' => '$500K', 'period' => '2021-2026', 'source_url' => 'https://example.com/os']],
+            'votes' => [],
+            'related_entries' => [],
+            'sources' => [['title' => 'Data', 'outlet' => 'FEC', 'url' => 'https://example.com/fec', 'date' => '2026-01-01', 'type' => 'data']],
+        ], $overrides);
+
+        $path = "{$this->contentDir}/members/{$slug}.yaml";
+        File::put($path, Yaml::dump($data, 4));
+
+        return $path;
+    }
+
+    /**
+     * @param  array<string, mixed>  $overrides
+     * @return array<string, mixed>
+     */
+    protected function voteData(array $overrides = []): array
+    {
+        return array_replace([
+            'date' => '2025-03-14',
+            'title' => 'Cloture on H.R. 1968',
+            'position' => 'yea',
+            'explanation' => 'What the vote did.',
+            'url' => 'https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.htm',
+            'policy' => null,
+        ], $overrides);
     }
 }

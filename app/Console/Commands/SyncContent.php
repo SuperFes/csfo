@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Content\ContentSync;
 use App\Content\HighlightsLoader;
 use App\Content\InvalidContentException;
+use App\Content\MemberLoader;
 use App\Content\PolicyLoader;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
@@ -15,19 +16,21 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 #[Description('Validate all content and sync entries into the database')]
 class SyncContent extends Command
 {
-    public function handle(ContentSync $sync, HighlightsLoader $highlights, PolicyLoader $policies): int
+    public function handle(ContentSync $sync, HighlightsLoader $highlights, PolicyLoader $policies, MemberLoader $members): int
     {
         $path = config('csfo.content_path');
 
         try {
             $highlights->load(config('csfo.highlights_path'));
             $entries = $sync->load($path);
-            $policyCount = count($policies->load(config('csfo.policies_path'), array_keys($entries)));
+            $policySlugs = array_keys($policies->load(config('csfo.policies_path'), array_keys($entries)));
+            $memberCount = count($members->load(config('csfo.members_path'), array_keys($entries), $policySlugs));
 
             if ($this->option('check')) {
                 $count = count($entries);
                 $this->info("{$count} entries valid.");
-                $this->info("{$policyCount} policies valid.");
+                $this->info(count($policySlugs).' policies valid.');
+                $this->info("{$memberCount} members valid.");
 
                 return self::SUCCESS;
             }
