@@ -18,3 +18,8 @@ export function reportErrorUrl(title) {
     const params = new URLSearchParams({ title: `Correction: ${title}`, labels: 'correction' });
     return `${repoUrl}/issues/new?${params}`;
 }
+
+/** @param {{ party: string, state: string, district?: string | null }} m */
+export function seat(m) {
+    return [m.party, m.state, m.district].filter(Boolean).join('-');
+}
