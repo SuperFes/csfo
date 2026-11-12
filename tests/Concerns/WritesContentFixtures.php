@@ -121,6 +121,7 @@ trait WritesContentFixtures
             'summary' => 'Who they are.',
             'funding' => [['label' => 'Raised, career', 'value' => '$1M', 'as_of' => '2026', 'source_url' => 'https://example.com/fec']],
             'industries' => [['name' => 'Securities & investment', 'amount' => '$500K', 'period' => '2021-2026', 'source_url' => 'https://example.com/os']],
+            'employers' => [['name' => 'Blackstone', 'amount' => '$100K', 'period' => '2021-22', 'source_url' => 'https://example.com/fec']],
             'votes' => [],
             'related_entries' => [],
             'sources' => [['title' => 'Data', 'outlet' => 'FEC', 'url' => 'https://example.com/fec', 'date' => '2026-01-01', 'type' => 'data']],

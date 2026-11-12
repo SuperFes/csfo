@@ -111,16 +111,26 @@ class MemberLoader
                 'as_of' => (string) $f['as_of'],
                 'source_url' => $f['source_url'],
             ], $data['funding'] ?? []),
-            'industries' => array_map(fn (array $i) => [
-                'name' => trim($i['name']),
-                'amount' => (string) $i['amount'],
-                'period' => (string) $i['period'],
-                'source_url' => $i['source_url'],
-            ], $data['industries'] ?? []),
+            'industries' => $this->normalizeDonors($data['industries'] ?? []),
+            'employers' => $this->normalizeDonors($data['employers'] ?? []),
             'votes' => $this->normalizeVotes($data['votes'] ?? []),
             'related_entries' => array_values(array_unique($data['related_entries'] ?? [])),
             'sources' => $this->normalizeSources($data['sources']),
         ];
+    }
+
+    /**
+     * @param  list<array<string, mixed>>  $rows
+     * @return list<array<string, string>>
+     */
+    private function normalizeDonors(array $rows): array
+    {
+        return array_map(fn (array $r) => [
+            'name' => trim($r['name']),
+            'amount' => (string) $r['amount'],
+            'period' => (string) $r['period'],
+            'source_url' => $r['source_url'],
+        ], $rows);
     }
 
     /**
@@ -172,6 +182,11 @@ class MemberLoader
             'industries.*.amount' => ['required'],
             'industries.*.period' => ['required'],
             'industries.*.source_url' => ['required', 'url:https,http'],
+            'employers' => ['nullable', 'array'],
+            'employers.*.name' => ['required', 'string'],
+            'employers.*.amount' => ['required'],
+            'employers.*.period' => ['required'],
+            'employers.*.source_url' => ['required', 'url:https,http'],
             'votes' => ['nullable', 'array'],
             'votes.*.date' => ['required', 'date_format:Y-m-d'],
             'votes.*.title' => ['required', 'string'],

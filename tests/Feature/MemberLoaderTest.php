@@ -51,6 +51,7 @@ class MemberLoaderTest extends TestCase
         $this->assertSame(['Party leadership'], $member['inclusion_labels']);
         $this->assertSame(['Newer', 'Older'], array_column($member['votes'], 'title'));
         $this->assertSame('Did not vote', $member['votes'][0]['position_label']);
+        $this->assertSame('Blackstone', $member['employers'][0]['name']);
     }
 
     public function test_blocker_needs_a_vote_tied_to_a_policy(): void

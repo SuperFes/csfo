@@ -1,0 +1,130 @@
+slug: chuck-schumer
+name: Chuck Schumer
+party: D
+chamber: senate
+state: NY
+role: Senate Democratic Leader
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Schumer has led Senate Democrats since 2017. Federal Election Commission filings show his campaign
+  committees have taken in $135.5 million since his first Senate race in 1998, $14.5 million of it from
+  PACs and other political committees. Securities and investment was his top donor industry from 1989 to
+  2014, per the Center for Public Integrity. In the 2021-22 cycle, people working at Blackstone, NextEra
+  Energy, Newmark and KKR were among his largest sources of individual contributions. Senate Majority
+  PAC, the super PAC most closely aligned with him, is covered in its own entry.
+funding:
+  - label: Total receipts, Senate campaigns 1998-2026
+    value: $135.5M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S8NY00082/
+  - label: From PACs and other political committees
+    value: $14.5M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S8NY00082/
+  - label: Campaign cash on hand
+    value: $7.9M
+    as_of: Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S8NY00082/
+industries:
+  - name: Securities & investment
+    amount: $10.4M+
+    period: 1989-2014
+    source_url: https://publicintegrity.org/politics/schumers-road-to-the-top-greased-by-donations-to-colleagues/
+employers:
+  - name: Blackstone
+    amount: $194,700
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: NextEra Energy
+    amount: $145,900
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: Newmark
+    amount: $144,750
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: Paul, Weiss, Rifkind, Wharton & Garrison
+    amount: $131,900
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: KKR
+    amount: $124,700
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: American Express
+    amount: $112,000
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: UnitedHealth Group
+    amount: $104,630
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+  - name: Lazard
+    amount: $99,150
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+votes:
+  - date: 2025-03-14
+    title: Cloture on the House Republican funding bill (H.R. 1968)
+    position: yea
+    explanation: >
+      Two days after saying Republicans lacked the votes to advance the bill, Schumer was one of ten
+      members of the Democratic caucus who supplied them. Cloture was invoked 62-38.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.htm
+  - date: 2021-03-05
+    title: Motion to waive for the $15 minimum wage amendment (Sanders Amdt. 972)
+    position: yea
+    explanation: >
+      Schumer voted to keep the $15 minimum wage in the American Rescue Plan after leadership declined to
+      challenge the parliamentarian's ruling against it. The motion failed 42-58, with eight members of
+      the Democratic caucus voting no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    policy: minimum-wage
+  - date: 2018-03-14
+    title: Passage of the Dodd-Frank rollback (S. 2155)
+    position: nay
+    explanation: >
+      Schumer voted no, but the AP reported he did not try to stop the bill. It passed 67-31 with 16
+      Democrats and Angus King voting yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00054.htm
+  - date: 2011-06-08
+    title: Delay of the debit-card swipe-fee cap (Tester Amdt. 392)
+    position: yea
+    explanation: >
+      Schumer voted to delay and restudy the Dodd-Frank cap on swipe fees, which banks had lobbied against. The amendment
+      got 54 votes but failed to reach 60. Its author, then-Whip Dick Durbin, voted no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1121/vote_112_1_00086.htm
+  - date: 1999-11-04
+    title: Repeal of Glass-Steagall's core barriers (S. 900 conference report)
+    position: yea
+    explanation: >
+      In his first year in the Senate, Schumer voted for and championed the Gramm-Leach-Bliley Act, which
+      let banks, securities firms and insurers combine. It passed 90-8.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1061/vote_106_1_00354.htm
+related_entries:
+  - wall-street-donor-profile
+  - smp-dark-money-reliance
+  - carried-interest-loophole-survives
+  - swipe-fee-delay-vote-2011
+  - glass-steagall-repeal-vote-1999
+  - bank-deregulation-bill-2018
+  - march-2025-cr-reversal-cloture-vote
+  - minimum-wage-parliamentarian-ruling-accepted
+sources:
+  - title: Charles E. Schumer, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S8NY00082/
+    date: 2026-09-30
+    type: data
+  - title: Friends of Schumer, 2021-22 receipts
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/committee/C00346312/?cycle=2022
+    date: 2022-12-31
+    type: data
+  - title: Schumer's road to the top greased by donations to colleagues
+    outlet: Center for Public Integrity
+    url: https://publicintegrity.org/politics/schumers-road-to-the-top-greased-by-donations-to-colleagues/
+    date: 2015-03-27
+    type: article

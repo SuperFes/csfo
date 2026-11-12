@@ -61,29 +61,44 @@
             </ul>
         {/if}
 
+        {#snippet donorTable(rows, label)}
+            <table class="donors">
+                <thead>
+                    <tr>
+                        <th scope="col">{label}</th>
+                        <th scope="col" class="num">Amount</th>
+                        <th scope="col">Period</th>
+                        <th scope="col"><span class="visually-hidden">Source</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {#each rows as row}
+                        <tr>
+                            <th scope="row">{row.name}</th>
+                            <td class="num">{row.amount}</td>
+                            <td>{row.period}</td>
+                            <td><a href={row.source_url} rel="noopener noreferrer">{host(row.source_url)}</a></td>
+                        </tr>
+                    {/each}
+                </tbody>
+            </table>
+        {/snippet}
+
         {#if member.industries.length}
             <section aria-labelledby="industries-heading">
                 <h2 id="industries-heading">Top industries</h2>
-                <table class="industries">
-                    <thead>
-                        <tr>
-                            <th scope="col">Industry</th>
-                            <th scope="col" class="num">Amount</th>
-                            <th scope="col">Period</th>
-                            <th scope="col"><span class="visually-hidden">Source</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {#each member.industries as row}
-                            <tr>
-                                <th scope="row">{row.name}</th>
-                                <td class="num">{row.amount}</td>
-                                <td>{row.period}</td>
-                                <td><a href={row.source_url} rel="noopener noreferrer">{host(row.source_url)}</a></td>
-                            </tr>
-                        {/each}
-                    </tbody>
-                </table>
+                {@render donorTable(member.industries, 'Industry')}
+            </section>
+        {/if}
+
+        {#if member.employers.length}
+            <section aria-labelledby="employers-heading">
+                <h2 id="employers-heading">Top donors by employer</h2>
+                <p class="note">
+                    Contributions from individuals who listed this employer on FEC filings. Companies can't give directly
+                    to federal campaigns; this is money from their people.
+                </p>
+                {@render donorTable(member.employers, 'Employer')}
             </section>
         {/if}
 
@@ -279,7 +294,7 @@
         line-height: 1.15;
     }
 
-    .industries {
+    .donors {
         width: 100%;
         border-collapse: collapse;
         border-top: 2px solid var(--ink);
@@ -287,32 +302,39 @@
         font-size: 0.9375rem;
     }
 
-    .industries th,
-    .industries td {
+    .donors th,
+    .donors td {
         padding: 0.625rem 0.75rem 0.625rem 0;
         border-bottom: 1px solid var(--rule);
         text-align: left;
         vertical-align: top;
     }
 
-    .industries thead th {
+    .donors thead th {
         font-size: 0.8125rem;
         font-weight: 600;
         color: var(--ink-muted);
     }
 
-    .industries tbody th {
+    .donors tbody th {
         font-weight: 600;
     }
 
-    .industries .num {
+    .donors .num {
         text-align: right;
         font-variant-numeric: tabular-nums;
     }
 
-    .industries a {
+    .donors a {
         color: var(--blue);
         font-size: 0.8125rem;
+    }
+
+    .note {
+        margin: 0 0 1rem;
+        font-family: var(--font-ui);
+        font-size: 0.9375rem;
+        color: var(--ink-muted);
     }
 
     .visually-hidden {
