@@ -4,12 +4,13 @@ date: 2026-11-04
 category: party-and-primaries
 status: needs-review
 review_note: >
-  Seat counts are provisional while Alaska and Mississippi are still being counted.
+  Seat counts are provisional while Alaska is still being counted.
 summary: >
   Democrats won control of the Senate in the Nov. 3, 2026 midterms. CBS projected flips in Iowa, Kansas,
   North Carolina, Ohio, South Carolina and Texas, and TIME reported a win in Maine as well. Roll Call
-  and The Hill put the incoming caucus at 54 to 56 seats, with Alaska and Mississippi still being counted
-  as of Nov. 10. The next day Schumer said, "I'll be reelected as majority leader." Senate Democrats are
+  and The Hill put the incoming caucus at 54 to 56 seats with Alaska and Mississippi uncounted. On Nov. 11,
+  AP called Mississippi for Scott Colom over Sen. Cindy Hyde-Smith, putting Democrats at 55 or 56 with
+  Alaska still being counted. The day after the election Schumer said, "I'll be reelected as majority leader." Senate Democrats are
   expected to pick their leader by secret ballot in December, with senators-elect voting.
 could_have: >
   Agree to an open, contested leadership election or a defined final term, as senators-elect, Sanders
@@ -17,8 +18,10 @@ could_have: >
 context: >
   This result is the strongest argument for Schumer. Before the election, Sen. Sheldon Whitehouse credited
   candidates Schumer recruited for putting red-state seats in play, and Sen. Ron Wyden said, "You can't
-  argue with results" (AP). Several winners nonetheless ran saying they would not back him. Seat totals
-  are provisional until Alaska and Mississippi are called.
+  argue with results" (AP). AP reported Schumer helped Colom raise money; Colom, asked about leadership
+  before the call, said only that "too many of our leaders are from the same areas of the country" (Roll
+  Call). Several winners nonetheless ran saying they would not back him. Seat totals are provisional until
+  Alaska is called.
 schumer_response: >
   "The issue is not me," and "I'll be re-elected as Majority Leader, but the issue is focusing on the
   American people" (TIME, Roll Call). He said the majority is a mandate to act on voters' priorities,
@@ -42,6 +45,19 @@ sources:
   url: >-
     https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/
   date: 2026-11-04
+  type: article
+- title: >-
+    Democrat Scott Colom will defeat incumbent Senator Cindy Hyde-Smith in Mississippi, AP projects
+  outlet: AP (via The Boston Globe)
+  url: >-
+    https://www.bostonglobe.com/2026/11/11/nation/mississippi-senate-scott-colom-hyde-smith/
+  date: 2026-11-11
+  type: article
+- title: Rift grows among Senate Democrats over who will lead in majority
+  outlet: Roll Call
+  url: >-
+    https://rollcall.com/2026/11/10/rift-grows-among-senate-democrats-over-who-will-lead-in-majority/
+  date: 2026-11-10
   type: article
 - title: '''I''ll be reelected as majority leader,'' Schumer says'
   outlet: Roll Call
