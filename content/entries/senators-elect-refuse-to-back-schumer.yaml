@@ -8,8 +8,8 @@ review_note: >
 summary: >
   Democrats won Senate control in the Nov. 3, 2026 midterms, and several senators-elect have said they
   will not support Schumer for majority leader. Sources agree on Adam Hamilton (Kan.), Troy Jackson (Maine)
-  and Abdul El-Sayed (Mich.); The Hill adds Annie Andrews (S.C.), and Roll Call and Al Jazeera add Juliana
-  Stratton (Ill.). Hamilton said, "I'm not supporting Schumer for leader." Al Jazeera counted at least
+  and Abdul El-Sayed (Mich.); The Hill and WCIV add Annie Andrews (S.C.), who said "It is time for a
+  generational change on both sides of the aisle," and Roll Call and Al Jazeera add Juliana Stratton (Ill.). Hamilton said, "I'm not supporting Schumer for leader." Al Jazeera counted at least
   seven freshmen who said or suggested they would not commit to him. Sitting Sens. Chris Van Hollen and
   Elissa Slotkin have also declined to back him: Slotkin said she would not vote for him without a plan,
   and Van Hollen said there should be no "coronation." El-Sayed won his seat after defeating Schumer's
@@ -54,6 +54,12 @@ sources:
   url: >-
     https://www.yahoo.com/news/politics/articles/ocasio-cortez-doesn-t-back-154803426.html
   date: 2026-11-10
+  type: article
+- title: "'Generational change': Sen-elect Annie Andrews won't back Schumer for majority leader"
+  outlet: WCIV (via WJLA)
+  url: >-
+    https://wjla.com/news/nation-world/generational-change-sen-elect-annie-andrews-wont-back-chuck-schumer-for-majority-leader-south-carolina-politics
+  date: 2026-11-06
   type: article
 - title: Van Hollen considers challenge to Schumer for Senate Democratic leader
   outlet: AP (via ABC 10News San Diego)
