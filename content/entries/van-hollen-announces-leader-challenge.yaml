@@ -4,7 +4,7 @@ date: 2026-11-12
 category: party-and-primaries
 status: needs-review
 review_note: >
-  Still developing. The leadership election is expected in December.
+  Still developing. Newsweek reports the leadership election is set for Dec. 1.
 summary: >
   On Nov. 12, 2026, Sen. Chris Van Hollen announced he will run for Senate majority leader, the first
   senator to formally challenge Schumer for the post. "In this election, the American people called for
@@ -20,8 +20,11 @@ context: >
   Two days earlier, Sen. Bernie Sanders said he would not support Schumer, and Sen. Elissa Slotkin said she
   was a "no" until she saw a concrete plan. NBC reported that grassroots progressives and some newly
   elected Democratic senators had tried to draft Van Hollen. Democratic senators will choose their leaders
-  for the next Congress by secret ballot in December, and a simple majority of the caucus is needed to win.
-  NBC's reporters assessed that Schumer remains favored to keep the job.
+  for the next Congress by secret ballot, which Newsweek reports is set for Dec. 1; a simple majority of the
+  caucus is needed to win. NBC's reporters assessed that Schumer remains favored to keep the job. After the
+  announcement, Sanders and Michigan Sen.-elect Abdul El-Sayed endorsed Van Hollen on X. Van Hollen told MS
+  NOW that more than 10 senators had pledged to support him, though a tally by The 29th Vote counted two
+  public commitments for him and 13 for Schumer (Newsweek).
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -39,3 +42,9 @@ sources:
   url: https://x.com/senschumer/status/2121061686786314623
   date: 2026-11-12
   type: primary
+- title: Chris Van Hollen's chances of beating Chuck Schumer to become Senate leader
+  outlet: Newsweek
+  url: >-
+    https://www.newsweek.com/chris-van-hollens-chances-of-beating-chuck-schumer-to-become-senate-leader-12709400
+  date: 2026-11-13
+  type: article
