@@ -1,0 +1,101 @@
+slug: dick-durbin
+name: Dick Durbin
+party: D
+chamber: senate
+state: IL
+role: Senate Democratic Whip
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Durbin has been Senate Democratic whip, the caucus's No. 2, since 2005. He announced in April 2025 that
+  he would not seek reelection in 2026, so his term ends in January 2027. Federal Election Commission
+  filings show his Senate campaign committee has taken in $47.0 million since 1996, $10.4 million of it
+  from PACs and other political committees. In his last reelection cycle (2019-20), people working at
+  Jenner & Block, Kirkland & Ellis and United Airlines were among his largest sources of itemized
+  individual contributions. In 2025 he voted to advance or pass both funding bills that most Senate
+  Democrats opposed.
+funding:
+  - label: Total receipts, Senate campaigns 1996-2026
+    value: $47.0M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S6IL00151/
+  - label: From PACs and other political committees
+    value: $10.4M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S6IL00151/
+  - label: Campaign cash on hand
+    value: $841K
+    as_of: Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S6IL00151/
+employers:
+  - name: Jenner & Block
+    amount: $51,701
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: Kirkland & Ellis
+    amount: $38,250
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: United Airlines
+    amount: $34,735
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: GCM Grosvenor
+    amount: $32,700
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: General Dynamics
+    amount: $26,150
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: SimmonsCooper
+    amount: $24,400
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: AAR Corp.
+    amount: $23,850
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+  - name: Cooney & Conway
+    amount: $23,800
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+votes:
+  - date: 2025-11-10
+    title: Passage of the funding deal that ended the shutdown (H.R. 5371)
+    position: yea
+    explanation: >
+      Durbin was one of eight members of the Democratic caucus who voted yes, ending the 43-day shutdown
+      without an extension of enhanced ACA subsidies. It passed 60-40.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.htm
+  - date: 2025-03-14
+    title: Cloture on the House Republican funding bill (H.R. 1968)
+    position: yea
+    explanation: >
+      Durbin was one of ten members of the Democratic caucus, Schumer among them, who supplied the votes
+      for cloture. It was invoked 62-38.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.htm
+related_entries:
+  - fall-2025-shutdown-ends-without-aca-extension
+  - march-2025-cr-reversal-cloture-vote
+  - post-shutdown-calls-to-step-down-nov-2025
+  - leadership-tenure-and-succession
+  - supreme-court-ethics-bill-no-floor-vote
+  - swipe-fee-delay-vote-2011
+sources:
+  - title: Richard J. Durbin, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S6IL00151/
+    date: 2026-09-30
+    type: data
+  - title: Friends of Dick Durbin Committee, 2019-20 receipts
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/committee/C00148999/?cycle=2020
+    date: 2020-12-31
+    type: data
+  - title: Longtime Democratic Sen. Dick Durbin won't seek re-election in 2026
+    outlet: NBC News
+    url: https://www.nbcnews.com/politics/congress/longtime-democratic-sen-dick-durbin-will-not-seek-re-election-2026-rcna201138
+    date: 2025-04-23
+    type: article

@@ -1,0 +1,81 @@
+slug: hakeem-jeffries
+name: Hakeem Jeffries
+party: D
+chamber: house
+state: NY
+district: '8'
+role: House Democratic Leader
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Jeffries has led House Democrats since January 2023. Federal Election Commission filings show his House
+  campaign committee has taken in $56.7 million since his first race in 2012, $40.9 million of it in the
+  two cycles since he became leader and $11.2 million from PACs and other political committees. In the
+  2023-24 cycle, people working at Apollo Global Management, BlackRock, MetLife and Lockheed Martin were
+  among his largest sources of itemized individual contributions. He defended Schumer's leadership after
+  the November 2025 shutdown deal.
+funding:
+  - label: Total receipts, House campaigns 2012-2026
+    value: $56.7M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2NY10092/
+  - label: Raised in 2023-26, as leader
+    value: $40.9M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2NY10092/
+  - label: From PACs and other political committees
+    value: $11.2M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2NY10092/
+  - label: Campaign cash on hand
+    value: $4.2M
+    as_of: Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2NY10092/
+employers:
+  - name: Apollo Global Management
+    amount: $79,250
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: BlackRock
+    amount: $71,800
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: MetLife
+    amount: $60,040
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: Lockheed Martin
+    amount: $43,432
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: Ropes & Gray
+    amount: $36,597
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: theGROUP
+    amount: $36,400
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: Google
+    amount: $24,005
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+  - name: Union Square Ventures
+    amount: $21,200
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+related_entries:
+  - post-shutdown-calls-to-step-down-nov-2025
+  - march-2025-backlash-calls-to-step-down
+sources:
+  - title: Hakeem Jeffries, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/H2NY10092/
+    date: 2026-10-14
+    type: data
+  - title: Jeffries for Congress, 2023-24 receipts
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+    date: 2024-12-31
+    type: data
