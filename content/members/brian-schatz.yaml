@@ -1,0 +1,69 @@
+slug: brian-schatz
+name: Brian Schatz
+party: D
+chamber: senate
+state: HI
+role: Senate Democratic Chief Deputy Whip
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Schatz is the Senate Democrats' chief deputy whip and is running unopposed to become whip in the next
+  Congress, with Schumer's endorsement since August 2025 (Punchbowl News). On March 14, 2025, he was one of
+  ten members of the Democratic caucus who voted to advance the House Republican funding bill, then voted
+  against its final passage. On Nov. 13, 2026, a day after Sen. Chris Van Hollen launched his challenge,
+  Schatz said, "I endorse Senator Schumer for leader and will be voting for him in the caucus election,"
+  and, "We must move quickly to vote, unify, and get to work" (Punchbowl News). His campaign has raised
+  $1.8 million in 2025-26, $454,947 of it from PACs and other political committees.
+funding:
+  - label: Raised in 2025-26
+    value: $1.8M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - label: From PACs and other political committees, 2025-26
+    value: $454,947
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - label: Campaign cash on hand
+    value: $2.7M
+    as_of: Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S4HI00136/
+votes:
+  - date: 2025-03-14
+    title: Cloture on the House Republican funding bill (H.R. 1968)
+    position: yea
+    explanation: >
+      One of ten members of the Democratic caucus, with Schumer, whose votes let the bill advance. Cloture
+      was invoked 62-38.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.htm
+  - date: 2025-03-14
+    title: Passage of the House Republican funding bill (H.R. 1968)
+    position: nay
+    explanation: >
+      Voted against the bill once its passage was assured. It passed 54-46.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.htm
+related_entries:
+  - march-2025-cr-reversal-cloture-vote
+  - van-hollen-announces-leader-challenge
+  - schumer-allies-weigh-earlier-leader-vote
+sources:
+  - title: Van Hollen takes on Schumer
+    outlet: Punchbowl News
+    url: https://punchbowl.news/article/washington/van-hollen-vs-schumer/
+    date: 2026-11-13
+    type: article
+  - title: Schatz secures Schumer's backing
+    outlet: Punchbowl News
+    url: https://punchbowl.news/?p=112818
+    date: 2025-08-05
+    type: article
+  - title: Brian Schatz, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S4HI00136/
+    date: 2026-09-30
+    type: data
+  - title: Schatz for Senate, 2025-26 financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+    date: 2026-09-30
+    type: data

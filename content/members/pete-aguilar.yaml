@@ -1,0 +1,58 @@
+slug: pete-aguilar
+name: Pete Aguilar
+party: D
+chamber: house
+state: CA
+district: '33'
+role: House Democratic Caucus Chair
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Aguilar chairs the House Democratic Caucus and is running for majority whip in the Nov. 18 House
+  Democratic leadership elections. From January 2025 through Oct. 14, 2026, his campaign took $1.42 million
+  from corporate PACs, more than any other House Democrat, and corporate PACs made up 57% of the $2.5
+  million he raised from PACs (Sludge). In July 2025 he voted for both of the crypto industry's priority
+  bills, the GENIUS Act on stablecoins and the CLARITY Act on market structure. Most House Democrats,
+  including Jeffries and Katherine Clark, voted against CLARITY.
+funding:
+  - label: From corporate PACs, 2025-26
+    value: $1.42M
+    as_of: through Oct. 14, 2026 (Sludge)
+    source_url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
+  - label: Raised in 2025-26
+    value: $5.7M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2CA31125/
+  - label: From PACs and other political committees, 2025-26
+    value: $2.5M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2CA31125/
+  - label: Campaign cash on hand
+    value: $2.7M
+    as_of: Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H2CA31125/
+votes:
+  - date: 2025-07-17
+    title: GENIUS Act, stablecoin regulation (S. 1582)
+    position: yea
+    explanation: >
+      House Democrats split 102 for and 110 against.
+    url: https://clerk.house.gov/evs/2025/roll200.xml
+  - date: 2025-07-17
+    title: CLARITY Act, crypto market structure (H.R. 3633)
+    position: yea
+    explanation: >
+      House Democrats split 78 for and 134 against; Jeffries and Clark voted no.
+    url: https://clerk.house.gov/evs/2025/roll199.xml
+sources:
+  - title: Jeffries and Aguilar Top House Democrats in Corporate PAC Cash
+    outlet: Sludge
+    url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
+    date: 2026-11-13
+    type: article
+  - title: Pete Aguilar, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/H2CA31125/
+    date: 2026-10-14
+    type: data

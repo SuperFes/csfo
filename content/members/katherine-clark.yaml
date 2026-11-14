@@ -1,0 +1,56 @@
+slug: katherine-clark
+name: Katherine Clark
+party: D
+chamber: house
+state: MA
+district: '5'
+role: House Democratic Whip
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Clark is the House Democratic whip and is running for majority leader in the Nov. 18 House Democratic
+  leadership elections. Her campaign reported $1.11 million in corporate PAC contributions this cycle,
+  fourth among House Democrats (Sludge). AIPAC endorsed her and has contributed to her campaign in the
+  past; she won her 2026 primary over two challengers who faulted her for not renouncing AIPAC money (Fox
+  News). In July 2025 she voted for the GENIUS Act, the crypto industry's stablecoin bill.
+funding:
+  - label: From corporate PACs, 2025-26
+    value: $1.11M
+    as_of: Nov. 13, 2026 (Sludge)
+    source_url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
+  - label: Raised in 2025-26
+    value: $5.0M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H4MA05084/
+  - label: From PACs and other political committees, 2025-26
+    value: $2.1M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H4MA05084/
+  - label: Campaign cash on hand
+    value: $1.2M
+    as_of: Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/H4MA05084/
+votes:
+  - date: 2025-07-17
+    title: GENIUS Act, stablecoin regulation (S. 1582)
+    position: yea
+    explanation: >
+      House Democrats split 102 for and 110 against.
+    url: https://clerk.house.gov/evs/2025/roll200.xml
+sources:
+  - title: Jeffries and Aguilar Top House Democrats in Corporate PAC Cash
+    outlet: Sludge
+    url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
+    date: 2026-11-13
+    type: article
+  - title: Top Democrat survives double-barreled challenge as party's Israel divide hits home
+    outlet: Fox News
+    url: https://foxnews.com/politics/top-democrat-survives-double-barreled-challenge-partys-israel-divide-hits-home
+    date: 2026-09-01
+    type: article
+  - title: Katherine Clark, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/H4MA05084/
+    date: 2026-10-14
+    type: data
