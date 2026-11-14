@@ -24,7 +24,10 @@ context: >
   caucus is needed to win. NBC's reporters assessed that Schumer remains favored to keep the job. After the
   announcement, Sanders and Michigan Sen.-elect Abdul El-Sayed endorsed Van Hollen on X. Van Hollen told MS
   NOW that more than 10 senators had pledged to support him, though a tally by The 29th Vote counted two
-  public commitments for him and 13 for Schumer (Newsweek).
+  public commitments for him and 13 for Schumer (Newsweek). On Nov. 13, the Working Families Party urged
+  Schumer not to seek another term as leader and endorsed Van Hollen, and Slotkin said she will not support
+  Schumer, without saying she would back Van Hollen. A Drop Site News count that day had 16 senators for
+  Schumer, eight backing or leaning toward Van Hollen and 31 undecided or unstated (Common Dreams).
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -48,3 +51,14 @@ sources:
     https://www.newsweek.com/chris-van-hollens-chances-of-beating-chuck-schumer-to-become-senate-leader-12709400
   date: 2026-11-13
   type: article
+- title: Working Families Party Joins Call for Schumer to Step Aside in Senate Leader Race
+  outlet: Common Dreams
+  url: https://www.commondreams.org/news/working-families-party-schumer
+  date: 2026-11-13
+  type: article
+- title: Working Families Party Urges Senators to Support Chris Van Hollen for Majority Leader
+  outlet: Working Families Party
+  url: >-
+    https://workingfamilies.org/2026/11/working-families-party-urges-senators-to-support-chris-van-hollen-for-majority-leader/
+  date: 2026-11-13
+  type: primary
