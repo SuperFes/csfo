@@ -1,0 +1,79 @@
+slug: haley-stevens
+name: Haley Stevens
+party: D
+chamber: house
+state: MI
+district: '11'
+role: null
+inclusion:
+  - backed-republican
+status: verified
+summary: >
+  Stevens has represented Michigan's 11th District since 2019 and gave up the seat to run for Senate in
+  2026. She lost the Aug. 4 Democratic primary to Abdul El-Sayed by about one point, after AIPAC and its
+  affiliates spent close to $30 million backing her (AP), and offered him her support in her concession.
+  On Nov. 1, two days before the general election, she appeared at a Mike Rogers campaign event in Detroit
+  and said, "I am going to cast my vote for Senate for Mike Rogers," adding, "Abdul made it clear I was not
+  welcome" (FOX 2 Detroit). Michigan Democratic Party Chair Curtis Hertel said she "is not a current member
+  of the Michigan Democratic Party, nor will she be in the future" (Jerusalem Post). El-Sayed won by about
+  seven points (NPR). The next day Stevens wrote, "As a woman, I have the right to make a decision and to
+  change my mind," and said she regretted her original endorsement of him. Her House term ends Jan. 3,
+  2027.
+funding:
+  - label: Total receipts, 2026 Senate campaign
+    value: $13.3M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+  - label: From PACs and other political committees, Senate campaign
+    value: $819,736
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+  - label: AIPAC and affiliates' spending backing her in the primary
+    value: close to $30M
+    as_of: July 19, 2026 (AP)
+    source_url: >-
+      https://ktar.com/national-news/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/5890277/
+sources:
+  - title: "Haley Stevens: 'My vote for Senate is going to be with Mike Rogers'"
+    outlet: FOX 2 Detroit
+    url: https://www.fox2detroit.com/news/haley-stevens-campaigns-mike-rogers-detroit
+    date: 2026-11-01
+    type: article
+  - title: "'Loyalty should never require abandoning values': Haley Stevens defends Rogers midterms endorsement"
+    outlet: Jerusalem Post
+    url: https://www.jpost.com/american-politics/article-913692
+    date: 2026-11-03
+    type: article
+  - title: Truth Over Political Convenience
+    outlet: Haley Stevens (X)
+    url: https://x.com/HaleyforMI/status/2118077124431192566
+    date: 2026-11-04
+    type: primary
+  - title: Abdul El-Sayed wins Michigan Senate primary in progressive 'shockwave'
+    outlet: Bridge Michigan
+    url: >-
+      https://bridgemi.com/michigan-politics/michigan-democratic-senate-primary-results-abdul-el-sayed-haley-stevens/
+    date: 2026-08-05
+    type: article
+  - title: Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race
+    outlet: NPR
+    url: >-
+      https://www.stlpr.org/npr/2026-11-04/democrat-abdul-el-sayed-defeats-republican-mike-rogers-in-key-michigan-senate-race
+    date: 2026-11-04
+    type: article
+  - title: AIPAC has spent a record amount on Michigan's Senate primary, the biggest test of its influence yet
+    outlet: AP
+    url: >-
+      https://ktar.com/national-news/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/5890277/
+    date: 2026-07-19
+    type: article
+  - title: "Haley Stevens on what's next: 'I'm not turning into a pumpkin'"
+    outlet: FOX 2 Detroit
+    url: https://www.fox2detroit.com/news/haley-stevens-michigan-senate-race-whats-next
+    date: 2026-08-20
+    type: article
+  - title: Haley Stevens for Senate, 2025-26 financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+    date: 2026-09-30
+    type: data

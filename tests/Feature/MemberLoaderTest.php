@@ -70,6 +70,15 @@ class MemberLoaderTest extends TestCase
         $this->assertArrayHasKey('blocker', $members);
     }
 
+    public function test_backed_republican_member_needs_no_role_or_votes(): void
+    {
+        $this->writeMember('crossover', ['role' => null, 'inclusion' => ['backed-republican'], 'votes' => []]);
+
+        $member = app(MemberLoader::class)->load($this->contentDir.'/members')['crossover'];
+
+        $this->assertSame(['Backed a Republican against a Democratic nominee'], $member['inclusion_labels']);
+    }
+
     public function test_leadership_needs_a_role(): void
     {
         $this->writeMember('leader', ['role' => null]);

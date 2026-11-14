@@ -16,9 +16,9 @@
         <section class="criteria" aria-labelledby="criteria-heading">
             <h2 id="criteria-heading">Who's here and why</h2>
             <p>
-                A member gets a page for one of two reasons: they hold a Democratic leadership post in the Senate or
-                House, or they cast a recorded vote that blocked a policy covered on this site. Every blocking vote links
-                to its roll call. Money figures come from Federal Election Commission filings and OpenSecrets, with the
+                A member gets a page for one of three reasons: they hold a Democratic leadership post in the Senate or
+                House, they cast a recorded vote that blocked a policy covered on this site, or they publicly backed a
+                Republican against a Democratic nominee. Every blocking vote links to its roll call. Money figures come from Federal Election Commission filings and OpenSecrets, with the
                 period each figure covers.
             </p>
         </section>
