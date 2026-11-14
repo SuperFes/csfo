@@ -25,9 +25,10 @@ context: >
   announcement, Sanders and Michigan Sen.-elect Abdul El-Sayed endorsed Van Hollen on X. Van Hollen told MS
   NOW that more than 10 senators had pledged to support him, though a tally by The 29th Vote counted two
   public commitments for him and 13 for Schumer (Newsweek). On Nov. 13, the Working Families Party urged
-  Schumer not to seek another term as leader and endorsed Van Hollen, and Slotkin said she will not support
-  Schumer, without saying she would back Van Hollen. A Drop Site News count that day had 16 senators for
-  Schumer, eight backing or leaning toward Van Hollen and 31 undecided or unstated (Common Dreams).
+  Schumer not to seek another term as leader and endorsed Van Hollen, and Slotkin repeated that she will
+  not support Schumer, without saying she would back Van Hollen. A Drop Site News count that day had 16
+  senators for Schumer, eight backing or leaning toward Van Hollen and 31 undecided or unstated (Common
+  Dreams).
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -60,5 +61,10 @@ sources:
   outlet: Working Families Party
   url: >-
     https://workingfamilies.org/2026/11/working-families-party-urges-senators-to-support-chris-van-hollen-for-majority-leader/
+  date: 2026-11-13
+  type: primary
+- title: Drop Site News Senate whip count
+  outlet: Drop Site News
+  url: https://whipcount.dropsitenews.com/
   date: 2026-11-13
   type: primary
