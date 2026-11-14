@@ -4,7 +4,7 @@ date: 2026-11-05
 category: party-and-primaries
 status: needs-review
 review_note: >
-  Still developing, and sources differ on some names, including Peggy Flanagan.
+  Still developing. TIME says Stratton sidestepped the question; Roll Call quotes her ruling out Schumer.
 summary: >
   Democrats won Senate control in the Nov. 3, 2026 midterms, and several senators-elect have said they
   will not support Schumer for majority leader. Sources agree on Adam Hamilton (Kan.), Troy Jackson (Maine)
@@ -20,11 +20,12 @@ could_have: >
   secret ballot with no declared opponent.
 context: >
   Schumer needs only a simple majority of a caucus projected at 54 to 56 members, so five to seven defections
-  are not enough on their own (TIME), and no senator has declared a challenge. The vote is expected in
-  early December 2026. Sources differ on some names: TIME (Nov. 6) said Stratton, Peggy Flanagan (Minn.),
-  Chris Pappas (N.H.) and James Talarico (Texas) had sidestepped the question, while Roll Call and Al
-  Jazeera quote Flanagan saying "It is time for new leadership," and AP reported she later said she was
-  not ready to commit. Allies, including Sen. Sheldon Whitehouse, credit his recruitment for putting red-state
+  are not enough on their own (TIME). Van Hollen announced a challenge on Nov. 12, and the vote is set for
+  Dec. 1. Sources had differed on Peggy Flanagan (Minn.): TIME (Nov. 6) said she, Stratton, Chris Pappas
+  (N.H.) and James Talarico (Texas) had sidestepped the question, and AP reported she was not ready to
+  commit, while Roll Call and Al Jazeera quoted her calling for new leadership. On Nov. 13 she endorsed
+  Van Hollen: "I believe @ChrisVanHollen is the leader and fighter we need to bring about real change"
+  (ABC News). Allies, including Sen. Sheldon Whitehouse, credit his recruitment for putting red-state
   seats in play; Sen. Mark Kelly and Sherrod Brown, elected in Ohio, back him.
 schumer_response: >
   "I'll be re-elected as majority leader," Schumer said, arguing the election was "not about" him: "This
@@ -79,4 +80,9 @@ sources:
   url: >-
     https://www.pbs.org/newshour/politics/chuck-schumer-has-broad-support-from-his-caucus-but-the-midterms-could-decide-his-future-as-leader
   date: 2026-10-12
+  type: article
+- title: Schumer and Van Hollen are facing off for Senate majority leader. What do Democrats think?
+  outlet: ABC News
+  url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+  date: 2026-11-13
   type: article

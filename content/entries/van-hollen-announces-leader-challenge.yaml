@@ -28,7 +28,11 @@ context: >
   Schumer not to seek another term as leader and endorsed Van Hollen, and Slotkin repeated that she will
   not support Schumer, without saying she would back Van Hollen. A Drop Site News count that day had 16
   senators for Schumer, eight backing or leaning toward Van Hollen and 31 undecided or unstated (Common
-  Dreams).
+  Dreams). Sen. Jeff Merkley endorsed Van Hollen, saying "politics as usual is unacceptable" (AP), and so
+  did Sen.-elect Peggy Flanagan (ABC News). The Machinists union formally endorsed him (IAM), and the
+  Office and Professional Employees union, with more than 90,000 members, asked Schumer not to seek the
+  post (The New Republic). Sen. Brian Schatz, running unopposed for whip, endorsed Schumer (Punchbowl
+  News).
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -68,3 +72,29 @@ sources:
   url: https://whipcount.dropsitenews.com/
   date: 2026-11-13
   type: primary
+- title: Van Hollen rules out White House run as he mounts bid to replace Schumer as Senate leader
+  outlet: AP (via NBC Washington)
+  url: >-
+    https://www.nbcwashington.com/news/politics/van-hollen-rules-out-white-house-run-as-he-mounts-bid-to-replace-schumer-as-senate-leader/4182863/
+  date: 2026-11-13
+  type: article
+- title: Schumer and Van Hollen are facing off for Senate majority leader. What do Democrats think?
+  outlet: ABC News
+  url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+  date: 2026-11-13
+  type: article
+- title: IAM Union Announces Support for Chris Van Hollen as Senate Majority Leader
+  outlet: IAM Union
+  url: https://www.goiam.org/news/iam-union-announces-support-for-chris-van-hollen-as-senate-majority-leader/
+  date: 2026-11-12
+  type: primary
+- title: Two Unions Representing 700,000 Members Back Van Hollen Over Schumer
+  outlet: The New Republic
+  url: https://newrepublic.com/post/217982/two-unions-back-van-hollen-replace-chuck-schumer-senate-democrats
+  date: 2026-11-13
+  type: article
+- title: Van Hollen takes on Schumer
+  outlet: Punchbowl News
+  url: https://punchbowl.news/article/washington/van-hollen-vs-schumer/
+  date: 2026-11-13
+  type: article

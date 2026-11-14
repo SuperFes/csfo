@@ -4,7 +4,7 @@ date: 2025-04-04
 category: party-and-primaries
 status: needs-review
 review_note: >
-  The only head-to-head poll is from Data for Progress, a progressive firm, in March 2025. Ocasio-Cortez has not said whether she will run.
+  Both head-to-head polls are from 2025 and from a progressive firm or an advocacy group's pollster. Ocasio-Cortez has not said whether she will run.
 summary: >
   A Data for Progress poll of 767 likely New York Democratic primary voters (March 26-31, 2025) found
   Rep. Alexandria Ocasio-Cortez leading Schumer 55% to 36% in a hypothetical 2028 Senate primary. Schumer
@@ -16,6 +16,10 @@ could_have: >
 context: >
   Data for Progress is a progressive firm, and a poll this far ahead of a primary is not predictive. Ocasio-Cortez
   has not announced a Senate run and has been mentioned as a possible 2028 presidential candidate (TIME).
+  A Honan Strategy Group poll for the Jewish Voters Action Network (May 15-18, 2025) found her leading
+  Schumer 54% to 33% among likely Democratic voters in New York City (Newsweek). An Education Reform Now
+  Advocacy poll of 505 New Yorkers (Aug. 19-21, 2026) found Schumer viewed favorably by 39% and
+  unfavorably by 52%, against 47% and 39% for Ocasio-Cortez (Newsweek).
 schumer_response: null
 sources:
 - title: >-
@@ -36,4 +40,14 @@ sources:
   url: >-
     https://time.com/article/2026/11/06/schumer-has-the-votes-senate-majority-leader/
   date: 2026-11-06
+  type: article
+- title: AOC Edges Out Chuck Schumer by Double-Digit Margin in New Poll
+  outlet: Newsweek
+  url: https://www.newsweek.com/aoc-edges-out-chuck-schumer-double-digit-margin-new-poll-2076944
+  date: 2025-05-26
+  type: article
+- title: Chuck Schumer Dealt Warning Sign About AOC Challenge in New Poll
+  outlet: Newsweek
+  url: https://www.newsweek.com/chuck-schumer-warning-sign-aoc-challenge-poll-12401774
+  date: 2026-09-03
   type: article
