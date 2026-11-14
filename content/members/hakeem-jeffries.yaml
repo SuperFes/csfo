@@ -13,8 +13,19 @@ summary: >
   campaign committee has taken in $56.7 million since his first race in 2012, $40.9 million of it in the
   two cycles since he became leader and $11.2 million from PACs and other political committees. In the
   2023-24 cycle, people working at Apollo Global Management, BlackRock, MetLife and Lockheed Martin were
-  among his largest sources of itemized individual contributions. He defended Schumer's leadership after
-  the November 2025 shutdown deal.
+  among his largest sources of itemized individual contributions. From January 2025 through Oct. 14, 2026,
+  his campaign took $1.32 million from corporate PACs, second among House Democrats (Sludge). AIPAC
+  endorses him and calls him "a pro-Israel leader" (Jewish Insider), and FEC filings show $421,396 in
+  donations earmarked through AIPAC's PAC to his campaign and fundraising committees in 2025-26. He
+  cosponsored the Medicare for All Act in each Congress from 2013 through 2022 but not since becoming
+  leader; on Aug. 16, 2026, he told NBC's Meet the Press, "It's not legislation that I currently am
+  co-sponsoring or that I support," and asked whether he personally supports it, said, "No" (Common
+  Dreams). In the summer he met privately with Jared Kushner (New York Times), later saying Kushner "asked
+  for a meeting, and I took it to discuss the affordability crisis" (CNN). Asked on Nov. 12 about Sen.
+  Chris Van Hollen's push to strip a provision integrating the U.S. and Israeli militaries from the
+  defense bill, he did not say where he stood (Truthout). Of a DSA crowd that chanted "You're next!" at his
+  picture, he told CNN, "there was almost zero diversity in that crowd." He defended Schumer's leadership
+  after the November 2025 shutdown deal.
 funding:
   - label: Total receipts, House campaigns 2012-2026
     value: $56.7M
@@ -28,6 +39,15 @@ funding:
     value: $11.2M
     as_of: through Oct. 14, 2026
     source_url: https://www.fec.gov/data/candidate/H2NY10092/
+  - label: From corporate PACs, 2025-26
+    value: $1.32M
+    as_of: through Oct. 14, 2026 (Sludge)
+    source_url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
+  - label: Earmarked through AIPAC PAC, 2025-26
+    value: $421,396
+    as_of: through Sept. 23, 2026
+    source_url: >-
+      https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00797670&recipient_name=Jeffries&two_year_transaction_period=2026&per_page=100
   - label: Campaign cash on hand
     value: $4.2M
     as_of: Oct. 14, 2026
@@ -65,6 +85,13 @@ employers:
     amount: $21,200
     period: 2023-24
     source_url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
+votes:
+  - date: 2025-07-17
+    title: GENIUS Act, stablecoin regulation (S. 1582)
+    position: yea
+    explanation: >
+      House Democrats split 102 for and 110 against.
+    url: https://clerk.house.gov/evs/2025/roll200.xml
 related_entries:
   - post-shutdown-calls-to-step-down-nov-2025
   - march-2025-backlash-calls-to-step-down
@@ -79,3 +106,56 @@ sources:
     url: https://www.fec.gov/data/committee/C00503052/?cycle=2024
     date: 2024-12-31
     type: data
+  - title: Jeffries and Aguilar Top House Democrats in Corporate PAC Cash
+    outlet: Sludge
+    url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
+    date: 2026-11-13
+    type: article
+  - title: J Street endorses Hakeem Jeffries for the first time
+    outlet: Jewish Insider
+    url: https://jewishinsider.com/2025/09/hakeem-jeffries-j-street-aipac-endorsement-democratic-leadership/
+    date: 2025-09-12
+    type: article
+  - title: AIPAC PAC disbursements to Jeffries committees, 2025-26
+    outlet: Federal Election Commission
+    url: >-
+      https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00797670&recipient_name=Jeffries&two_year_transaction_period=2026&per_page=100
+    date: 2026-09-23
+    type: data
+  - title: Medicare for All Act of 2021 (H.R. 1976), cosponsors
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/117th-congress/house-bill/1976/cosponsors
+    date: 2021-03-17
+    type: primary
+  - title: Hakeem Jeffries says Medicare for all is not legislation he currently supports
+    outlet: NBC News (Meet the Press)
+    url: >-
+      https://www.nbcnews.com/meet-the-press/video/hakeem-jeffries-says-medicare-for-all-is-not-legislation-he-currently-supports-268371525570
+    date: 2026-08-16
+    type: primary
+  - title: "'This Man Is So Out of Touch': Hakeem Jeffries Slammed for Opposition to Medicare for All"
+    outlet: Common Dreams
+    url: https://www.commondreams.org/news/does-hakeem-jeffries-support-medicare-for-all
+    date: 2026-08-17
+    type: article
+  - title: Jeffries and Kushner meet privately as midterm attacks fly
+    outlet: The New York Times (via The Philadelphia Inquirer)
+    url: https://www.inquirer.com/politics/hakeem-jeffries-jared-kushner-meet-midterms-trump-20260823.html
+    date: 2026-08-23
+    type: article
+  - title: Jeffries defends himself following criticism for meeting with Jared Kushner
+    outlet: CNN (via KEYT)
+    url: >-
+      https://keyt.com/politics/cnn-us-politics/2026/08/25/jeffries-defends-himself-following-criticism-for-meeting-with-jared-kushner/
+    date: 2026-08-25
+    type: article
+  - title: Jeffries Refuses to Say If He Opposes US-Israeli Military Integration Measure
+    outlet: Truthout
+    url: https://truthout.org/articles/jeffries-refuses-to-say-if-he-opposes-us-israeli-military-integration-measure/
+    date: 2026-11-12
+    type: article
+  - title: Hakeem Jeffries has a plan for Donald Trump and for his Democratic critics
+    outlet: CNN
+    url: https://www.cnn.com/2026/11/08/politics/hakeem-jeffries-first-black-speaker-donald-trump-democrats
+    date: 2026-11-08
+    type: article
