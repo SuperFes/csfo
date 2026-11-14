@@ -31,6 +31,39 @@ funding:
     value: $1.2M
     as_of: Oct. 14, 2026
     source_url: https://www.fec.gov/data/candidate/H4MA05084/
+employers:
+  - name: UnitedHealth Group
+    amount: $85,750
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: DraftKings
+    amount: $40,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: Brownstein Hyatt Farber Schreck
+    amount: $38,449
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: BNY Mellon
+    amount: $24,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: Coinbase
+    amount: $23,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: Eli Lilly
+    amount: $22,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: Anthropic
+    amount: $18,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
+  - name: Anduril Industries
+    amount: $17,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00541888/?cycle=2026
 votes:
   - date: 2025-07-17
     title: GENIUS Act, stablecoin regulation (S. 1582)

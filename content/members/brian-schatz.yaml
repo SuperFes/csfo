@@ -28,6 +28,31 @@ funding:
     value: $2.7M
     as_of: Sept. 30, 2026
     source_url: https://www.fec.gov/data/candidate/S4HI00136/
+employers:
+  - name: Anthropic
+    amount: $55,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - name: Comcast
+    amount: $21,250
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - name: First Hawaiian Bank
+    amount: $19,250
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - name: Matson
+    amount: $18,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - name: KKR
+    amount: $10,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
+  - name: Blackstone
+    amount: $10,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540732/?cycle=2026
 votes:
   - date: 2025-03-14
     title: Cloture on the House Republican funding bill (H.R. 1968)

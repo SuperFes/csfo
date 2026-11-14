@@ -32,6 +32,31 @@ funding:
     value: $2.7M
     as_of: Oct. 14, 2026
     source_url: https://www.fec.gov/data/candidate/H2CA31125/
+employers:
+  - name: Gentex
+    amount: $24,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00510461/?cycle=2026
+  - name: Apollo Global Management
+    amount: $20,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00510461/?cycle=2026
+  - name: Coinbase
+    amount: $18,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00510461/?cycle=2026
+  - name: Esri
+    amount: $15,925
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00510461/?cycle=2026
+  - name: Andreessen Horowitz
+    amount: $14,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00510461/?cycle=2026
+  - name: Palantir Technologies
+    amount: $10,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00510461/?cycle=2026
 votes:
   - date: 2025-07-17
     title: GENIUS Act, stablecoin regulation (S. 1582)

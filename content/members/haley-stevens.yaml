@@ -33,6 +33,27 @@ funding:
     as_of: July 19, 2026 (AP)
     source_url: >-
       https://ktar.com/national-news/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/5890277/
+employers:
+  - name: Blackstone
+    amount: $38,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+  - name: Apollo Global Management
+    amount: $35,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+  - name: Nyman Turkish
+    amount: $35,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+  - name: Honigman
+    amount: $27,450
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
+  - name: Brownstein Hyatt Farber Schreck
+    amount: $20,606
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00903039/?cycle=2026
 sources:
   - title: "Haley Stevens: 'My vote for Senate is going to be with Mike Rogers'"
     outlet: FOX 2 Detroit

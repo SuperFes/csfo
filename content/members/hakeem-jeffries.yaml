@@ -15,8 +15,10 @@ summary: >
   2023-24 cycle, people working at Apollo Global Management, BlackRock, MetLife and Lockheed Martin were
   among his largest sources of itemized individual contributions. From January 2025 through Oct. 14, 2026,
   his campaign took $1.32 million from corporate PACs, second among House Democrats (Sludge). AIPAC
-  endorses him and calls him "a pro-Israel leader" (Jewish Insider), and FEC filings show $421,396 in
-  donations earmarked through AIPAC's PAC to his campaign and fundraising committees in 2025-26. He
+  endorses him and calls him "a pro-Israel leader" (Jewish Insider). FEC filings show $1.53 million in
+  individual donations that AIPAC's PAC collected and passed to his campaign and fundraising committees
+  since 2021. Jeffries has described the PAC's giving as capped: it "can contribute, in a given election
+  cycle, $5,000 or $10,000 per cycle, that's it" (Sludge). He
   cosponsored the Medicare for All Act in each Congress from 2013 through 2022 but not since becoming
   leader; on Aug. 16, 2026, he told NBC's Meet the Press, "It's not legislation that I currently am
   co-sponsoring or that I support," and asked whether he personally supports it, said, "No" (Common
@@ -43,11 +45,11 @@ funding:
     value: $1.32M
     as_of: through Oct. 14, 2026 (Sludge)
     source_url: https://readsludge.com/2026/11/13/jeffries-and-aguilar-top-house-democrats-in-corporate-pac-cash/
-  - label: Earmarked through AIPAC PAC, 2025-26
-    value: $421,396
+  - label: Earmarked through AIPAC PAC, 2021-26
+    value: $1.53M
     as_of: through Sept. 23, 2026
     source_url: >-
-      https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00797670&recipient_name=Jeffries&two_year_transaction_period=2026&per_page=100
+      https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00797670&recipient_name=Jeffries&per_page=100
   - label: Campaign cash on hand
     value: $4.2M
     as_of: Oct. 14, 2026
@@ -116,10 +118,10 @@ sources:
     url: https://jewishinsider.com/2025/09/hakeem-jeffries-j-street-aipac-endorsement-democratic-leadership/
     date: 2025-09-12
     type: article
-  - title: AIPAC PAC disbursements to Jeffries committees, 2025-26
+  - title: AIPAC PAC disbursements to Jeffries committees, 2021-26
     outlet: Federal Election Commission
     url: >-
-      https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00797670&recipient_name=Jeffries&two_year_transaction_period=2026&per_page=100
+      https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00797670&recipient_name=Jeffries&per_page=100
     date: 2026-09-23
     type: data
   - title: Medicare for All Act of 2021 (H.R. 1976), cosponsors
@@ -158,4 +160,9 @@ sources:
     outlet: CNN
     url: https://www.cnn.com/2026/11/08/politics/hakeem-jeffries-first-black-speaker-donald-trump-democrats
     date: 2026-11-08
+    type: article
+  - title: Jeffries Misleads on AIPAC PAC Money
+    outlet: Sludge
+    url: https://readsludge.com/2025/11/25/jeffries-misleads-on-aipac-pac-money/
+    date: 2025-11-25
     type: article
