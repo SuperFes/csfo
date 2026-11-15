@@ -1,0 +1,105 @@
+slug: angus-king
+name: Angus King
+party: I
+chamber: senate
+state: ME
+role: null
+inclusion:
+  - blocker
+status: verified
+summary: >
+  King, an independent who caucuses with Democrats, was one of eight caucus members who voted on March 5,
+  2021, against restoring the $15 minimum wage to the American Rescue Plan; the motion failed 42-58. He said
+  he supported $15 but objected to the bill's elimination of the tip credit, feared losing Democratic votes
+  on the whole package, and called the 60-vote amendment "a purely symbolic vote" in which "my vote made
+  zero difference in the final outcome." He has not cosponsored any version of the Raise the Wage Act. In
+  March 2025 he and Jeanne Shaheen were the only two caucus members to vote for final passage of the House
+  Republican stopgap bill, which he called "the least worst option," and he was one of eight who voted to
+  end the fall 2025 shutdown without the Affordable Care Act subsidy extension. On Nov. 12, 2026, he backed
+  Schumer for leader: "Why would you fire the manager when you just won the World Series?"
+funding:
+  - label: Total receipts, 2023-24 reelection campaign
+    value: $5.37M
+    as_of: through Dec. 31, 2024
+    source_url: https://www.fec.gov/data/candidate/S2ME00109/?cycle=2024
+  - label: From PACs and other political committees, 2023-24
+    value: $1.50M
+    as_of: through Dec. 31, 2024
+    source_url: https://www.fec.gov/data/candidate/S2ME00109/?cycle=2024
+employers:
+  - name: Triumvirate Environmental
+    amount: $19,800
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00516047/?cycle=2024
+  - name: Bernstein Shur
+    amount: $18,830
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00516047/?cycle=2024
+  - name: Google
+    amount: $18,250
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00516047/?cycle=2024
+  - name: Microsoft
+    amount: $16,500
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00516047/?cycle=2024
+  - name: General Dynamics
+    amount: $15,750
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00516047/?cycle=2024
+  - name: Cooney & Conway
+    amount: $14,200
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00516047/?cycle=2024
+votes:
+  - date: 2021-03-05
+    title: Motion to restore the $15 minimum wage to the American Rescue Plan (S.Amdt. 972)
+    position: nay
+    explanation: >
+      Waiving the budget rules took 60 votes, and the motion failed 42-58. Eight of the 50
+      Democratic-caucus senators voted no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    policy: minimum-wage
+  - date: 2025-03-14
+    title: Passage of the House Republican stopgap funding bill (H.R. 1968)
+    position: yea
+    explanation: >
+      Passed 54-46. King and Shaheen were the only Democratic-caucus senators to vote yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.htm
+  - date: 2025-11-10
+    title: Passage of the bill ending the fall 2025 shutdown (H.R. 5371)
+    position: yea
+    explanation: >
+      Passed 60-40 with eight Democratic-caucus votes, without the ACA subsidy extension.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.htm
+related_entries:
+  - minimum-wage-parliamentarian-ruling-accepted
+  - march-2025-cr-reversal-cloture-vote
+  - fall-2025-shutdown-ends-without-aca-extension
+  - van-hollen-announces-leader-challenge
+sources:
+  - title: King Reaffirms Commitment to Increase Minimum Wage
+    outlet: Sen. Angus King
+    url: https://www.king.senate.gov/newsroom/press-releases/king-reaffirms-commitment-to-increase-minimum-wage
+    date: 2021-03-06
+    type: primary
+  - title: King Releases Statement on Vote to Avoid Government Shutdown
+    outlet: Sen. Angus King
+    url: https://www.king.senate.gov/newsroom/press-releases/king-releases-statement-on-vote-to-avoid-government-shutdown
+    date: 2025-03-14
+    type: primary
+  - title: King Backs Senator Charles Schumer for Majority Leader
+    outlet: Sen. Angus King
+    url: https://www.king.senate.gov/newsroom/press-releases/king-backs-senator-charles-schumer-for-majority-leader
+    date: 2026-11-12
+    type: primary
+  - title: Raise the Wage Act of 2025 (S. 1332), cosponsors
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/119th-congress/senate-bill/1332/cosponsors
+    date: 2026-03-05
+    type: bill
+  - title: Angus King, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S2ME00109/
+    date: 2024-12-31
+    type: data

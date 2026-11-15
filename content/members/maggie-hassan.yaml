@@ -1,0 +1,118 @@
+slug: maggie-hassan
+name: Maggie Hassan
+party: D
+chamber: senate
+state: NH
+role: null
+inclusion:
+  - blocker
+status: verified
+summary: >
+  Hassan was one of eight Democratic-caucus senators who voted on March 5, 2021, against restoring the $15
+  minimum wage to the American Rescue Plan; the motion failed 42-58. "I've long supported raising the
+  minimum wage to $12 an hour and I'm open to $15 an hour," she said. "We need a path forward that is
+  appropriate for workers and small businesses and could actually pass" (Boston.com). She has not
+  cosponsored any version of the Raise the Wage Act since. She sits on the HELP Committee, which handles the
+  minimum wage. In 2025 she was one of 10 Democratic-caucus senators who voted to advance the Republican
+  stopgap funding bill in March, and one of eight who voted to end the fall shutdown without the
+  Affordable Care Act subsidy extension Democrats had demanded. She also voted for the Laken Riley Act and
+  was one of 18 Democrats who voted to pass the GENIUS Act stablecoin bill. Her term runs through January
+  2029.
+funding:
+  - label: Total receipts, 2021-22 reelection campaign
+    value: $37.0M
+    as_of: through Dec. 31, 2022
+    source_url: https://www.fec.gov/data/candidate/S6NH00091/?cycle=2022
+  - label: From PACs and other political committees, 2021-22
+    value: $3.01M
+    as_of: through Dec. 31, 2022
+    source_url: https://www.fec.gov/data/candidate/S6NH00091/?cycle=2022
+  - label: Raised in 2025-26
+    value: $3.2M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S6NH00091/?cycle=2026
+employers:
+  - name: Google
+    amount: $63,061
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00588772/?cycle=2022
+  - name: Motley Rice
+    amount: $51,292
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00588772/?cycle=2022
+  - name: Harvard University
+    amount: $43,181
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00588772/?cycle=2022
+  - name: Fidelity Investments
+    amount: $38,750
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00588772/?cycle=2022
+  - name: Goldman Sachs
+    amount: $37,400
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00588772/?cycle=2022
+  - name: Apollo Global Management
+    amount: $37,100
+    period: 2021-22
+    source_url: https://www.fec.gov/data/committee/C00588772/?cycle=2022
+votes:
+  - date: 2021-03-05
+    title: Motion to restore the $15 minimum wage to the American Rescue Plan (S.Amdt. 972)
+    position: nay
+    explanation: >
+      Waiving the budget rules took 60 votes, and the motion failed 42-58. Eight of the 50
+      Democratic-caucus senators voted no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    policy: minimum-wage
+  - date: 2025-01-20
+    title: Laken Riley Act (S. 5)
+    position: yea
+    explanation: >
+      Passed 64-35, with 12 Democrats voting yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm
+  - date: 2025-03-14
+    title: Cloture on the House Republican stopgap funding bill (H.R. 1968)
+    position: yea
+    explanation: >
+      Agreed to 62-38 with 10 Democratic-caucus votes, clearing the way for passage. She then voted no on
+      final passage.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.htm
+  - date: 2025-06-17
+    title: GENIUS Act, stablecoin regulation (S. 1582)
+    position: yea
+    explanation: >
+      Passed 68-30, with 18 Democrats voting yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00318.htm
+  - date: 2025-11-10
+    title: Passage of the bill ending the fall 2025 shutdown (H.R. 5371)
+    position: yea
+    explanation: >
+      Passed 60-40 with eight Democratic-caucus votes, without the ACA subsidy extension.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.htm
+related_entries:
+  - minimum-wage-parliamentarian-ruling-accepted
+  - march-2025-cr-reversal-cloture-vote
+  - fall-2025-shutdown-ends-without-aca-extension
+sources:
+  - title: Why did New Hampshire's two Democratic senators vote against a $15 minimum wage?
+    outlet: Boston.com
+    url: >-
+      https://www.boston.com/news/politics/2021/03/05/why-did-new-hampshires-two-democratic-senators-vote-against-a-15-minimum-wage/
+    date: 2021-03-05
+    type: article
+  - title: Senator Hassan Statement on Dangers of a Government Shutdown
+    outlet: Sen. Maggie Hassan
+    url: https://www.hassan.senate.gov/news/press-releases/senator-hassan-statement-on-dangers-of-a-government-shutdown
+    date: 2025-03-14
+    type: primary
+  - title: Raise the Wage Act of 2025 (S. 1332), cosponsors
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/119th-congress/senate-bill/1332/cosponsors
+    date: 2026-03-05
+    type: bill
+  - title: Maggie Hassan, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S6NH00091/
+    date: 2026-09-30
+    type: data

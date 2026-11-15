@@ -1,0 +1,108 @@
+slug: chris-coons
+name: Chris Coons
+party: D
+chamber: senate
+state: DE
+role: null
+inclusion:
+  - blocker
+status: verified
+summary: >
+  Coons was one of eight Democratic-caucus senators who voted on March 5, 2021, against restoring the $15
+  minimum wage to the American Rescue Plan; the motion failed 42-58. His office's statement said the
+  minimum wage "has to be raised" and that he would work on legislation to raise and index it, without
+  explaining the vote (WDEL). The month before, he had said it should rise "in a way that recognizes that
+  some of our economic sectors, restaurants and hotels, in particular, have been hit particularly hard."
+  On March 5, 2026, five years to the day later, he cosponsored Sanders' Raise the Wage Act ($17 by 2030).
+  In 2017 he was one of 13 Democrats who voted down the amendment to allow drug imports from Canada. He won
+  a new term on Nov. 3, 2026, with 63% (NBC10). Asked about the Schumer-Van Hollen race, he has not taken a
+  side: "We are having a vigorous debate about the right mix of experience, capabilities, and vision"
+  (Politico). He is the top Democrat on the Appropriations defense subcommittee.
+funding:
+  - label: Total receipts, 2025-26 Senate campaign
+    value: $4.96M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/S0DE00092/?cycle=2026
+  - label: From PACs and other political committees, 2025-26
+    value: $1.64M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/S0DE00092/?cycle=2026
+  - label: Campaign cash on hand
+    value: $5.0M
+    as_of: Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/S0DE00092/?cycle=2026
+employers:
+  - name: Young Conaway Stargatt & Taylor
+    amount: $129,125
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00475392/?cycle=2026
+  - name: Apollo Global Management
+    amount: $50,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00475392/?cycle=2026
+  - name: Capital Group
+    amount: $48,250
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00475392/?cycle=2026
+  - name: Lockheed Martin
+    amount: $32,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00475392/?cycle=2026
+  - name: Quinn Emanuel Urquhart & Sullivan
+    amount: $22,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00475392/?cycle=2026
+  - name: Leidos
+    amount: $20,750
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00475392/?cycle=2026
+votes:
+  - date: 2021-03-05
+    title: Motion to restore the $15 minimum wage to the American Rescue Plan (S.Amdt. 972)
+    position: nay
+    explanation: >
+      Waiving the budget rules took 60 votes, and the motion failed 42-58. Eight of the 50
+      Democratic-caucus senators voted no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    policy: minimum-wage
+  - date: 2017-01-11
+    title: Klobuchar amendment to allow drug imports from Canada (S.Amdt. 178)
+    position: nay
+    explanation: >
+      Rejected 46-52. Thirteen Democrats voted no; six more yes votes would have adopted it.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00020.htm
+    policy: prescription-drug-prices
+related_entries:
+  - minimum-wage-parliamentarian-ruling-accepted
+sources:
+  - title: Delaware Senators Coons, Carper among 6 Democrats who voted against minimum wage increase
+    outlet: WDEL
+    url: >-
+      https://www.wdel.com/news/delaware-senators-coons-carper-among-6-democrats-who-voted-against-minimum-wage-increase/article_0b7636f6-7dfa-11eb-b967-8bf1ec1137bd.html
+    date: 2021-03-05
+    type: article
+  - title: Coons and Carper vote against minimum-wage increase but still support the concept
+    outlet: Bay to Bay News
+    url: https://baytobaynews.com/stories/coons-and-carper-vote-against-minimum-wage-increase-but-still-support-the-concept,42244
+    date: 2021-03-08
+    type: article
+  - title: Raise the Wage Act of 2025 (S. 1332), cosponsors
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/119th-congress/senate-bill/1332/cosponsors
+    date: 2026-03-05
+    type: bill
+  - title: Chris Coons projected winner of Delaware Senate race
+    outlet: NBC10 Philadelphia
+    url: https://www.nbcphiladelphia.com/elections/chris-coons-wins-reelection-us-senate-delaware/4486067/
+    date: 2026-11-03
+    type: article
+  - title: "'A long conversation': Senate Democrats gird for protracted Schumer-Van Hollen fight"
+    outlet: Politico (via Yahoo News)
+    url: https://www.yahoo.com/news/politics/articles/van-hollen-challenge-throws-senate-002035623.html
+    date: 2026-11-14
+    type: article
+  - title: Chris Coons, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S0DE00092/
+    date: 2026-10-14
+    type: data

@@ -1,0 +1,117 @@
+slug: jeanne-shaheen
+name: Jeanne Shaheen
+party: D
+chamber: senate
+state: NH
+role: null
+inclusion:
+  - blocker
+status: verified
+summary: >
+  Shaheen was one of eight Democratic-caucus senators who voted on March 5, 2021, against restoring the $15
+  minimum wage to the American Rescue Plan; the motion failed 42-58. She later said, "I support raising the
+  minimum wage to $15 with safeguards in place for small businesses and restaurants that have been
+  especially hard-hit by the pandemic" (Concord Monitor), but she has not cosponsored any version of the
+  Raise the Wage Act. In March 2025 she and Angus King were the only two caucus members to vote for final
+  passage of the House Republican stopgap bill, and she was one of eight who voted to end the fall 2025
+  shutdown without the Affordable Care Act subsidy extension. She also voted for the Laken Riley Act. She is
+  the top Democrat on the Foreign Relations Committee and did not run again in 2026; her term ends Jan. 3,
+  2027.
+funding:
+  - label: Total receipts, 2019-20 reelection campaign
+    value: $18.2M
+    as_of: through Dec. 31, 2020
+    source_url: https://www.fec.gov/data/candidate/S0NH00219/?cycle=2020
+  - label: From PACs and other political committees, 2019-20
+    value: $2.07M
+    as_of: through Dec. 31, 2020
+    source_url: https://www.fec.gov/data/candidate/S0NH00219/?cycle=2020
+employers:
+  - name: Capital Group
+    amount: $42,500
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00457325/?cycle=2020
+  - name: Dartmouth College
+    amount: $39,618
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00457325/?cycle=2020
+  - name: Motley Rice
+    amount: $33,185
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00457325/?cycle=2020
+  - name: Fidelity Investments
+    amount: $26,750
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00457325/?cycle=2020
+  - name: Ropes & Gray
+    amount: $26,700
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00457325/?cycle=2020
+  - name: Raytheon
+    amount: $25,848
+    period: 2019-20
+    source_url: https://www.fec.gov/data/committee/C00457325/?cycle=2020
+votes:
+  - date: 2021-03-05
+    title: Motion to restore the $15 minimum wage to the American Rescue Plan (S.Amdt. 972)
+    position: nay
+    explanation: >
+      Waiving the budget rules took 60 votes, and the motion failed 42-58. Eight of the 50
+      Democratic-caucus senators voted no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    policy: minimum-wage
+  - date: 2025-01-20
+    title: Laken Riley Act (S. 5)
+    position: yea
+    explanation: >
+      Passed 64-35, with 12 Democrats voting yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm
+  - date: 2025-03-14
+    title: Passage of the House Republican stopgap funding bill (H.R. 1968)
+    position: yea
+    explanation: >
+      Passed 54-46. Shaheen and King were the only Democratic-caucus senators to vote yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.htm
+  - date: 2025-11-10
+    title: Passage of the bill ending the fall 2025 shutdown (H.R. 5371)
+    position: yea
+    explanation: >
+      Passed 60-40 with eight Democratic-caucus votes, without the ACA subsidy extension.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.htm
+related_entries:
+  - minimum-wage-parliamentarian-ruling-accepted
+  - march-2025-cr-reversal-cloture-vote
+  - fall-2025-shutdown-ends-without-aca-extension
+sources:
+  - title: 'On the trail: Minimum wage boost suffers setbacks in Concord and Washington'
+    outlet: Concord Monitor
+    url: https://www.concordmonitor.com/2021/03/19/on-the-trail-39513003/
+    date: 2021-03-19
+    type: article
+  - title: Why did New Hampshire's two Democratic senators vote against a $15 minimum wage?
+    outlet: Boston.com
+    url: >-
+      https://www.boston.com/news/politics/2021/03/05/why-did-new-hampshires-two-democratic-senators-vote-against-a-15-minimum-wage/
+    date: 2021-03-05
+    type: article
+  - title: Shaheen Statement on Vote to Avert a Government Shutdown That Would Hurt Granite Staters, Enable President Trump and Elon Musk to do More Harm
+    outlet: Sen. Jeanne Shaheen
+    url: >-
+      https://www.shaheen.senate.gov/shaheen-statement-on-vote-to-avert-a-government-shutdown-that-would-hurt-granite-staters-enable-president-trump-and-elon-musk-to-do-more-harm
+    date: 2025-03-14
+    type: primary
+  - title: Shaheen says she won't run for reelection, ending long political career
+    outlet: NHPR
+    url: https://www.nhpr.org/nh-news/2025-03-12/shaheen-says-she-wont-run-for-re-election-ending-long-political-career
+    date: 2025-03-12
+    type: article
+  - title: Raise the Wage Act of 2025 (S. 1332), cosponsors
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/119th-congress/senate-bill/1332/cosponsors
+    date: 2026-03-05
+    type: bill
+  - title: Jeanne Shaheen, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S0NH00219/
+    date: 2020-12-31
+    type: data

@@ -1,0 +1,138 @@
+slug: amy-klobuchar
+name: Amy Klobuchar
+party: D
+chamber: senate
+state: MN
+role: Chair, Senate Democratic Steering and Policy Committee (No. 3)
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Klobuchar became the No. 3 Senate Democrat in December 2024 as chair of the Steering and Policy Committee
+  (Roll Call). She won Minnesota's governor's race on Nov. 3, 2026, opening up her leadership spot, and has
+  not said when she will resign her Senate seat (KTTC). In 2013 she and Republican Orrin Hatch teamed up on
+  an amendment to repeal the Affordable Care Act's medical-device tax; NPR reported that Medtronic was one of her top campaign contributors. It passed 79-20. Running
+  for president in 2019, she said of Medicare for All, "I don't think that's a bold idea, I think it's a bad
+  idea" (MPR News). In 2025 she voted to confirm several Trump nominees most Democrats opposed, including
+  Transportation Secretary Sean Duffy, Interior Secretary Doug Burgum, ambassador to Turkey Tom Barrack (one
+  of seven Democratic-caucus yes votes) and Deputy Commerce Secretary Paul Dabbar (one of four). She also led
+  the 2017 amendment to allow cheaper drug imports from Canada, voted to restore the $15 minimum wage in 2021,
+  and wrote the tech antitrust bill that Big Tech spent heavily to stop and that never got a floor vote.
+funding:
+  - label: Total receipts, 2023-24 Senate campaign
+    value: $14.7M
+    as_of: through Dec. 31, 2024
+    source_url: https://www.fec.gov/data/candidate/S6MN00267/?cycle=2024
+  - label: From PACs and other political committees, 2023-24
+    value: $1.16M
+    as_of: through Dec. 31, 2024
+    source_url: https://www.fec.gov/data/candidate/S6MN00267/?cycle=2024
+  - label: Raised in 2025-26
+    value: $2.5M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S6MN00267/?cycle=2026
+employers:
+  - name: Apollo Global Management
+    amount: $44,400
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00431353/?cycle=2024
+  - name: Mayo Clinic
+    amount: $28,401
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00431353/?cycle=2024
+  - name: Wachtell, Lipton, Rosen & Katz
+    amount: $24,600
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00431353/?cycle=2024
+  - name: University of Minnesota
+    amount: $21,550
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00431353/?cycle=2024
+  - name: Spire Motorsports
+    amount: $19,800
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00431353/?cycle=2024
+  - name: Analysis Group
+    amount: $19,800
+    period: 2023-24
+    source_url: https://www.fec.gov/data/committee/C00431353/?cycle=2024
+votes:
+  - date: 2013-03-21
+    title: Hatch amendment to repeal the medical-device tax (S.Amdt. 297)
+    position: yea
+    explanation: >
+      A budget reserve fund for repealing the ACA's tax on medical devices. Adopted 79-20, with 34
+      Democratic-caucus senators voting yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00047.htm
+  - date: 2025-01-28
+    title: Confirmation of Sean Duffy as Transportation Secretary
+    position: yea
+    explanation: >
+      Confirmed 77-22; 24 Democratic-caucus senators voted yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00021.htm
+  - date: 2025-01-30
+    title: Confirmation of Doug Burgum as Interior Secretary
+    position: yea
+    explanation: >
+      Confirmed 80-17; 27 Democratic-caucus senators voted yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00026.htm
+  - date: 2025-04-29
+    title: Confirmation of Tom Barrack as ambassador to Turkey
+    position: yea
+    explanation: >
+      Confirmed 60-36; seven Democratic-caucus senators voted yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00219.htm
+  - date: 2025-06-25
+    title: Confirmation of Paul Dabbar as Deputy Commerce Secretary
+    position: yea
+    explanation: >
+      Confirmed 56-40; four Democratic-caucus senators voted yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00325.htm
+related_entries:
+  - big-tech-antitrust-no-vote
+sources:
+  - title: Senate Democrats approve leadership team for new Congress
+    outlet: Roll Call
+    url: https://rollcall.com/2024/12/03/senate-democrats-leadership-klobuchar-booker-2/
+    date: 2024-12-03
+    type: article
+  - title: Democrat Amy Klobuchar wins election for governor in Minnesota
+    outlet: AP (via KTTC)
+    url: https://www.kttc.com/2026/11/04/democrat-amy-klobuchar-wins-election-governor-minnesota/
+    date: 2026-11-04
+    type: article
+  - title: Klobuchar lays out transition plan in first address as governor-elect
+    outlet: KTTC
+    url: https://www.kttc.com/2026/11/05/klobuchar-lays-out-transition-plan-first-address-governor-elect/
+    date: 2026-11-05
+    type: article
+  - title: A Hint Of Bipartisanship On This Obamacare Tax?
+    outlet: NPR (via KUNC)
+    url: https://www.kunc.org/npr-news/2013-03-23/a-hint-of-bipartisanship-on-this-obamacare-tax
+    date: 2013-03-23
+    type: article
+  - title: Klobuchar disagrees on Medicare for All, defends her record as Hennepin Co. prosecutor
+    outlet: MPR News
+    url: https://www.mprnews.org/story/2019/09/12/klobuchar-on-third-democratic-debate
+    date: 2019-09-12
+    type: article
+  - title: "Big tech spent $95 million trying to kill Congress' most aggressive oversight bill in years. It's looking like it worked"
+    outlet: Fortune (Bloomberg)
+    url: https://fortune.com/2022/09/06/big-tech-spent-95-million-congress-oversight-bill/
+    date: 2022-09-06
+    type: article
+  - title: S.Amdt. 178, drug importation reserve fund (roll call 20)
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00020.htm
+    date: 2017-01-11
+    type: vote
+  - title: Motion to waive on S.Amdt. 972, $15 minimum wage (roll call 74)
+    outlet: U.S. Senate
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00074.htm
+    date: 2021-03-05
+    type: vote
+  - title: Amy Klobuchar, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S6MN00267/
+    date: 2026-09-30
+    type: data

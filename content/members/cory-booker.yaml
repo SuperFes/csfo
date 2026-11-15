@@ -1,0 +1,145 @@
+slug: cory-booker
+name: Cory Booker
+party: D
+chamber: senate
+state: NJ
+role: Chair, Senate Democratic Strategic Communications Committee (No. 4)
+inclusion:
+  - leadership
+  - blocker
+status: verified
+summary: >
+  Booker became the No. 4 Senate Democrat in December 2024 (Roll Call) and won a third full term on Nov. 3,
+  2026; Colorado Politics reported he may move up to the No. 3 spot Klobuchar is leaving. On Jan. 11, 2017,
+  he was one of 13 Democrats who voted down Klobuchar and Sanders' amendment to allow cheaper prescription
+  drugs to be imported from Canada, which failed 46-52; he said any importation plan "should also include
+  consumer protections that ensure foreign drugs meet American safety standards." The Intercept, citing
+  MapLight, reported he had taken more from drug manufacturers over six years than any other Senate
+  Democrat. He co-introduced an importation bill with Sanders weeks later and that June said he had put "a
+  pause on even receiving contributions from pharma companies." In 2025 he was one of 18 Democrats who
+  voted to pass the GENIUS Act stablecoin bill, voted to confirm Treasury Secretary Scott Bessent, and was
+  the only Democrat to vote to confirm Charles Kushner as ambassador to France. In August 2026 he said "It's
+  time for new leadership" and that Schumer "will be the last baby boomer head of our party in the Senate"
+  (New Jersey Globe); after the midterms he said, "We're gonna have a family discussion," and that America
+  "should give … Chuck Schumer his due" (Al Jazeera). He has cosponsored Medicare for All, the PRO Act and
+  the FAMILY Act paid-leave bill.
+funding:
+  - label: Total receipts, 2025-26 Senate campaign
+    value: $21.3M
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/S4NJ00185/?cycle=2026
+  - label: From PACs and other political committees, 2025-26
+    value: $512,780
+    as_of: through Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/S4NJ00185/?cycle=2026
+  - label: Campaign cash on hand
+    value: $22.9M
+    as_of: Oct. 14, 2026
+    source_url: https://www.fec.gov/data/candidate/S4NJ00185/?cycle=2026
+employers:
+  - name: Apollo Global Management
+    amount: $55,200
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540500/?cycle=2026
+  - name: Winston & Strawn
+    amount: $35,961
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540500/?cycle=2026
+  - name: Google
+    amount: $27,297
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540500/?cycle=2026
+  - name: Blackstone
+    amount: $26,750
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540500/?cycle=2026
+  - name: Kessler Topaz Meltzer & Check
+    amount: $23,250
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540500/?cycle=2026
+  - name: Anthropic
+    amount: $21,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00540500/?cycle=2026
+votes:
+  - date: 2017-01-11
+    title: Klobuchar amendment to allow drug imports from Canada (S.Amdt. 178)
+    position: nay
+    explanation: >
+      Rejected 46-52. Thirteen Democrats voted no; six more yes votes would have adopted it.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00020.htm
+    policy: prescription-drug-prices
+  - date: 2025-01-27
+    title: Confirmation of Scott Bessent as Treasury Secretary
+    position: yea
+    explanation: >
+      Confirmed 68-29; 16 Democratic-caucus senators voted yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00019.htm
+  - date: 2025-05-19
+    title: Confirmation of Charles Kushner as ambassador to France
+    position: yea
+    explanation: >
+      Confirmed 51-45. Booker was the only Democratic-caucus senator to vote yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00261.htm
+  - date: 2025-06-17
+    title: GENIUS Act, stablecoin regulation (S. 1582)
+    position: yea
+    explanation: >
+      Passed 68-30, with 18 Democrats voting yes and 28 Democratic-caucus senators voting no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00318.htm
+sources:
+  - title: Booker Elected to Senate Democratic Leadership Team For The 119th Congress
+    outlet: Sen. Cory Booker
+    url: https://www.booker.senate.gov/news/press/booker-elected-to-senate-democratic-leadership-team-for-the-119th-congress
+    date: 2024-12-03
+    type: primary
+  - title: Senate Democrats approve leadership team for new Congress
+    outlet: Roll Call
+    url: https://rollcall.com/2024/12/03/senate-democrats-leadership-klobuchar-booker-2/
+    date: 2024-12-03
+    type: article
+  - title: Cory Booker wins reelection in New Jersey Senate race
+    outlet: FOX 29
+    url: https://fox29.com/news/cory-booker-wins-re-election-new-jersey-senate-race
+    date: 2026-11-03
+    type: article
+  - title: Schumer vies for the Senate majority in a looming leadership headache
+    outlet: Colorado Politics
+    url: https://www.coloradopolitics.com/2026/10/02/schumer-vies-for-the-senate-majority-in-a-looming-leadership-headache/
+    date: 2026-10-02
+    type: article
+  - title: Cory Booker Joins Senate Republicans to Kill Measure to Import Cheaper Medicine From Canada
+    outlet: The Intercept
+    url: https://theintercept.com/2017/01/12/cory-booker-joins-senate-republicans-to-kill-measure-to-import-cheaper-medicine-from-canada/
+    date: 2017-01-12
+    type: article
+  - title: Affordable and Safe Prescription Drug Importation Act Introduced
+    outlet: Sen. Cory Booker
+    url: https://www.booker.senate.gov/news/press/affordable-and-safe-prescription-drug-importation-act-introduced-to-help-lower-skyrocketing-cost-of-medicine
+    date: 2017-02-28
+    type: primary
+  - title: Cory Booker Will 'Pause' Fundraising from Big Pharma Because It 'Arouses So Much Criticism'
+    outlet: The Intercept
+    url: https://theintercept.com/2017/06/30/cory-booker-will-pause-fundraising-from-big-pharma-because-it-arouses-so-much-criticism/
+    date: 2017-06-30
+    type: article
+  - title: Booker calls for generational change in Senate Democratic leadership
+    outlet: New Jersey Globe
+    url: https://newjerseyglobe.com/congress/booker-calls-for-generational-change-in-senate-democratic-leadership/
+    date: 2026-08-26
+    type: article
+  - title: Division among US Democrats over Schumer's leadership role
+    outlet: Al Jazeera
+    url: https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role
+    date: 2026-11-05
+    type: article
+  - title: Medicare for All Act of 2023 (S. 1655)
+    outlet: Congress.gov
+    url: https://www.congress.gov/bill/118th-congress/senate-bill/1655
+    date: 2023-05-17
+    type: bill
+  - title: Cory Booker, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S4NJ00185/
+    date: 2026-10-14
+    type: data
