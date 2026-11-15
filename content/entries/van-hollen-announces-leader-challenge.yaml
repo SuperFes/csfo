@@ -32,9 +32,14 @@ context: >
   did Sen.-elect Peggy Flanagan (ABC News). The Machinists union formally endorsed him (IAM), and the
   Office and Professional Employees union, with more than 90,000 members, asked Schumer not to seek the
   post (The New Republic). Sen. Brian Schatz, running unopposed for whip, endorsed Schumer (Punchbowl
-  News), as have Sens. Ruben Gallego, Angela Alsobrooks and Kirsten Gillibrand. By Nov. 15, Van Hollen
-  was claiming "about 15 and growing," while Schumer, who has not released a whip list, maintains he has
-  the votes (Politico). Sen. John Fetterman said "it would
+  News). By Nov. 15 more than a dozen senators had publicly backed Schumer, including Sheldon Whitehouse,
+  Tammy Baldwin, Mark Kelly and Kirsten Gillibrand (The Hill) and Ruben Gallego and Angela Alsobrooks
+  (Politico). Van Hollen was claiming "about 15 and growing," while Schumer, who has not released a whip
+  list, maintains he has the votes (Politico). On CNN, Van Hollen said, "I don't think it's the role of
+  the Senate majority leader to get involved in open, contested Democratic primaries. I have two
+  colleagues right now in the Senate, senators-elect, who would not be there if the current majority
+  leader had his way. He joined with AIPAC and crypto to try to defeat them." He did not name them
+  (RealClearPolitics transcript). Sen. John Fetterman said "it would
   be troubling if my caucus elects someone like Van Hollen," whom he called "very…hostile to Israel"
   (Newsweek).
 schumer_response: >
@@ -105,6 +110,16 @@ sources:
 - title: Van Hollen disputes Schumer's claim that he has the votes to stay leader
   outlet: Politico (via Yahoo News)
   url: https://www.yahoo.com/news/politics/articles/van-hollen-disputes-schumer-claim-170044910.html
+  date: 2026-11-15
+  type: article
+- title: Chris Van Hollen claims private support in bid to replace Chuck Schumer
+  outlet: The Hill
+  url: https://thehill.com/homenews/senate/6221394-van-hollen-challenges-schumer/
+  date: 2026-11-15
+  type: article
+- title: "Sen. Chris Van Hollen: A Number Of Senators Schumer Claims As Supporters Have Committed To Voting For Me"
+  outlet: RealClearPolitics (via Yahoo News)
+  url: https://www.yahoo.com/news/politics/articles/sen-chris-van-hollen-number-140000203.html
   date: 2026-11-15
   type: article
 - title: John Fetterman signals breaking point with Democrats over Van Hollen
