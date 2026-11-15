@@ -39,7 +39,11 @@ context: >
   the Senate majority leader to get involved in open, contested Democratic primaries. I have two
   colleagues right now in the Senate, senators-elect, who would not be there if the current majority
   leader had his way. He joined with AIPAC and crypto to try to defeat them." He did not name them
-  (RealClearPolitics transcript). Sen. John Fetterman said "it would
+  (RealClearPolitics transcript). He first made the charge on Nov. 10, saying Schumer and the DSCC "sided
+  with the crypto industry and AIPAC against these candidates" (MS NOW). In Michigan, Schumer publicly
+  backed Haley Stevens over Abdul El-Sayed (Punchbowl News), and AIPAC and its affiliates spent close to
+  $30 million for her (AP). The Follow the Crypto tracker records no crypto-PAC spending in the Michigan,
+  Minnesota or Maine Democratic primaries. Sen. John Fetterman said "it would
   be troubling if my caucus elects someone like Van Hollen," whom he called "very…hostile to Israel"
   (Newsweek).
 schumer_response: >
@@ -122,6 +126,34 @@ sources:
   url: https://www.yahoo.com/news/politics/articles/sen-chris-van-hollen-number-140000203.html
   date: 2026-11-15
   type: article
+- title: Van Hollen calls colleagues as Schumer's leadership faces questions
+  outlet: MS NOW
+  url: https://www.ms.now/news/van-hollen-schumer-senate-majority-leader-democrats
+  date: 2026-11-10
+  type: article
+- title: Schumer backs Stevens, sees 'multiple paths' to majority
+  outlet: Punchbowl News
+  url: https://punchbowl.news/article/campaigns/schumer-stevens/
+  date: 2026-06-11
+  type: article
+- title: AIPAC has spent a record amount on Michigan's Senate primary, the biggest test of its influence yet
+  outlet: AP
+  url: >-
+    https://ktar.com/national-news/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/5890277/
+  date: 2026-07-19
+  type: article
+- title: Michigan Senate 2026
+  outlet: Follow the Crypto
+  url: https://influence.citationneeded.news/2026/elections/MI-S
+  type: data
+- title: Minnesota Senate 2026
+  outlet: Follow the Crypto
+  url: https://influence.citationneeded.news/2026/elections/MN-S
+  type: data
+- title: Maine Senate 2026
+  outlet: Follow the Crypto
+  url: https://influence.citationneeded.news/2026/elections/ME-S
+  type: data
 - title: John Fetterman signals breaking point with Democrats over Van Hollen
   outlet: Newsweek (via Yahoo News)
   url: https://yahoo.com/news/politics/articles/john-fetterman-signals-breaking-point-223407251.html
