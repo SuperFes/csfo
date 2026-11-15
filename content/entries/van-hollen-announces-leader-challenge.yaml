@@ -32,7 +32,11 @@ context: >
   did Sen.-elect Peggy Flanagan (ABC News). The Machinists union formally endorsed him (IAM), and the
   Office and Professional Employees union, with more than 90,000 members, asked Schumer not to seek the
   post (The New Republic). Sen. Brian Schatz, running unopposed for whip, endorsed Schumer (Punchbowl
-  News).
+  News), as have Sens. Ruben Gallego, Angela Alsobrooks and Kirsten Gillibrand. By Nov. 15, Van Hollen
+  was claiming "about 15 and growing," while Schumer, who has not released a whip list, maintains he has
+  the votes (Politico). Sen. John Fetterman said "it would
+  be troubling if my caucus elects someone like Van Hollen," whom he called "very…hostile to Israel"
+  (Newsweek).
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -97,4 +101,14 @@ sources:
   outlet: Punchbowl News
   url: https://punchbowl.news/article/washington/van-hollen-vs-schumer/
   date: 2026-11-13
+  type: article
+- title: Van Hollen disputes Schumer's claim that he has the votes to stay leader
+  outlet: Politico (via Yahoo News)
+  url: https://www.yahoo.com/news/politics/articles/van-hollen-disputes-schumer-claim-170044910.html
+  date: 2026-11-15
+  type: article
+- title: John Fetterman signals breaking point with Democrats over Van Hollen
+  outlet: Newsweek (via Yahoo News)
+  url: https://yahoo.com/news/politics/articles/john-fetterman-signals-breaking-point-223407251.html
+  date: 2026-11-14
   type: article
