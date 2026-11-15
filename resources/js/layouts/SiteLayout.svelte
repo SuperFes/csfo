@@ -14,6 +14,7 @@
             <a href="/#record">The record</a>
             <a href="/policies">What we should have</a>
             <a href="/money">Follow the money</a>
+            <a href="/races/senate-leader-2026">Leader race</a>
             <a href={repoUrl} rel="noopener noreferrer">Source on GitHub</a>
         </nav>
     </div>

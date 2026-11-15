@@ -1,0 +1,422 @@
+slug: senate-leader-2026
+title: Senate Democratic leader race
+election_date: 2026-12-01
+updated: 2026-11-15
+status: needs-review
+review_note: >
+  Developing. Counts only on-the-record statements and will change before the vote. Some quotes are
+  fragments as the outlet published them, and TIME and Roll Call differ on Stratton.
+summary: >
+  Sen. Chris Van Hollen is challenging Chuck Schumer to lead Senate Democrats in the new majority. The caucus
+  votes by secret ballot, set for Dec. 1, though Schumer's allies have discussed moving it earlier. This page
+  lists every senator and senator-elect who has said publicly where they stand, with their own words and a
+  source for each.
+seats: 55
+needed: 28
+needed_note: 29 if Democrats win Alaska, where the ranked-choice count is Nov. 18
+candidates:
+  - key: schumer
+    name: Schumer
+  - key: van-hollen
+    name: Van Hollen
+commitments:
+  - name: Chuck Schumer
+    state: NY
+    party: D
+    position: schumer
+    date: 2026-11-12
+    quote: I have the votes to continue serving as Democratic Leader.
+    source:
+      title: Schumer statement on X
+      outlet: Sen. Chuck Schumer (X)
+      url: https://x.com/senschumer/status/2121061686786314623
+      date: 2026-11-12
+      type: primary
+  - name: Chris Van Hollen
+    state: MD
+    party: D
+    position: van-hollen
+    date: 2026-11-12
+    quote: It's now on us to meet this moment, and to do that we need new leadership.
+    source:
+      title: Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader
+      outlet: NBC News
+      url: >-
+        https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100
+      date: 2026-11-12
+      type: article
+  - name: Brian Schatz
+    state: HI
+    party: D
+    position: schumer
+    date: 2026-11-12
+    quote: I endorse Senator Schumer for leader and will be voting for him in the caucus election.
+    source:
+      title: Van Hollen challenges Schumer for Senate leadership after Democratic election sweep
+      outlet: Fox News (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/van-hollen-challenges-schumer-senate-024542421.html
+      date: 2026-11-13
+      type: article
+  - name: Angus King
+    state: ME
+    party: I
+    position: schumer
+    date: 2026-11-12
+    quote: Why would you fire the manager when you just won the World Series?
+    source:
+      title: King Backs Senator Charles Schumer for Majority Leader
+      outlet: Sen. Angus King
+      url: https://www.king.senate.gov/newsroom/press-releases/king-backs-senator-charles-schumer-for-majority-leader
+      date: 2026-11-12
+      type: primary
+  - name: Jack Reed
+    state: RI
+    party: D
+    position: schumer
+    date: 2026-11-12
+    quote: I will support Senator Schumer as leader for the simple reason that Chuck is incredibly effective at the job.
+    source:
+      title: Reed Backs Schumer for Majority Leader
+      outlet: Sen. Jack Reed
+      url: https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader
+      date: 2026-11-12
+      type: primary
+  - name: Tammy Baldwin
+    state: WI
+    party: D
+    position: schumer
+    date: 2026-11-12
+    quote: The Brewers just had a record season, and next year is not the time to change our management.
+    source:
+      title: Senator Baldwin Statement on Election for Senate Leadership
+      outlet: Sen. Tammy Baldwin
+      url: https://www.baldwin.senate.gov/news/press-releases/-senator-baldwin-statement-on-election-for-senate-leadership
+      date: 2026-11-12
+      type: primary
+  - name: Jacky Rosen
+    state: NV
+    party: D
+    position: schumer
+    date: 2026-11-12
+    quote: I'm proud to support him to be our Majority Leader
+    source:
+      title: Schumer and Van Hollen are facing off for Senate majority leader. What do Democrats think?
+      outlet: ABC News
+      url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+      date: 2026-11-13
+      type: article
+  - name: Catherine Cortez Masto
+    state: NV
+    party: D
+    position: schumer
+    date: 2026-11-12
+    quote: I will be supporting him as our Democratic leader
+    source:
+      title: Schumer and Van Hollen are facing off for Senate majority leader. What do Democrats think?
+      outlet: ABC News
+      url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+      date: 2026-11-13
+      type: article
+  - name: Ruben Gallego
+    state: AZ
+    party: D
+    position: schumer
+    date: 2026-11-10
+    quote: When the manager takes you to the World Series, you give him another contract.
+    source:
+      title: Arizona's Sen. Gallego backs Chuck Schumer for Democrats' Senate leader
+      outlet: KJZZ
+      url: https://www.kjzz.org/politics/2026-11-11/arizonas-sen-gallego-backs-chuck-schumer-for-democrats-senate-leader
+      date: 2026-11-11
+      type: article
+  - name: Kirsten Gillibrand
+    state: NY
+    party: D
+    position: schumer
+    date: 2026-11-10
+    quote: this caucus is grateful for the work of Senator Schumer
+    source:
+      title: Bernie Sanders won't support Schumer for Senate Democratic leader, saying it's time for change
+      outlet: AP (via WSB-TV)
+      url: https://www.wsbtv.com/news/politics/bernie-sanders-wont/6XMY6EY3AI2DFGNKLTBPKELTFI/
+      date: 2026-11-10
+      type: article
+  - name: Mark Kelly
+    state: AZ
+    party: D
+    position: schumer
+    date: 2026-11-08
+    quote: Chuck worked really hard to get this majority, so my plan is to support him.
+    source:
+      title: Schumer faces skepticism among some Democrats over majority leader role
+      outlet: CNN (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/schumer-faces-skepticism-among-democrats-230549097.html
+      date: 2026-11-08
+      type: article
+  - name: Richard Blumenthal
+    state: CT
+    party: D
+    position: schumer
+    date: 2026-11-09
+    quote: I plan to support Chuck Schumer as Senate majority leader, just as I said last week
+    source:
+      title: Blumenthal confirms support for Schumer despite call for 'new energy'
+      outlet: CT Public
+      url: https://www.ctpublic.org/news/2026-11-11/blumenthal-schumer-senate-majority-leader
+      date: 2026-11-11
+      type: article
+  - name: Sheldon Whitehouse
+    state: RI
+    party: D
+    position: schumer
+    date: 2026-11-06
+    quote: Schumer delivering a Democratic Senate certainly justifies another term as leader.
+    source:
+      title: Schumer poised to lead Senate again after surviving Democratic backlash
+      outlet: Washington Post (via The Spokesman-Review)
+      url: https://www.spokesman.com/stories/2026/nov/06/schumer-poised-to-lead-senate-again-after-survivin/
+      date: 2026-11-06
+      type: article
+  - name: Sherrod Brown
+    state: OH
+    party: D
+    incoming: true
+    position: schumer
+    date: 2026-11-13
+    quote: knows how to govern
+    source:
+      title: 'Newly elected Senate Democrats in the spotlight: From the Politics Desk'
+      outlet: NBC News
+      url: https://www.nbcnews.com/politics/politics-news/newly-elected-senate-democrats-spotlight-politics-desk-rcna609239
+      date: 2026-11-13
+      type: article
+  - name: John Fetterman
+    state: PA
+    party: D
+    position: schumer
+    date: 2026-11-09
+    source:
+      title: Fetterman supporting Schumer in Majority Leader vote
+      outlet: WHTM abc27 (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/fetterman-supporting-schumer-majority-leader-185443492.html
+      date: 2026-11-09
+      type: article
+  - name: Angela Alsobrooks
+    state: MD
+    party: D
+    position: schumer
+    date: 2026-11-15
+    source:
+      title: Van Hollen disputes Schumer's claim that he has the votes to stay leader
+      outlet: Politico (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/van-hollen-disputes-schumer-claim-170044910.html
+      date: 2026-11-15
+      type: article
+  - name: Bernie Sanders
+    state: VT
+    party: I
+    position: van-hollen
+    date: 2026-11-12
+    quote: That is why I will be supporting Chris Van Hollen for Majority Leader.
+    source:
+      title: Schumer and Van Hollen are facing off for Senate majority leader. What do Democrats think?
+      outlet: ABC News
+      url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+      date: 2026-11-13
+      type: article
+  - name: Jeff Merkley
+    state: OR
+    party: D
+    position: van-hollen
+    date: 2026-11-13
+    quote: He has my full support for Majority Leader.
+    source:
+      title: Merkley Puts His Support Behind Van Hollen for Senate Majority Leader
+      outlet: Sen. Jeff Merkley
+      url: https://www.merkley.senate.gov/merkley-puts-his-support-behind-van-hollen-for-senate-majority-leader/
+      date: 2026-11-13
+      type: primary
+  - name: Abdul El-Sayed
+    state: MI
+    party: D
+    incoming: true
+    position: van-hollen
+    date: 2026-11-12
+    quote: It's why he has my full support to lead our caucus.
+    source:
+      title: Van Hollen announces bid for majority leader, but Schumer says he has the votes
+      outlet: Roll Call
+      url: https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/
+      date: 2026-11-12
+      type: article
+  - name: Peggy Flanagan
+    state: MN
+    party: D
+    incoming: true
+    position: van-hollen
+    date: 2026-11-13
+    quote: I believe @ChrisVanHollen is the leader and fighter we need to bring about real change, so no American is left behind
+    source:
+      title: Democratic Sen.-elect Flanagan backs Van Hollen over Schumer
+      outlet: The Hill (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/democratic-sen-elect-flanagan-backs-173738629.html
+      date: 2026-11-13
+      type: article
+  - name: Tina Smith
+    state: MN
+    party: D
+    leaving: true
+    position: van-hollen
+    date: 2026-11-13
+    quote: I won't have a vote in who our next leader will be, but if I did, Chris would be my guy.
+    source:
+      title: 'Schumer vs. Van Hollen: Who are Senate Democrats supporting for leader?'
+      outlet: USA Today (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/schumer-vs-van-hollen-senate-204445674.html
+      date: 2026-11-13
+      type: article
+  - name: Elissa Slotkin
+    state: MI
+    party: D
+    position: not-schumer
+    date: 2026-11-13
+    quote: not voting for Sen. Schumer
+    source:
+      title: Schumer allies voice confidence, argue Van Hollen challenge about ending 'filibuster'
+      outlet: The Hill (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/schumer-allies-voice-confidence-argue-110000873.html
+      date: 2026-11-14
+      type: article
+  - name: Adam Hamilton
+    state: KS
+    party: D
+    incoming: true
+    position: not-schumer
+    date: 2026-11-08
+    quote: I mean no disrespect for Chuck Schumer. I just really don't, and I've told him that as well.
+    source:
+      title: Kansas Senator-Elect Adam Hamilton Voices Concerns About Schumer As Majority Leader
+      outlet: HuffPost (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/kansas-senator-elect-adam-hamilton-023218788.html
+      date: 2026-11-09
+      type: article
+  - name: Troy Jackson
+    state: ME
+    party: D
+    incoming: true
+    position: not-schumer
+    date: 2026-11-04
+    quote: I'm gonna support somebody else
+    source:
+      title: "'I'll be reelected as majority leader,' Schumer says"
+      outlet: Roll Call
+      url: https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/
+      date: 2026-11-04
+      type: article
+  - name: Juliana Stratton
+    state: IL
+    party: D
+    incoming: true
+    position: not-schumer
+    date: 2026-11-05
+    source:
+      title: Division among US Democrats over Schumer's leadership role
+      outlet: Al Jazeera
+      url: https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role
+      date: 2026-11-05
+      type: article
+  - name: Mark Warner
+    state: VA
+    party: D
+    position: undecided
+    date: 2026-11-10
+    quote: So let's see how that plays out in the next coming days.
+    source:
+      title: Warner does not commit to Schumer as Democratic leader
+      outlet: Virginia Scope
+      url: https://www.virginiascope.com/warner-does-not-commit-to-schumer-as-democratic-leader/
+      date: 2026-11-10
+      type: article
+  - name: Raphael Warnock
+    state: GA
+    party: D
+    position: undecided
+    date: 2026-11-10
+    quote: any member of my caucus that feels like they should lead in this moment, I look forward to hearing their case.
+    source:
+      title: Sen. Raphael Warnock won't commit to backing Chuck Schumer for Senate Democratic leader
+      outlet: CNN (via 41NBC)
+      url: https://www.41nbc.com/raphael-warnock-chuck-schumer-senate-democratic-leader/
+      date: 2026-11-10
+      type: article
+  - name: Patty Murray
+    state: WA
+    party: D
+    position: undecided
+    date: 2026-11-12
+    quote: We will have that discussion here in a couple of weeks when we know what happens with Alaska.
+    source:
+      title: Sen. Patty Murray speaks with KIRO 7 about goals in D.C. for 2027
+      outlet: KIRO 7
+      url: https://www.kiro7.com/news/local/sen-patty-murray-speaks-with-kiro-7-about-goals-dc-2027/YE4KSAZ3JVFC5JFMWSU462FTMM/
+      date: 2026-11-13
+      type: article
+  - name: Andy Kim
+    state: NJ
+    party: D
+    position: undecided
+    date: 2026-11-13
+    quote: Regardless of how this unfolds, I hope we can do it in a way that tries our best to preserve our unity.
+    source:
+      title: "'A long conversation': Senate Democrats gird for protracted Schumer-Van Hollen fight"
+      outlet: Politico (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/van-hollen-challenge-throws-senate-002035623.html
+      date: 2026-11-14
+      type: article
+  - name: Chris Coons
+    state: DE
+    party: D
+    position: undecided
+    date: 2026-11-13
+    quote: We are having a vigorous debate about the right mix of experience, capabilities, and vision.
+    source:
+      title: "'A long conversation': Senate Democrats gird for protracted Schumer-Van Hollen fight"
+      outlet: Politico (via Yahoo News)
+      url: https://www.yahoo.com/news/politics/articles/van-hollen-challenge-throws-senate-002035623.html
+      date: 2026-11-14
+      type: article
+  - name: Scott Colom
+    state: MS
+    party: D
+    incoming: true
+    position: undecided
+    date: 2026-11-12
+    quote: I don't know my options. What are my options?
+    source:
+      title: Chris Van Hollen launches challenge against Chuck Schumer to lead Senate Democrats
+      outlet: CNN (via KESQ)
+      url: >-
+        https://kesq.com/news/national-politics/cnn-us-politics/2026/11/12/chris-van-hollen-launches-challenge-against-chuck-schumer-to-lead-senate-democrats/
+      date: 2026-11-12
+      type: article
+related_entries:
+  - van-hollen-announces-leader-challenge
+  - schumer-allies-weigh-earlier-leader-vote
+  - senators-elect-refuse-to-back-schumer
+  - sanders-slotkin-oppose-schumer-van-hollen-weighs-run
+sources:
+  - title: Drop Site News Senate whip count
+    outlet: Drop Site News
+    url: https://whipcount.dropsitenews.com/
+    date: 2026-11-13
+    type: data
+  - title: Chris Van Hollen claims private support in bid to replace Chuck Schumer
+    outlet: The Hill
+    url: https://thehill.com/homenews/senate/6221394-van-hollen-challenges-schumer/
+    date: 2026-11-15
+    type: article
+  - title: Van Hollen disputes Schumer's claim that he has the votes to stay leader
+    outlet: Politico (via Yahoo News)
+    url: https://www.yahoo.com/news/politics/articles/van-hollen-disputes-schumer-claim-170044910.html
+    date: 2026-11-15
+    type: article

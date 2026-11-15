@@ -14,10 +14,12 @@ trait WritesContentFixtures
         $this->contentDir = sys_get_temp_dir().'/csfo-content-'.bin2hex(random_bytes(6));
         File::ensureDirectoryExists($this->contentDir.'/policies');
         File::ensureDirectoryExists($this->contentDir.'/members');
+        File::ensureDirectoryExists($this->contentDir.'/races');
         config([
             'csfo.content_path' => $this->contentDir,
             'csfo.policies_path' => $this->contentDir.'/policies',
             'csfo.members_path' => $this->contentDir.'/members',
+            'csfo.races_path' => $this->contentDir.'/races',
             'csfo.highlights_path' => $this->contentDir.'/highlights.yaml',
         ]);
     }
@@ -146,6 +148,52 @@ trait WritesContentFixtures
             'explanation' => 'What the vote did.',
             'url' => 'https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.htm',
             'policy' => null,
+        ], $overrides);
+    }
+
+    /**
+     * @param  array<string, mixed>  $overrides
+     */
+    protected function writeRace(string $slug, array $overrides = []): string
+    {
+        if (($overrides['status'] ?? null) === 'needs-review') {
+            $overrides += ['review_note' => 'Still developing.'];
+        }
+
+        $data = array_replace([
+            'slug' => $slug,
+            'title' => 'Senate Democratic leader',
+            'election_date' => '2026-12-01',
+            'updated' => '2026-11-15',
+            'status' => 'verified',
+            'summary' => 'Who is backing whom.',
+            'seats' => 55,
+            'needed' => 28,
+            'candidates' => [['key' => 'schumer', 'name' => 'Schumer'], ['key' => 'van-hollen', 'name' => 'Van Hollen']],
+            'commitments' => [],
+            'related_entries' => [],
+            'sources' => [['title' => 'Report', 'outlet' => 'Outlet', 'url' => 'https://example.com/report', 'date' => '2026-11-15', 'type' => 'article']],
+        ], $overrides);
+
+        $path = "{$this->contentDir}/races/{$slug}.yaml";
+        File::put($path, Yaml::dump($data, 5));
+
+        return $path;
+    }
+
+    /**
+     * @param  array<string, mixed>  $overrides
+     * @return array<string, mixed>
+     */
+    protected function commitmentData(array $overrides = []): array
+    {
+        return array_replace([
+            'name' => 'Sample Senator',
+            'state' => 'VT',
+            'party' => 'D',
+            'position' => 'van-hollen',
+            'date' => '2026-11-12',
+            'source' => ['title' => 'Statement', 'outlet' => 'X', 'url' => 'https://example.com/post', 'date' => '2026-11-12', 'type' => 'primary'],
         ], $overrides);
     }
 }

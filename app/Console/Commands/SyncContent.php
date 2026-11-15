@@ -7,6 +7,7 @@ use App\Content\HighlightsLoader;
 use App\Content\InvalidContentException;
 use App\Content\MemberLoader;
 use App\Content\PolicyLoader;
+use App\Content\RaceLoader;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
@@ -16,7 +17,7 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 #[Description('Validate all content and sync entries into the database')]
 class SyncContent extends Command
 {
-    public function handle(ContentSync $sync, HighlightsLoader $highlights, PolicyLoader $policies, MemberLoader $members): int
+    public function handle(ContentSync $sync, HighlightsLoader $highlights, PolicyLoader $policies, MemberLoader $members, RaceLoader $races): int
     {
         $path = config('csfo.content_path');
 
@@ -25,12 +26,14 @@ class SyncContent extends Command
             $entries = $sync->load($path);
             $policySlugs = array_keys($policies->load(config('csfo.policies_path'), array_keys($entries)));
             $memberCount = count($members->load(config('csfo.members_path'), array_keys($entries), $policySlugs));
+            $raceCount = count($races->load(config('csfo.races_path'), array_keys($entries)));
 
             if ($this->option('check')) {
                 $count = count($entries);
                 $this->info("{$count} entries valid.");
                 $this->info(count($policySlugs).' policies valid.');
                 $this->info("{$memberCount} members valid.");
+                $this->info("{$raceCount} races valid.");
 
                 return self::SUCCESS;
             }

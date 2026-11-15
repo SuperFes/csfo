@@ -15,6 +15,8 @@ return [
 
     'members_path' => env('CSFO_MEMBERS_PATH', base_path('content/members')),
 
+    'races_path' => env('CSFO_RACES_PATH', base_path('content/races')),
+
     'highlights_path' => env('CSFO_HIGHLIGHTS_PATH', base_path('content/highlights.yaml')),
 
     // Publish needs-review entries, labeled with their review note.
