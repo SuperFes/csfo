@@ -17,7 +17,9 @@ could_have: >
 context: >
   Sen. Chris Van Hollen, who is challenging Schumer for leader, said, "I will not support a single dime for
   Trump's illegal and senseless war in Iran" (Responsible Statecraft), and has made using the funding
-  measure to end the war a centerpiece of his campaign (NBC News).
+  measure to end the war a centerpiece of his campaign (NBC News). On CNN on Nov. 15 he said Democrats must
+  "use all our powers right now" to deny funding for the war; Punchbowl News reported Schumer does not
+  agree. Current government funding runs out Dec. 11.
 sources:
 - title: Democrats not yet unified for first big post-election Iran war test
   outlet: Responsible Statecraft
@@ -34,4 +36,9 @@ sources:
   url: >-
     https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100
   date: 2026-11-12
+  type: article
+- title: Senate Dems return to leadership brawl
+  outlet: Punchbowl News
+  url: https://punchbowl.news/article/washington/senate-dems-return-leadership-brawl/
+  date: 2026-11-16
   type: article

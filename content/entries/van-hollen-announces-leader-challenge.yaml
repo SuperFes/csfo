@@ -45,7 +45,10 @@ context: >
   $30 million for her (AP). The Follow the Crypto tracker records no crypto-PAC spending in the Michigan,
   Minnesota or Maine Democratic primaries. Sen. John Fetterman said "it would
   be troubling if my caucus elects someone like Van Hollen," whom he called "very…hostile to Israel"
-  (Newsweek).
+  (Newsweek). On Nov. 16, Indivisible endorsed Van Hollen after a weekend vote of its group leaders went
+  97% to 3% (Indivisible), and MoveOn said 75% of more than 33,000 members it surveyed prefer him (Common
+  Dreams). Punchbowl News' public tally that day had 15 senators for Schumer, five for Van Hollen and
+  three more who say they won't vote for Schumer.
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -158,4 +161,19 @@ sources:
   outlet: Newsweek (via Yahoo News)
   url: https://yahoo.com/news/politics/articles/john-fetterman-signals-breaking-point-223407251.html
   date: 2026-11-14
+  type: article
+- title: Indivisible endorses Chris Van Hollen for Senate Majority Leader
+  outlet: Indivisible (Ezra Levin)
+  url: https://ezralevin.substack.com/p/indivisible-endorses-chris-van-hollen
+  date: 2026-11-16
+  type: primary
+- title: "'Man of Action, Not Just Words': 75% of MoveOn Members Back Van Hollen Over Schumer in Fight for Senate Leadership"
+  outlet: Common Dreams
+  url: https://www.commondreams.org/news/moveon-support-van-hollen
+  date: 2026-11-16
+  type: article
+- title: Senate Dems return to leadership brawl
+  outlet: Punchbowl News
+  url: https://punchbowl.news/article/washington/senate-dems-return-leadership-brawl/
+  date: 2026-11-16
   type: article
