@@ -1,0 +1,72 @@
+slug: schumer-super-pac-spent-in-voters-races
+title: Schumer-aligned super PAC money paid for the races of the senators now deciding his future
+date: 2026-11-17
+category: party-and-primaries
+status: needs-review
+review_note: >
+  Totals are our sum of WinSenate's 24- and 48-hour independent-expenditure reports to the FEC, covering
+  spending through Nov. 1; they match its regular reports through Oct. 14 to within 1%. Final post-election
+  reports are due Dec. 3.
+summary: >
+  WinSenate, a super PAC that gets almost all of its money from the Schumer-aligned Senate Majority PAC
+  (FactCheck.org, Semafor), spent $282.3 million on 11 Senate races this cycle, by our count of its FEC
+  reports. Democrats won all 11, and those winners now vote by secret ballot on whether Schumer stays
+  leader. The most went to Ohio ($87.4 million, Sherrod Brown), Iowa ($47.8 million, Josh Turek), Michigan
+  ($46.5 million, Abdul El-Sayed), Maine ($38.1 million, Troy Jackson), North Carolina ($21.7 million, Roy
+  Cooper), New Hampshire ($18.9 million, Chris Pappas) and Kansas ($14.1 million, Adam Hamilton). AP
+  reported that Schumer backed El-Sayed's and Peggy Flanagan's opponents in their primaries, "though he
+  eventually put $67 million into El-Sayed's competitive race."
+could_have: >
+  Stay out of Democratic primaries, instead of backing the opponents of candidates who went on to win, as
+  AP reported he did in Michigan and Minnesota.
+context: >
+  Of the seven biggest beneficiaries, only Brown has publicly backed Schumer. El-Sayed backs Van Hollen,
+  Jackson and Hamilton say they won't vote for Schumer, Turek is undecided, and Cooper and Pappas haven't
+  said. Van Hollen has said some senators won't back him publicly because of "an element of concern about
+  political retaliation" (The Washington Sun). Most of the money, 88%, went to ads against Republicans,
+  such as $78.3 million against Jon Husted in Ohio. Smaller amounts went to Alaska ($4.7 million), Mississippi
+  ($2.2 million), South Carolina ($752,332) and Texas ($180,150); WinSenate reported nothing in Minnesota or
+  Illinois. The totals leave out the DSCC, which also spent $12.3 million against Mike Rogers in Michigan,
+  and other super PACs that took part of their money from Senate Majority PAC. Through Oct. 14, Senate
+  Majority PAC had raised $354.4 million and moved $204.1 million to affiliated committees.
+sources:
+- title: WinSenate, independent expenditures, 2025-26
+  outlet: Federal Election Commission
+  url: https://www.fec.gov/data/independent-expenditures/?committee_id=C00865444&cycle=2026
+  date: 2026-11-01
+  type: data
+- title: WinSenate, committee financial summary, 2025-26
+  outlet: Federal Election Commission
+  url: https://www.fec.gov/data/committee/C00865444/?cycle=2026
+  date: 2026-10-14
+  type: data
+- title: SMP, committee financial summary, 2025-26
+  outlet: Federal Election Commission
+  url: https://www.fec.gov/data/committee/C00484642/?cycle=2026
+  date: 2026-10-14
+  type: data
+- title: DSCC, independent expenditures, 2025-26
+  outlet: Federal Election Commission
+  url: https://www.fec.gov/data/independent-expenditures/?committee_id=C00042366&cycle=2026
+  date: 2026-10-14
+  type: data
+- title: WinSenate
+  outlet: FactCheck.org
+  url: https://www.factcheck.org/2026/09/__trashed-5/
+  date: 2026-09-24
+  type: article
+- title: Top Democratic super PAC spends more in Michigan, Maine
+  outlet: Semafor
+  url: https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine
+  date: 2026-10-14
+  type: article
+- title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
+  outlet: AP (via PBS NewsHour)
+  url: https://www.pbs.org/newshour/politics/van-hollens-bid-to-replace-schumer-puts-pressure-on-democrats-to-take-sides
+  date: 2026-11-17
+  type: article
+- title: Van Hollen Says Senators Aren't Publicly Supporting Him Due to Fear of Schumer 'Retaliation'
+  outlet: The Washington Sun
+  url: https://www.washingtonsun.com/congress/van-hollen-schumer-leadership-race
+  date: 2026-11-16
+  type: article
