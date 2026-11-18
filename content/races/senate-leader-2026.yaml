@@ -1,7 +1,7 @@
 slug: senate-leader-2026
 title: Senate Democratic leader race
 election_date: 2026-12-01
-updated: 2026-11-15
+updated: 2026-11-17
 status: needs-review
 review_note: >
   Developing. Counts only on-the-record statements and will change before the vote. Some quotes are
@@ -11,9 +11,8 @@ summary: >
   votes by secret ballot, set for Dec. 1, though Schumer's allies have discussed moving it earlier. This page
   lists every senator and senator-elect who has said publicly where they stand, with their own words and a
   source for each.
-seats: 55
-needed: 28
-needed_note: 29 if Democrats win Alaska, where the ranked-choice count is Nov. 18
+seats: 56
+needed: 29
 candidates:
   - key: schumer
     name: Schumer

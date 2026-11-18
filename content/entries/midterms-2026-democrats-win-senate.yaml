@@ -4,13 +4,13 @@ date: 2026-11-04
 category: party-and-primaries
 status: needs-review
 review_note: >
-  Seat counts are provisional while Alaska is still being counted.
+  Alaska is a network projection until the state certifies its results on Nov. 25.
 summary: >
   Democrats won control of the Senate in the Nov. 3, 2026 midterms. CBS projected flips in Iowa, Kansas,
   North Carolina, Ohio, South Carolina and Texas, and TIME reported a win in Maine as well. Roll Call
   and The Hill put the incoming caucus at 54 to 56 seats with Alaska and Mississippi uncounted. On Nov. 11,
-  AP called Mississippi for Scott Colom over Sen. Cindy Hyde-Smith, putting Democrats at 55 or 56 with
-  Alaska still being counted. The day after the election Schumer said, "I'll be reelected as majority leader." Senate Democrats are
+  AP called Mississippi for Scott Colom over Sen. Cindy Hyde-Smith, and on Nov. 17 CBS News projected
+  that Mary Peltola had beaten Sen. Dan Sullivan in Alaska, giving Democrats 56 seats to Republicans' 44. The day after the election Schumer said, "I'll be reelected as majority leader." Senate Democrats are
   expected to pick their leader by secret ballot in December, with senators-elect voting.
 could_have: >
   Agree to an open, contested leadership election or a defined final term, as senators-elect, Sanders
@@ -20,8 +20,7 @@ context: >
   candidates Schumer recruited for putting red-state seats in play, and Sen. Ron Wyden said, "You can't
   argue with results" (AP). AP reported Schumer helped Colom raise money; Colom, asked about leadership
   before the call, said only that "too many of our leaders are from the same areas of the country" (Roll
-  Call). Several winners nonetheless ran saying they would not back him. Seat totals are provisional until
-  Alaska is called.
+  Call). Several winners nonetheless ran saying they would not back him. Alaska certifies its results Nov. 25.
 schumer_response: >
   "The issue is not me," and "I'll be re-elected as Majority Leader, but the issue is focusing on the
   American people" (TIME, Roll Call). He said the majority is a mandate to act on voters' priorities,
@@ -52,6 +51,11 @@ sources:
   url: >-
     https://www.bostonglobe.com/2026/11/11/nation/mississippi-senate-scott-colom-hyde-smith/
   date: 2026-11-11
+  type: article
+- title: Peltola wins Alaska 2026 Senate election, CBS News projects, flipping seat for Democrats
+  outlet: CBS News
+  url: https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/
+  date: 2026-11-17
   type: article
 - title: Rift grows among Senate Democrats over who will lead in majority
   outlet: Roll Call
