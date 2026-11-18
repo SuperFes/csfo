@@ -9,6 +9,8 @@ use Illuminate\Validation\Rule;
 /**
  * Loads content/races/*.yaml: public commitments in a caucus leadership
  * race, grouped by position and tallied against the votes needed to win.
+ * An optional electorate (sitting senators who stay) supplies office contact
+ * details and the list of those who haven't said where they stand.
  */
 class RaceLoader
 {
@@ -74,6 +76,19 @@ class RaceLoader
             $problems[] = 'Listed more than once: '.implode(', ', $dupes);
         }
 
+        if (isset($data['electorate'])) {
+            $voters = array_column($data['electorate'], 'name');
+            if ($dupes = array_unique(array_diff_assoc($voters, array_unique($voters)))) {
+                $problems[] = 'Electorate lists more than once: '.implode(', ', $dupes);
+            }
+
+            // Every sitting senator who stays must be in the electorate, so contact links can't silently go missing.
+            $sitting = array_filter($data['commitments'] ?? [], fn (array $c) => empty($c['incoming']) && empty($c['leaving']));
+            if ($missing = array_diff(array_column($sitting, 'name'), $voters)) {
+                $problems[] = 'Not in the electorate: '.implode(', ', $missing);
+            }
+        }
+
         if ($entrySlugs !== null && $missing = array_diff($data['related_entries'] ?? [], $entrySlugs)) {
             $problems[] = 'Unknown related entries: '.implode(', ', $missing);
         }
@@ -109,6 +124,15 @@ class RaceLoader
      */
     private function normalize(array $data): array
     {
+        $contacts = [];
+        foreach ($data['electorate'] ?? [] as $v) {
+            $contacts[$v['name']] = [
+                'phone' => $v['phone'],
+                'tel' => '+1'.preg_replace('/\D/', '', $v['phone']),
+                'url' => $v['contact_url'],
+            ];
+        }
+
         $commitments = array_map(fn (array $c) => [
             'name' => trim($c['name']),
             'state' => $c['state'],
@@ -119,7 +143,16 @@ class RaceLoader
             'date' => $c['date'],
             'quote' => $this->optionalText($c['quote'] ?? null),
             'source' => $this->normalizeSources([$c['source']])[0],
+            'contact' => empty($c['incoming']) && empty($c['leaving']) ? ($contacts[$c['name']] ?? null) : null,
         ], $data['commitments'] ?? []);
+
+        $committed = array_column($commitments, 'name');
+        $silent = array_values(array_map(fn (array $v) => [
+            'name' => $v['name'],
+            'state' => $v['state'],
+            'party' => $v['party'],
+            'contact' => $contacts[$v['name']],
+        ], array_filter($data['electorate'] ?? [], fn (array $v) => ! in_array($v['name'], $committed, true))));
 
         usort($commitments, fn (array $a, array $b) => [$a['date'], $a['name']] <=> [$b['date'], $b['name']]);
 
@@ -154,6 +187,7 @@ class RaceLoader
             'candidates' => array_map(fn (array $c) => ['key' => $c['key'], 'name' => trim($c['name'])], $data['candidates']),
             'groups' => $groups,
             'unstated' => max(0, (int) $data['seats'] - $counted),
+            'silent' => $silent,
             'related_entries' => array_values(array_unique($data['related_entries'] ?? [])),
             'sources' => $this->normalizeSources($data['sources']),
         ];
@@ -193,6 +227,12 @@ class RaceLoader
             'commitments.*.source.url' => ['required', 'url:https,http'],
             'commitments.*.source.date' => ['nullable', 'date_format:Y-m-d'],
             'commitments.*.source.type' => ['required', Rule::enum(SourceType::class)],
+            'electorate' => ['nullable', 'array'],
+            'electorate.*.name' => ['required', 'string'],
+            'electorate.*.state' => ['required', 'string', 'regex:/^[A-Z]{2}$/'],
+            'electorate.*.party' => ['required', Rule::in(['D', 'I'])],
+            'electorate.*.phone' => ['required', 'string', 'regex:/^\(\d{3}\) \d{3}-\d{4}$/'],
+            'electorate.*.contact_url' => ['required', 'url:https'],
             'related_entries' => ['nullable', 'array'],
             'related_entries.*' => ['string'],
             ...$this->sourceRules(),

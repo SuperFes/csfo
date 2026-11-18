@@ -47,6 +47,24 @@ class RacesTest extends TestCase
                 ->where('related.0.slug', 'challenge-announced'));
     }
 
+    public function test_race_page_passes_contacts_and_silent_senators(): void
+    {
+        $this->writeRace('senate-leader-2026', [
+            'electorate' => [
+                ['name' => 'Bernie Sanders', 'state' => 'VT', 'party' => 'I', 'phone' => '(202) 224-5141', 'contact_url' => 'https://www.sanders.senate.gov/contact/'],
+                ['name' => 'Ron Wyden', 'state' => 'OR', 'party' => 'D', 'phone' => '(202) 224-5244', 'contact_url' => 'https://www.wyden.senate.gov/contact/'],
+            ],
+            'commitments' => [$this->commitmentData(['name' => 'Bernie Sanders'])],
+        ]);
+
+        $this->get('/races/senate-leader-2026')
+            ->assertOk()
+            ->assertInertia(fn (Assert $page) => $page
+                ->where('race.groups.0.commitments.0.contact.tel', '+12022245141')
+                ->where('race.silent.0.name', 'Ron Wyden')
+                ->where('race.silent.0.contact.url', 'https://www.wyden.senate.gov/contact/'));
+    }
+
     public function test_unknown_race_is_404(): void
     {
         $this->get('/races/nope')->assertNotFound();

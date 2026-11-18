@@ -96,4 +96,65 @@ class RaceLoaderTest extends TestCase
 
         $this->assertNotEmpty($this->errorsFor('leader.yaml'));
     }
+
+    /**
+     * @return array<string, string>
+     */
+    private function voter(string $name, string $state = 'VT'): array
+    {
+        return ['name' => $name, 'state' => $state, 'party' => 'D', 'phone' => '(202) 224-5141', 'contact_url' => 'https://example.senate.gov/contact'];
+    }
+
+    public function test_electorate_adds_contacts_and_lists_the_silent(): void
+    {
+        $this->writeRace('leader', [
+            'electorate' => [$this->voter('Backer'), $this->voter('Quiet One', 'OR')],
+            'commitments' => [
+                $this->commitmentData(['name' => 'Backer', 'position' => 'schumer']),
+                $this->commitmentData(['name' => 'New Member', 'incoming' => true]),
+            ],
+        ]);
+
+        $race = app(RaceLoader::class)->load($this->contentDir.'/races')['leader'];
+
+        $this->assertSame(['phone' => '(202) 224-5141', 'tel' => '+12022245141', 'url' => 'https://example.senate.gov/contact'], $race['groups'][0]['commitments'][0]['contact']);
+        $this->assertNull($race['groups'][1]['commitments'][0]['contact']);
+        $this->assertSame(['Quiet One'], array_column($race['silent'], 'name'));
+        $this->assertSame('OR', $race['silent'][0]['state']);
+    }
+
+    public function test_without_electorate_nothing_is_silent(): void
+    {
+        $this->writeRace('leader', ['commitments' => [$this->commitmentData()]]);
+
+        $race = app(RaceLoader::class)->load($this->contentDir.'/races')['leader'];
+
+        $this->assertSame([], $race['silent']);
+        $this->assertNull($race['groups'][0]['commitments'][0]['contact']);
+    }
+
+    public function test_sitting_senator_must_be_in_electorate(): void
+    {
+        $this->writeRace('leader', [
+            'electorate' => [$this->voter('Someone Else')],
+            'commitments' => [
+                $this->commitmentData(['name' => 'Missing Senator']),
+                $this->commitmentData(['name' => 'Retiring', 'leaving' => true]),
+                $this->commitmentData(['name' => 'Elect', 'incoming' => true]),
+            ],
+        ]);
+
+        $this->assertSame(['Not in the electorate: Missing Senator'], $this->errorsFor('leader.yaml'));
+    }
+
+    public function test_rejects_duplicate_electorate_and_bad_phone(): void
+    {
+        $this->writeRace('dupes', ['electorate' => [$this->voter('Twice'), $this->voter('Twice')]]);
+        $this->assertSame(['Electorate lists more than once: Twice'], $this->errorsFor('dupes.yaml'));
+
+        $this->tearDownContentDir();
+        $this->setUpContentDir();
+        $this->writeRace('phone', ['electorate' => [['phone' => '555-1234'] + $this->voter('Bad Phone')]]);
+        $this->assertNotEmpty($this->errorsFor('phone.yaml'));
+    }
 }

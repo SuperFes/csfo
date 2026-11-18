@@ -30,6 +30,9 @@
 
     const seats = $derived(segments.flatMap((s) => Array.from({ length: s.count }, () => s)));
 
+    // Seats with no public position that belong to senators-elect, who have no offices to call yet.
+    const electNoOffice = $derived(Math.max(0, race.unstated - race.silent.length));
+
     /** @param {string} url */
     function host(url) {
         try {
@@ -79,6 +82,14 @@
             </figcaption>
         </figure>
 
+        {#if race.silent.length}
+            <p class="act">
+                <strong>Is your senator on the fence?</strong>
+                Every sitting senator below has a phone number and contact form beside their name.
+                <a href="#group-unstated">See who hasn't said anything yet</a>.
+            </p>
+        {/if}
+
         {#each race.groups as group (group.position)}
             <section aria-labelledby="group-{group.position}">
                 <h2 id="group-{group.position}">{group.label} <span class="tally">{group.count}</span></h2>
@@ -97,11 +108,34 @@
                                 <time datetime={c.date}>{formatDate(c.date)}</time>
                                 <a href={c.source.url} rel="noopener noreferrer">{c.source.outlet}: {c.source.title}</a>
                             </p>
+                            {#if c.contact}{@render contact(c.contact)}{/if}
                         </li>
                     {/each}
                 </ul>
             </section>
         {/each}
+
+        {#if race.silent.length}
+            <section aria-labelledby="group-unstated">
+                <h2 id="group-unstated">No public position <span class="tally">{race.unstated}</span></h2>
+                <p class="intro">
+                    {race.silent.length} sitting senators haven't said where they stand{#if electNoOffice}, along with
+                        {electNoOffice} senators-elect who don't have Senate offices yet{/if}. Offices pay the most attention
+                    to their own constituents.
+                </p>
+                <ul class="commitments">
+                    {#each race.silent as s (s.name)}
+                        <li>
+                            <p class="who">
+                                <span class="name">{s.name}</span>
+                                <span class="meta">Senator, {s.party}-{s.state}</span>
+                            </p>
+                            {@render contact(s.contact)}
+                        </li>
+                    {/each}
+                </ul>
+            </section>
+        {/if}
 
         {#if related.length}
             <section aria-labelledby="related-heading">
@@ -140,6 +174,13 @@
         </p>
     </article>
 </SiteLayout>
+
+{#snippet contact(c)}
+    <p class="contact">
+        <a href="tel:{c.tel}">Call {c.phone}</a>
+        <a href={c.url} rel="noopener noreferrer">Contact form</a>
+    </p>
+{/snippet}
 
 <style>
     .wrap {
@@ -182,6 +223,17 @@
         line-height: 1.5;
     }
 
+    .act {
+        margin: 1.75rem 0 0;
+        padding: 0.875rem 1.125rem;
+        border-radius: 0.25rem;
+        background: var(--highlight);
+        color: var(--on-highlight);
+        font-family: var(--font-ui);
+        line-height: 1.5;
+    }
+
+    .act a,
     .under-review a {
         color: inherit;
         font-weight: 600;
@@ -364,6 +416,23 @@
         color: var(--ink-muted);
     }
 
+    .intro {
+        margin: 0 0 1rem;
+        font-family: var(--font-ui);
+        color: var(--ink-secondary);
+    }
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem 1.25rem;
+        margin: 0.5rem 0 0;
+        font-family: var(--font-ui);
+        font-size: 0.9375rem;
+        font-weight: 600;
+    }
+
+    .contact a,
     .source a,
     .sources a,
     .related a,

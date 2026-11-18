@@ -20,6 +20,218 @@ candidates:
     name: Schumer
   - key: van-hollen
     name: Van Hollen
+electorate:
+  - name: Angela Alsobrooks
+    state: MD
+    party: D
+    phone: '(202) 224-4524'
+    contact_url: https://alsobrooks.senate.gov/
+  - name: Tammy Baldwin
+    state: WI
+    party: D
+    phone: '(202) 224-5653'
+    contact_url: https://www.baldwin.senate.gov/feedback
+  - name: Michael Bennet
+    state: CO
+    party: D
+    phone: '(202) 224-5852'
+    contact_url: https://www.bennet.senate.gov/public/index.cfm/contact
+  - name: Richard Blumenthal
+    state: CT
+    party: D
+    phone: '(202) 224-2823'
+    contact_url: https://www.blumenthal.senate.gov/contact/
+  - name: Lisa Blunt Rochester
+    state: DE
+    party: D
+    phone: '(202) 224-2441'
+    contact_url: https://www.bluntrochester.senate.gov/
+  - name: Cory Booker
+    state: NJ
+    party: D
+    phone: '(202) 224-3224'
+    contact_url: https://www.booker.senate.gov/?p=contact
+  - name: Maria Cantwell
+    state: WA
+    party: D
+    phone: '(202) 224-3441'
+    contact_url: https://www.cantwell.senate.gov/public/index.cfm/email-maria
+  - name: Chris Coons
+    state: DE
+    party: D
+    phone: '(202) 224-5042'
+    contact_url: https://www.coons.senate.gov/contact
+  - name: Catherine Cortez Masto
+    state: NV
+    party: D
+    phone: '(202) 224-3542'
+    contact_url: https://www.cortezmasto.senate.gov/contact
+  - name: Tammy Duckworth
+    state: IL
+    party: D
+    phone: '(202) 224-2854'
+    contact_url: https://www.duckworth.senate.gov/content/contact-senator
+  - name: John Fetterman
+    state: PA
+    party: D
+    phone: '(202) 224-4254'
+    contact_url: https://www.fetterman.senate.gov/contact/
+  - name: Ruben Gallego
+    state: AZ
+    party: D
+    phone: '(202) 224-4521'
+    contact_url: https://www.gallego.senate.gov/
+  - name: Kirsten Gillibrand
+    state: NY
+    party: D
+    phone: '(202) 224-4451'
+    contact_url: https://www.gillibrand.senate.gov/contact/email-me
+  - name: Maggie Hassan
+    state: NH
+    party: D
+    phone: '(202) 224-3324'
+    contact_url: https://www.hassan.senate.gov/content/contact-senator
+  - name: Martin Heinrich
+    state: NM
+    party: D
+    phone: '(202) 224-5521'
+    contact_url: https://www.heinrich.senate.gov/contact
+  - name: John Hickenlooper
+    state: CO
+    party: D
+    phone: '(202) 224-5941'
+    contact_url: https://www.hickenlooper.senate.gov/contact/
+  - name: Mazie Hirono
+    state: HI
+    party: D
+    phone: '(202) 224-6361'
+    contact_url: https://www.hirono.senate.gov/contact
+  - name: Tim Kaine
+    state: VA
+    party: D
+    phone: '(202) 224-4024'
+    contact_url: https://www.kaine.senate.gov/contact
+  - name: Mark Kelly
+    state: AZ
+    party: D
+    phone: '(202) 224-2235'
+    contact_url: https://www.kelly.senate.gov/contact/contact-form/
+  - name: Andy Kim
+    state: NJ
+    party: D
+    phone: '(202) 224-4744'
+    contact_url: https://www.kim.senate.gov/
+  - name: Angus King
+    state: ME
+    party: I
+    phone: '(202) 224-5344'
+    contact_url: https://www.king.senate.gov/contact
+  - name: Ben Ray Luján
+    state: NM
+    party: D
+    phone: '(202) 224-6621'
+    contact_url: https://www.lujan.senate.gov/contact/
+  - name: Ed Markey
+    state: MA
+    party: D
+    phone: '(202) 224-2742'
+    contact_url: https://www.markey.senate.gov/contact
+  - name: Jeff Merkley
+    state: OR
+    party: D
+    phone: '(202) 224-3753'
+    contact_url: https://www.merkley.senate.gov/contact/
+  - name: Chris Murphy
+    state: CT
+    party: D
+    phone: '(202) 224-4041'
+    contact_url: https://www.murphy.senate.gov/contact
+  - name: Patty Murray
+    state: WA
+    party: D
+    phone: '(202) 224-2621'
+    contact_url: https://www.murray.senate.gov/write-to-patty/
+  - name: Jon Ossoff
+    state: GA
+    party: D
+    phone: '(202) 224-3521'
+    contact_url: https://www.ossoff.senate.gov/contact-us/
+  - name: Alex Padilla
+    state: CA
+    party: D
+    phone: '(202) 224-3553'
+    contact_url: https://www.padilla.senate.gov/contact/
+  - name: Jack Reed
+    state: RI
+    party: D
+    phone: '(202) 224-4642'
+    contact_url: https://www.reed.senate.gov/contact/
+  - name: Jacky Rosen
+    state: NV
+    party: D
+    phone: '(202) 224-6244'
+    contact_url: https://www.rosen.senate.gov/contact_jacky
+  - name: Bernie Sanders
+    state: VT
+    party: I
+    phone: '(202) 224-5141'
+    contact_url: https://www.sanders.senate.gov/contact/
+  - name: Brian Schatz
+    state: HI
+    party: D
+    phone: '(202) 224-3934'
+    contact_url: https://www.schatz.senate.gov/contact
+  - name: Adam Schiff
+    state: CA
+    party: D
+    phone: '(202) 224-3841'
+    contact_url: https://www.schiff.senate.gov
+  - name: Chuck Schumer
+    state: NY
+    party: D
+    phone: '(202) 224-6542'
+    contact_url: https://www.schumer.senate.gov/contact/email-chuck
+  - name: Elissa Slotkin
+    state: MI
+    party: D
+    phone: '(202) 224-4822'
+    contact_url: https://www.slotkin.senate.gov/
+  - name: Chris Van Hollen
+    state: MD
+    party: D
+    phone: '(202) 224-4654'
+    contact_url: https://www.vanhollen.senate.gov/contact/email
+  - name: Mark Warner
+    state: VA
+    party: D
+    phone: '(202) 224-2023'
+    contact_url: https://www.warner.senate.gov/public/index.cfm?p=Contact
+  - name: Raphael Warnock
+    state: GA
+    party: D
+    phone: '(202) 224-3643'
+    contact_url: https://www.warnock.senate.gov/contact/
+  - name: Elizabeth Warren
+    state: MA
+    party: D
+    phone: '(202) 224-4543'
+    contact_url: https://www.warren.senate.gov/contact/
+  - name: Peter Welch
+    state: VT
+    party: D
+    phone: '(202) 224-4242'
+    contact_url: https://www.welch.senate.gov/email-peter/
+  - name: Sheldon Whitehouse
+    state: RI
+    party: D
+    phone: '(202) 224-2921'
+    contact_url: https://www.whitehouse.senate.gov/contact/email-sheldon
+  - name: Ron Wyden
+    state: OR
+    party: D
+    phone: '(202) 224-5244'
+    contact_url: https://www.wyden.senate.gov/contact/
+
 commitments:
   - name: Chuck Schumer
     state: NY
@@ -452,10 +664,16 @@ commitments:
       type: article
 related_entries:
   - van-hollen-announces-leader-challenge
+  - schumer-super-pac-spent-in-voters-races
   - schumer-allies-weigh-earlier-leader-vote
   - senators-elect-refuse-to-back-schumer
   - sanders-slotkin-oppose-schumer-van-hollen-weighs-run
 sources:
+  - title: Senators of the 119th Congress, contact information
+    outlet: U.S. Senate
+    url: https://www.senate.gov/senators/senators-contact.htm
+    date: 2026-11-17
+    type: data
   - title: Drop Site News Senate whip count
     outlet: Drop Site News
     url: https://whipcount.dropsitenews.com/
