@@ -27,7 +27,10 @@ summary: >
   Chris Van Hollen's push to strip a provision integrating the U.S. and Israeli militaries from the
   defense bill, he did not say where he stood (Truthout). Of a DSA crowd that chanted "You're next!" at his
   picture, he told CNN, "there was almost zero diversity in that crowd." He defended Schumer's leadership
-  after the November 2025 shutdown deal.
+  after the November 2025 shutdown deal. On Nov. 18, House Democrats nominated him for speaker 251 to 11
+  with no challenger; seven incoming progressives said in a joint statement that they voted no, pointing
+  to unfinished work on Medicare for All, ICE, money in politics and Gaza (CBS News). Jeffries said, "The
+  results of today's election speak for themselves." The full House votes on Jan. 3 (AP).
 funding:
   - label: Total receipts, House campaigns 2012-2026
     value: $56.7M
@@ -165,4 +168,14 @@ sources:
     outlet: Sludge
     url: https://readsludge.com/2025/11/25/jeffries-misleads-on-aipac-pac-money/
     date: 2025-11-25
+    type: article
+  - title: Jeffries wins Democratic nomination for House speaker, paving way for historic election
+    outlet: CBS News
+    url: https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/
+    date: 2026-11-18
+    type: article
+  - title: Democrats nominate Hakeem Jeffries to become House speaker, a historic first
+    outlet: AP (via PBS NewsHour)
+    url: https://www.pbs.org/newshour/politics/democrats-nominate-hakeem-jeffries-to-become-house-speaker-a-historic-first
+    date: 2026-11-18
     type: article

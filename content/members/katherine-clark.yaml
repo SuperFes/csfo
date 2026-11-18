@@ -9,8 +9,8 @@ inclusion:
   - leadership
 status: verified
 summary: >
-  Clark is the House Democratic whip and is running for majority leader in the Nov. 18 House Democratic
-  leadership elections. Her campaign reported $1.11 million in corporate PAC contributions this cycle,
+  Clark is the House Democratic whip. On Nov. 18, House Democrats chose her without opposition to be
+  majority leader in the new Congress, the first woman in the post (AP). Her campaign reported $1.11 million in corporate PAC contributions this cycle,
   fourth among House Democrats (Sludge). AIPAC endorsed her and has contributed to her campaign in the
   past; she won her 2026 primary over two challengers who faulted her for not renouncing AIPAC money (Fox
   News). In July 2025 she voted for the GENIUS Act, the crypto industry's stablecoin bill.
@@ -87,3 +87,8 @@ sources:
     url: https://www.fec.gov/data/candidate/H4MA05084/
     date: 2026-10-14
     type: data
+  - title: Democrats nominate Hakeem Jeffries to become House speaker, a historic first
+    outlet: AP (via PBS NewsHour)
+    url: https://www.pbs.org/newshour/politics/democrats-nominate-hakeem-jeffries-to-become-house-speaker-a-historic-first
+    date: 2026-11-18
+    type: article
