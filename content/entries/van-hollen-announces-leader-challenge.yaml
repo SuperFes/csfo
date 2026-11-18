@@ -49,6 +49,8 @@ context: >
   97% to 3% (Indivisible), and MoveOn said 75% of more than 33,000 members it surveyed prefer him (Common
   Dreams). Punchbowl News' public tally that day had 15 senators for Schumer, five for Van Hollen and
   three more who say they won't vote for Schumer.
+  The same day, Van Hollen told The Washington Sun that some senators won't back him publicly because of
+  "an element of concern about political retaliation," and Sen. Chris Coons called his chances "remote."
 schumer_response: >
   "I welcome any discussion about the future of our caucus and the important work ahead. I'm proud of what
   we've accomplished together—55 seats and counting is an amazing result—and I have the votes to continue
@@ -175,5 +177,10 @@ sources:
 - title: Senate Dems return to leadership brawl
   outlet: Punchbowl News
   url: https://punchbowl.news/article/washington/senate-dems-return-leadership-brawl/
+  date: 2026-11-16
+  type: article
+- title: Van Hollen Says Senators Aren't Publicly Supporting Him Due to Fear of Schumer 'Retaliation'
+  outlet: The Washington Sun
+  url: https://www.washingtonsun.com/congress/van-hollen-schumer-leadership-race
   date: 2026-11-16
   type: article

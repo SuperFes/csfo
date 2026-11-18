@@ -6,6 +6,8 @@ status: needs-review
 review_note: >
   Developing. Counts only on-the-record statements and will change before the vote. Some quotes are
   fragments as the outlet published them, and TIME and Roll Call differ on Stratton.
+  Politico counted Alsobrooks for Schumer on Nov. 15, but on Nov. 16 she declined to take a side (The
+  Washington Sun).
 summary: >
   Sen. Chris Van Hollen is challenging Chuck Schumer to lead Senate Democrats in the new majority. The caucus
   votes by secret ballot, set for Dec. 1, though Schumer's allies have discussed moving it earlier. This page
@@ -203,13 +205,26 @@ commitments:
   - name: Angela Alsobrooks
     state: MD
     party: D
-    position: schumer
-    date: 2026-11-15
+    position: undecided
+    date: 2026-11-16
+    quote: We're going to have a big, big discussion tomorrow. We'll figure it out.
     source:
-      title: Van Hollen disputes Schumer's claim that he has the votes to stay leader
-      outlet: Politico (via Yahoo News)
-      url: https://www.yahoo.com/news/politics/articles/van-hollen-disputes-schumer-claim-170044910.html
-      date: 2026-11-15
+      title: Van Hollen Says Senators Aren't Publicly Supporting Him Due to Fear of Schumer 'Retaliation'
+      outlet: The Washington Sun
+      url: https://www.washingtonsun.com/congress/van-hollen-schumer-leadership-race
+      date: 2026-11-16
+      type: article
+  - name: Mazie Hirono
+    state: HI
+    party: D
+    position: schumer
+    date: 2026-11-16
+    quote: I have a long history with Chuck. He's helped me on some pretty necessary things that are really important to Hawaii.
+    source:
+      title: Van Hollen Says Senators Aren't Publicly Supporting Him Due to Fear of Schumer 'Retaliation'
+      outlet: The Washington Sun
+      url: https://www.washingtonsun.com/congress/van-hollen-schumer-leadership-race
+      date: 2026-11-16
       type: article
   - name: Bernie Sanders
     state: VT
@@ -397,6 +412,43 @@ commitments:
       url: >-
         https://kesq.com/news/national-politics/cnn-us-politics/2026/11/12/chris-van-hollen-launches-challenge-against-chuck-schumer-to-lead-senate-democrats/
       date: 2026-11-12
+      type: article
+  - name: Tim Kaine
+    state: VA
+    party: D
+    position: undecided
+    date: 2026-11-16
+    quote: The voters are demanding change, so we have to figure that out as a caucus, and we're going to be able to.
+    source:
+      title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
+      outlet: AP (via PBS NewsHour)
+      url: https://www.pbs.org/newshour/politics/van-hollens-bid-to-replace-schumer-puts-pressure-on-democrats-to-take-sides
+      date: 2026-11-17
+      type: article
+  - name: Jon Ossoff
+    state: GA
+    party: D
+    position: undecided
+    date: 2026-11-16
+    quote: I want to hear from any candidate what their vision is for the floor and managing the caucus.
+    source:
+      title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
+      outlet: AP (via PBS NewsHour)
+      url: https://www.pbs.org/newshour/politics/van-hollens-bid-to-replace-schumer-puts-pressure-on-democrats-to-take-sides
+      date: 2026-11-17
+      type: article
+  - name: Josh Turek
+    state: IA
+    party: D
+    incoming: true
+    position: undecided
+    date: 2026-11-16
+    quote: who is going to put forth the most robust anti-corruption agenda
+    source:
+      title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
+      outlet: AP (via PBS NewsHour)
+      url: https://www.pbs.org/newshour/politics/van-hollens-bid-to-replace-schumer-puts-pressure-on-democrats-to-take-sides
+      date: 2026-11-17
       type: article
 related_entries:
   - van-hollen-announces-leader-challenge
