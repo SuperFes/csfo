@@ -19,7 +19,8 @@ class MembersTest extends TestCase
         $this->setUpContentDir();
         config(['responsecache.enabled' => false]);
 
-        $this->writeEntry('min-wage-vote');
+        $this->writeEntry('min-wage-vote', ['people' => ['chuck-schumer']]);
+        $this->writeEntry('swipe-fees', ['date' => '2024-01-01']);
         app(ContentSync::class)->sync($this->contentDir);
     }
 
@@ -49,7 +50,7 @@ class MembersTest extends TestCase
         $this->writePolicy('unrelated', ['title' => 'Not voted on']);
         $this->writeMember('chuck-schumer', [
             'name' => 'Chuck Schumer',
-            'related_entries' => ['min-wage-vote'],
+            'related_entries' => ['swipe-fees'],
             'votes' => [$this->voteData(['policy' => 'wages'])],
         ]);
 
@@ -59,7 +60,10 @@ class MembersTest extends TestCase
             ->assertInertia(fn (Assert $page) => $page
                 ->component('Member', false)
                 ->where('member.votes.0.policy', 'wages')
-                ->where('related.0.slug', 'min-wage-vote')
+                ->has('record', 1)
+                ->where('record.0.slug', 'min-wage-vote')
+                ->has('related', 1)
+                ->where('related.0.slug', 'swipe-fees')
                 ->where('policyTitles', ['wages' => 'A living wage']));
     }
 
@@ -88,6 +92,42 @@ class MembersTest extends TestCase
 
         $this->get('/entries/min-wage-vote')->assertInertia(fn (Assert $page) => $page
             ->has('members', 1)
-            ->where('members.0.slug', 'bystander'));
+            ->where('members.0.slug', 'bystander')
+            ->where('members.0.subject', false));
+    }
+
+    public function test_entry_page_lists_subjects_first_in_entry_order(): void
+    {
+        $this->writeEntry('cloture', ['people' => ['dick-durbin', 'chuck-schumer']]);
+        app(ContentSync::class)->sync($this->contentDir);
+        $this->writeMember('chuck-schumer', ['name' => 'Chuck Schumer']);
+        $this->writeMember('dick-durbin', ['name' => 'Dick Durbin']);
+        $this->writeMember('angus-king', ['name' => 'Angus King', 'related_entries' => ['cloture']]);
+
+        $this->get('/entries/cloture')->assertInertia(fn (Assert $page) => $page
+            ->where('members.0.slug', 'dick-durbin')
+            ->where('members.0.short_name', 'Durbin')
+            ->where('members.0.subject', true)
+            ->where('members.1.slug', 'chuck-schumer')
+            ->where('members.2.slug', 'angus-king')
+            ->where('members.2.subject', false));
+    }
+
+    public function test_home_names_only_people_with_entries(): void
+    {
+        $this->writeMember('chuck-schumer', ['name' => 'Chuck Schumer']);
+        $this->writeMember('dick-durbin', ['name' => 'Dick Durbin']);
+
+        $this->get('/')->assertInertia(fn (Assert $page) => $page
+            ->where('people', ['chuck-schumer' => ['name' => 'Chuck Schumer', 'short_name' => 'Schumer']])
+            ->where('entries.0.people', ['chuck-schumer']));
+    }
+
+    public function test_unverified_people_are_not_named(): void
+    {
+        config(['csfo.show_unverified' => false]);
+        $this->writeMember('chuck-schumer', ['status' => 'needs-review']);
+
+        $this->get('/')->assertInertia(fn (Assert $page) => $page->where('people', []));
     }
 }

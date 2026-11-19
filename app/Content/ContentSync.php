@@ -43,6 +43,29 @@ class ContentSync
     }
 
     /**
+     * Every name in an entry's `people` must have a member file.
+     *
+     * @param  array<string, array<string, mixed>>  $entries
+     * @param  list<string>  $memberSlugs
+     *
+     * @throws InvalidContentException
+     */
+    public function checkPeople(array $entries, array $memberSlugs): void
+    {
+        $errors = [];
+
+        foreach ($entries as $slug => $entry) {
+            if ($missing = array_diff($entry['people'], $memberSlugs)) {
+                $errors["{$slug}.yaml"] = ['Unknown people: '.implode(', ', $missing)];
+            }
+        }
+
+        if ($errors) {
+            throw new InvalidContentException($errors);
+        }
+    }
+
+    /**
      * @return array{created: int, updated: int, unchanged: int, deleted: int}
      *
      * @throws InvalidContentException

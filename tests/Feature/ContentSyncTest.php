@@ -122,4 +122,23 @@ class ContentSyncTest extends TestCase
         $this->artisan('content:sync --check')->expectsOutput('1 entries valid.')->assertSuccessful();
         $this->assertSame(0, Entry::count());
     }
+
+    public function test_command_rejects_people_without_member_files(): void
+    {
+        $this->writeMember('chuck-schumer');
+        $this->writeEntry('one', ['people' => ['chuck-schumer', 'nobody-here']]);
+
+        $this->artisan('content:sync --check')
+            ->expectsOutputToContain('Unknown people: nobody-here')
+            ->assertFailed();
+    }
+
+    public function test_people_are_stored_without_duplicates(): void
+    {
+        $this->writeEntry('one', ['people' => ['chuck-schumer', 'dick-durbin', 'chuck-schumer']]);
+
+        app(ContentSync::class)->sync($this->contentDir);
+
+        $this->assertSame(['chuck-schumer', 'dick-durbin'], Entry::firstWhere('slug', 'one')->people);
+    }
 }

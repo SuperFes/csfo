@@ -5,7 +5,7 @@
     import ResponseLadder from '../components/ResponseLadder.svelte';
     import SiteLayout from '../layouts/SiteLayout.svelte';
 
-    let { entries, categories, highlights, retaliation, policies } = $props();
+    let { entries, categories, people, highlights, retaliation, policies } = $props();
 </script>
 
 <SiteLayout>
@@ -41,7 +41,7 @@
     {/if}
 
     <div class="wrap">
-        <Record {entries} {categories} />
+        <Record {entries} {categories} {people} />
     </div>
 </SiteLayout>
 

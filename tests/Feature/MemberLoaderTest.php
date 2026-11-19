@@ -54,6 +54,17 @@ class MemberLoaderTest extends TestCase
         $this->assertSame('Blackstone', $member['employers'][0]['name']);
     }
 
+    public function test_short_name_keeps_multi_word_surnames(): void
+    {
+        $this->writeMember('chris-van-hollen', ['name' => 'Chris Van Hollen']);
+        $this->writeMember('chuck-schumer', ['name' => 'Chuck Schumer']);
+
+        $members = app(MemberLoader::class)->load($this->contentDir.'/members');
+
+        $this->assertSame('Van Hollen', $members['chris-van-hollen']['short_name']);
+        $this->assertSame('Schumer', $members['chuck-schumer']['short_name']);
+    }
+
     public function test_blocker_needs_a_vote_tied_to_a_policy(): void
     {
         $this->writeMember('blocker', ['inclusion' => ['blocker'], 'votes' => [$this->voteData()]]);

@@ -65,13 +65,35 @@ class MemberCatalog
     }
 
     /**
+     * The people an entry is about, in the entry's order, then anyone else
+     * whose page points at it.
+     *
+     * @param  list<string>  $people
      * @return list<array<string, mixed>>
      */
-    public function cardsForEntry(string $entrySlug): array
+    public function cardsForEntry(string $entrySlug, array $people = []): array
     {
-        $related = array_filter($this->all(), fn (array $m) => in_array($entrySlug, $m['related_entries'], true));
+        $all = $this->all();
+        $subjects = array_values(array_filter(array_map(fn (string $slug) => $all[$slug] ?? null, $people)));
+        $mentioned = array_filter(
+            $all,
+            fn (array $m) => ! in_array($m['slug'], $people, true) && in_array($entrySlug, $m['related_entries'], true),
+        );
 
-        return array_values(array_map(fn (array $m) => $this->card($m), $related));
+        return array_map(
+            fn (array $m) => [...$this->card($m), 'subject' => in_array($m['slug'], $people, true)],
+            [...$subjects, ...array_values($mentioned)],
+        );
+    }
+
+    /**
+     * Name lookup for everyone named in some entry's `people`.
+     *
+     * @return array<string, array{name: string, short_name: string}>
+     */
+    public function names(): array
+    {
+        return array_map(fn (array $m) => ['name' => $m['name'], 'short_name' => $m['short_name']], $this->all());
     }
 
     /**
@@ -83,6 +105,7 @@ class MemberCatalog
         return [
             'slug' => $member['slug'],
             'name' => $member['name'],
+            'short_name' => $member['short_name'],
             'party' => $member['party'],
             'state' => $member['state'],
             'district' => $member['district'],

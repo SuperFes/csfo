@@ -1,6 +1,7 @@
 slug: smp-dark-money-reliance
 title: Schumer-aligned super PAC took $102M from a nonprofit that hides its donors
 date: 2026-10-14
+people: [chuck-schumer]
 category: ethics-and-corruption
 status: verified
 summary: >
@@ -22,7 +23,7 @@ context: >
   has contrasted this funding with Schumer's push for the DISCLOSE Act. On Sept. 22, 2022, the day of the
   Senate vote, he posted on X, "The Senate is voting on the DISCLOSE Act because we must cure this cancer
   of dark money."
-schumer_response: null
+statement: null
 sources:
 - title: 'FEC Schedule A: SMP (C00484642) receipts from Majority Forward, 2025-2026'
   outlet: Federal Election Commission

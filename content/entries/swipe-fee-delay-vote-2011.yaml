@@ -1,6 +1,7 @@
 slug: swipe-fee-delay-vote-2011
 title: Schumer voted with banks to delay the Durbin debit swipe-fee limits
 date: 2011-06-08
+people: [chuck-schumer]
 category: economy-and-labor
 status: verified
 summary: >
@@ -14,7 +15,7 @@ could_have: >
 context: >
   Eighteen other Democrats, including Gillibrand, also voted yes, so the split was bipartisan. The behind-the-scenes
   lobbying claim is attributed to unnamed bank lobbyists in secondary reporting.
-schumer_response: null
+statement: null
 sources:
 - title: Roll Call Vote 112th Congress, 1st Session, Vote No. 86 (Tester Amdt. No. 392)
   outlet: U.S. Senate

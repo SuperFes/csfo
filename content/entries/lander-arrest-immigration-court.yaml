@@ -1,6 +1,7 @@
 slug: lander-arrest-immigration-court
 title: ICE arrests NYC Comptroller Brad Lander at immigration court; no charges filed
 date: 2025-06-17
+people: [chuck-schumer]
 category: oversight-and-accountability
 status: needs-review
 review_note: >
@@ -19,7 +20,7 @@ context: >
   Lander was never charged, and NBC reported that SDNY said it was still investigating. The arrest came
   days after the Padilla incident, and Senate Democrats' formal responses that month centered on Padilla.
   Reason for needs-review: Schumer's quote comes from Semafor alone, and the full statement was not found.
-schumer_response: >
+statement: >
   Semafor reported that Schumer accused the Trump administration of "weaponizing law enforcement to attack
   political enemies." The full statement was not located.
 response_level: statement

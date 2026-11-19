@@ -27,19 +27,19 @@ class MemberController extends Controller
     {
         $member = $this->catalog->find($slug) ?? abort(404);
 
-        $related = Entry::published()
-            ->whereIn('slug', $member['related_entries'])
-            ->orderByDesc('date')
-            ->get()
-            ->map->toCard()
-            ->values();
+        // Small table; filtering the JSON column in PHP keeps this portable.
+        $entries = Entry::published()->orderByDesc('date')->get();
+        [$record, $mentioned] = $entries
+            ->filter(fn (Entry $e) => in_array($slug, $e->people ?? [], true) || in_array($e->slug, $member['related_entries'], true))
+            ->partition(fn (Entry $e) => in_array($slug, $e->people ?? [], true));
 
         // Only titles are needed to label each vote's policy link.
         $policyTitles = array_map(fn (array $p) => $p['title'], $policies->all());
 
         return Inertia::render('Member', [
             'member' => $member,
-            'related' => $related,
+            'record' => $record->map->toCard()->values(),
+            'related' => $mentioned->map->toCard()->values(),
             'policyTitles' => (object) array_intersect_key($policyTitles, array_flip(array_filter(array_column($member['votes'], 'policy')))),
         ])->withViewData(['meta' => [
             'title' => $member['name'].' — Follow the money — '.config('app.name'),

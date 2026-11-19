@@ -1,6 +1,7 @@
 slug: aoc-2028-primary-threat
 title: Polling shows Ocasio-Cortez leading Schumer in a possible 2028 primary
 date: 2025-04-04
+people: [chuck-schumer]
 category: party-and-primaries
 status: needs-review
 review_note: >
@@ -20,7 +21,7 @@ context: >
   Schumer 54% to 33% among likely Democratic voters in New York City (Newsweek). An Education Reform Now
   Advocacy poll of 505 New Yorkers (Aug. 19-21, 2026) found Schumer viewed favorably by 39% and
   unfavorably by 52%, against 47% and 39% for Ocasio-Cortez (Newsweek).
-schumer_response: null
+statement: null
 sources:
 - title: >-
     Alexandria Ocasio-Cortez Leads Chuck Schumer in Hypothetical 2028 Matchup by 19 Points

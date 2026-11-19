@@ -2,7 +2,7 @@
     import SiteLayout from '../layouts/SiteLayout.svelte';
     import { formatDate, reportErrorUrl, seat } from '../lib/format.js';
 
-    let { member, related, policyTitles } = $props();
+    let { member, record, related, policyTitles } = $props();
 
     const sourceTypes = {
         article: 'Reporting',
@@ -123,9 +123,26 @@
             </section>
         {/if}
 
+        {#if record.length}
+            <section aria-labelledby="record-heading">
+                <h2 id="record-heading">{member.short_name}’s record</h2>
+                <ul class="related">
+                    {#each record as e (e.slug)}
+                        <li>
+                            <a href="/entries/{e.slug}">
+                                <time datetime={e.date}>{formatDate(e.date)}</time>
+                                <span>{e.title}</span>
+                            </a>
+                        </li>
+                    {/each}
+                </ul>
+                <p class="more"><a href="/?person={member.slug}#record">See it in the full record</a></p>
+            </section>
+        {/if}
+
         {#if related.length}
             <section aria-labelledby="related-heading">
-                <h2 id="related-heading">In the record</h2>
+                <h2 id="related-heading">{record.length ? 'Also mentioned in' : 'In the record'}</h2>
                 <ul class="related">
                     {#each related as e (e.slug)}
                         <li>
@@ -440,6 +457,10 @@
 
     .related li {
         border-bottom: 1px solid var(--rule);
+    }
+
+    .more {
+        margin: 1rem 0 0;
     }
 
     .related a {

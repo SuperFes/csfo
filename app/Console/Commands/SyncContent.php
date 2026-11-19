@@ -25,7 +25,9 @@ class SyncContent extends Command
             $highlights->load(config('csfo.highlights_path'));
             $entries = $sync->load($path);
             $policySlugs = array_keys($policies->load(config('csfo.policies_path'), array_keys($entries)));
-            $memberCount = count($members->load(config('csfo.members_path'), array_keys($entries), $policySlugs));
+            $memberSlugs = array_keys($members->load(config('csfo.members_path'), array_keys($entries), $policySlugs));
+            $sync->checkPeople($entries, $memberSlugs);
+            $memberCount = count($memberSlugs);
             $raceCount = count($races->load(config('csfo.races_path'), array_keys($entries)));
 
             if ($this->option('check')) {

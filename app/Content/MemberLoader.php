@@ -94,6 +94,7 @@ class MemberLoader
         return [
             'slug' => $data['slug'],
             'name' => trim($data['name']),
+            'short_name' => $this->shortName(trim($data['name'])),
             'party' => $data['party'],
             'chamber' => $data['chamber'],
             'chamber_label' => Chamber::from($data['chamber'])->label(),
@@ -117,6 +118,16 @@ class MemberLoader
             'related_entries' => array_values(array_unique($data['related_entries'] ?? [])),
             'sources' => $this->normalizeSources($data['sources']),
         ];
+    }
+
+    /**
+     * The surname as used in headlines ("Van Hollen", not "Hollen").
+     */
+    private function shortName(string $name): string
+    {
+        $parts = preg_split('/\s+/', $name);
+
+        return count($parts) > 1 ? implode(' ', array_slice($parts, 1)) : $name;
     }
 
     /**

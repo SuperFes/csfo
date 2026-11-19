@@ -20,7 +20,8 @@ class Entry extends Model
         'summary',
         'could_have',
         'context',
-        'schumer_response',
+        'statement',
+        'people',
         'response_level',
         'tags',
         'sources',
@@ -34,6 +35,7 @@ class Entry extends Model
             'status' => EntryStatus::class,
             'response_level' => ResponseLevel::class,
             'tags' => 'array',
+            'people' => 'array',
             'sources' => 'array',
         ];
     }
@@ -69,6 +71,7 @@ class Entry extends Model
             'could_have' => $this->could_have,
             'response_level' => $this->response_level?->value,
             'tags' => $this->tags ?? [],
+            'people' => $this->people ?? [],
             'source_count' => count($this->sources),
         ];
     }
@@ -81,7 +84,7 @@ class Entry extends Model
         return [
             ...$this->toCard(),
             'context' => $this->context,
-            'schumer_response' => $this->schumer_response,
+            'statement' => $this->statement,
             'response' => $this->response_level ? [
                 'value' => $this->response_level->value,
                 'label' => $this->response_level->label(),

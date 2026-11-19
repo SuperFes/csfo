@@ -48,7 +48,8 @@ trait WritesContentFixtures
             'summary' => 'Something happened.',
             'could_have' => 'Something else.',
             'context' => null,
-            'schumer_response' => null,
+            'statement' => null,
+            'people' => [],
             'sources' => [[
                 'title' => 'Roll call vote',
                 'outlet' => 'senate.gov',

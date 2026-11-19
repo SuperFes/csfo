@@ -6,11 +6,13 @@
      * @type {{
      *   entries: Array<{ slug: string, title: string, date: string, category: string, status: string, could_have: string, summary: string }>,
      *   categories: Array<{ value: string, label: string }>,
+     *   people: Record<string, { name: string, short_name: string }>,
      * }}
      */
-    let { entries, categories } = $props();
+    let { entries, categories, people = {} } = $props();
 
     let category = $state('');
+    let person = $state('');
     let query = $state('');
 
     const labels = $derived(Object.fromEntries(categories.map((c) => [c.value, c.label])));
@@ -18,12 +20,20 @@
     // Only offer categories that have entries.
     const usedCategories = $derived(categories.filter((c) => entries.some((e) => e.category === c.value)));
 
+    // Most-recorded first; only worth a filter once more than one person has entries.
+    const usedPeople = $derived.by(() => {
+        const counts = new Map();
+        for (const e of entries) for (const p of e.people ?? []) if (people[p]) counts.set(p, (counts.get(p) ?? 0) + 1);
+        return [...counts].sort((a, b) => b[1] - a[1] || people[a[0]].name.localeCompare(people[b[0]].name));
+    });
+
     const filtered = $derived.by(() => {
         const q = query.trim().toLowerCase();
 
         return entries.filter(
             (e) =>
                 (!category || e.category === category) &&
+                (!person || (e.people ?? []).includes(person)) &&
                 (!q || `${e.title} ${e.summary} ${e.could_have}`.toLowerCase().includes(q)),
         );
     });
@@ -39,25 +49,37 @@
         return [...groups];
     });
 
-    // Keep the category in the URL so a filtered view can be shared.
+    // Keep filters in the URL so a filtered view can be shared.
     onMount(() => {
-        const c = new URLSearchParams(location.search).get('category');
+        const params = new URLSearchParams(location.search);
+        const c = params.get('category');
         if (c && categories.some((x) => x.value === c)) category = c;
+        const p = params.get('person');
+        if (p && people[p]) person = p;
     });
+
+    function setParam(key, value) {
+        const url = new URL(location.href);
+        if (value) url.searchParams.set(key, value);
+        else url.searchParams.delete(key);
+        history.replaceState(history.state, '', url);
+    }
 
     function choose(value) {
         category = category === value ? '' : value;
-        const url = new URL(location.href);
-        if (category) url.searchParams.set('category', category);
-        else url.searchParams.delete('category');
-        history.replaceState(history.state, '', url);
+        setParam('category', category);
+    }
+
+    function choosePerson(value) {
+        person = person === value ? '' : value;
+        setParam('person', person);
     }
 </script>
 
 <section id="record" class="record" aria-labelledby="record-heading">
     <div class="head">
         <h2 id="record-heading">The record</h2>
-        <p class="deck">{entries.length} moments when Senate Democratic leadership could have acted, and what they did instead.</p>
+        <p class="deck">{entries.length} moments when Democratic leadership could have acted, and what they did instead.</p>
     </div>
 
     <div class="filters">
@@ -71,6 +93,16 @@
                 <button type="button" aria-pressed={category === c.value} onclick={() => choose(c.value)}>{c.label}</button>
             {/each}
         </div>
+        {#if usedPeople.length > 1}
+            <div class="chips" role="group" aria-label="Filter by person">
+                <button type="button" aria-pressed={person === ''} onclick={() => choosePerson('')}>Everyone</button>
+                {#each usedPeople as [slug, count] (slug)}
+                    <button type="button" aria-pressed={person === slug} onclick={() => choosePerson(slug)}>
+                        {people[slug].short_name} <span class="n">{count}</span>
+                    </button>
+                {/each}
+            </div>
+        {/if}
     </div>
 
     <p class="count" aria-live="polite">
@@ -91,6 +123,9 @@
                             <span class="meta">
                                 <time datetime={e.date}>{formatShortDate(e.date)}</time>
                                 <span>{labels[e.category]}</span>
+                                {#if e.people?.some((p) => people[p])}
+                                    <span>{e.people.filter((p) => people[p]).map((p) => people[p].short_name).join(', ')}</span>
+                                {/if}
                                 {#if e.status === 'needs-review'}
                                     <span class="review">Under review</span>
                                 {/if}
@@ -170,6 +205,12 @@
         .chips button {
             flex: none;
         }
+    }
+
+    .chips .n {
+        margin-left: 0.25rem;
+        font-variant-numeric: tabular-nums;
+        opacity: 0.7;
     }
 
     .chips button {

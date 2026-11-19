@@ -6,6 +6,8 @@
 
     let { entry, categories, policies, members } = $props();
 
+    const speaker = $derived(members.find((m) => m.subject)?.short_name ?? 'leadership');
+
     const categoryLabel = $derived(categories.find((c) => c.value === entry.category)?.label);
 
     const sourceTypes = {
@@ -66,10 +68,10 @@
             <p>{entry.could_have}</p>
         </section>
 
-        {#if entry.schumer_response}
+        {#if entry.statement}
             <section aria-labelledby="said-heading">
-                <h2 id="said-heading">What Schumer said</h2>
-                <p class="said">{entry.schumer_response}</p>
+                <h2 id="said-heading">What {speaker} said</h2>
+                <p class="said">{entry.statement}</p>
             </section>
         {/if}
 
