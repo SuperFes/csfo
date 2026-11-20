@@ -1,7 +1,7 @@
 slug: senate-leader-2026
 title: Senate Democratic leader race
 election_date: 2026-12-01
-updated: 2026-11-17
+updated: 2026-11-19
 status: needs-review
 review_note: >
   Developing. Counts only on-the-record statements and will change before the vote. Some quotes are
@@ -12,7 +12,8 @@ summary: >
   Sen. Chris Van Hollen is challenging Chuck Schumer to lead Senate Democrats in the new majority. The caucus
   votes by secret ballot, set for Dec. 1, though Schumer's allies have discussed moving it earlier. This page
   lists every senator and senator-elect who has said publicly where they stand, with their own words and a
-  source for each.
+  source for each. The same vote picks a whip to succeed the retiring Dick Durbin; Brian Schatz, a Schumer
+  backer whom Schumer endorsed for the job in August 2025, has no announced opponent (Punchbowl News).
 seats: 56
 needed: 29
 candidates:
@@ -504,15 +505,24 @@ commitments:
   - name: Elissa Slotkin
     state: MI
     party: D
-    position: not-schumer
-    date: 2026-11-13
-    quote: not voting for Sen. Schumer
+    position: van-hollen
+    date: 2026-11-19
+    quote: I've been clear as well that I don't think that Sen. Schumer is best positioned to be our next leader.
     source:
-      title: Schumer allies voice confidence, argue Van Hollen challenge about ending 'filibuster'
-      outlet: The Hill (via Yahoo News)
-      url: https://www.yahoo.com/news/politics/articles/schumer-allies-voice-confidence-argue-110000873.html
-      date: 2026-11-14
+      title: Slotkin Backs Van Hollen Over Schumer for Senate Majority Leader
+      outlet: The Washington Sun
+      url: https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes
+      date: 2026-11-19
       type: article
+    previous:
+      - position: not-schumer
+        date: 2026-11-13
+        source:
+          title: Schumer allies voice confidence, argue Van Hollen challenge about ending 'filibuster'
+          outlet: The Hill (via Yahoo News)
+          url: https://www.yahoo.com/news/politics/articles/schumer-allies-voice-confidence-argue-110000873.html
+          date: 2026-11-14
+          type: article
   - name: Adam Hamilton
     state: KS
     party: D
@@ -669,6 +679,11 @@ related_entries:
   - senators-elect-refuse-to-back-schumer
   - sanders-slotkin-oppose-schumer-van-hollen-weighs-run
 sources:
+  - title: Schatz secures Schumer's backing
+    outlet: Punchbowl News
+    url: https://punchbowl.news/?p=112818
+    date: 2025-08-05
+    type: article
   - title: Senators of the 119th Congress, contact information
     outlet: U.S. Senate
     url: https://www.senate.gov/senators/senators-contact.htm
