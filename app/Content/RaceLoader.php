@@ -69,6 +69,15 @@ class RaceLoader
             if (! in_array($c['position'], $positions, true)) {
                 $problems[] = "commitments.{$i}: unknown position \"{$c['position']}\".";
             }
+
+            foreach ($c['previous'] ?? [] as $j => $p) {
+                if (! in_array($p['position'], $positions, true)) {
+                    $problems[] = "commitments.{$i}.previous.{$j}: unknown position \"{$p['position']}\".";
+                }
+                if ($p['date'] > $c['date']) {
+                    $problems[] = "commitments.{$i}.previous.{$j}: dated after the current position.";
+                }
+            }
         }
 
         $names = array_column($data['commitments'] ?? [], 'name');
@@ -94,6 +103,42 @@ class RaceLoader
         }
 
         return $problems;
+    }
+
+    /**
+     * Every public stance and change of stance, newest first.
+     *
+     * @param  list<array<string, mixed>>  $commitments
+     * @param  array<string, string>  $labels
+     * @return list<array<string, mixed>>
+     */
+    private function log(array $commitments, array $labels): array
+    {
+        $events = [];
+
+        foreach ($commitments as $c) {
+            $chain = $c['previous'] ?? [];
+            usort($chain, fn (array $a, array $b) => $a['date'] <=> $b['date']);
+            $chain[] = ['position' => $c['position'], 'date' => $c['date'], 'source' => $c['source']];
+
+            foreach ($chain as $i => $step) {
+                $events[] = [
+                    'date' => $step['date'],
+                    'name' => trim($c['name']),
+                    'state' => $c['state'],
+                    'incoming' => (bool) ($c['incoming'] ?? false),
+                    'leaving' => (bool) ($c['leaving'] ?? false),
+                    'position' => $step['position'],
+                    'label' => $labels[$step['position']],
+                    'from' => $i > 0 ? $labels[$chain[$i - 1]['position']] : null,
+                    'source_url' => $step['source']['url'],
+                ];
+            }
+        }
+
+        usort($events, fn (array $a, array $b) => [$b['date'], $a['name']] <=> [$a['date'], $b['name']]);
+
+        return $events;
     }
 
     /**
@@ -172,6 +217,7 @@ class RaceLoader
         }
 
         $counted = array_sum(array_column($groups, 'count'));
+        $labels = $this->positionLabels($data['candidates']);
 
         return [
             'slug' => $data['slug'],
@@ -187,6 +233,7 @@ class RaceLoader
             'candidates' => array_map(fn (array $c) => ['key' => $c['key'], 'name' => trim($c['name'])], $data['candidates']),
             'groups' => $groups,
             'unstated' => max(0, (int) $data['seats'] - $counted),
+            'log' => $this->log($data['commitments'] ?? [], $labels),
             'silent' => $silent,
             'related_entries' => array_values(array_unique($data['related_entries'] ?? [])),
             'sources' => $this->normalizeSources($data['sources']),
@@ -227,6 +274,15 @@ class RaceLoader
             'commitments.*.source.url' => ['required', 'url:https,http'],
             'commitments.*.source.date' => ['nullable', 'date_format:Y-m-d'],
             'commitments.*.source.type' => ['required', Rule::enum(SourceType::class)],
+            'commitments.*.previous' => ['nullable', 'array'],
+            'commitments.*.previous.*.position' => ['required', 'string'],
+            'commitments.*.previous.*.date' => ['required', 'date_format:Y-m-d'],
+            'commitments.*.previous.*.source' => ['required', 'array'],
+            'commitments.*.previous.*.source.title' => ['required', 'string'],
+            'commitments.*.previous.*.source.outlet' => ['required', 'string'],
+            'commitments.*.previous.*.source.url' => ['required', 'url:https,http'],
+            'commitments.*.previous.*.source.date' => ['nullable', 'date_format:Y-m-d'],
+            'commitments.*.previous.*.source.type' => ['required', Rule::enum(SourceType::class)],
             'electorate' => ['nullable', 'array'],
             'electorate.*.name' => ['required', 'string'],
             'electorate.*.state' => ['required', 'string', 'regex:/^[A-Z]{2}$/'],

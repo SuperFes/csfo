@@ -57,6 +57,39 @@ class RaceLoaderTest extends TestCase
         $this->assertTrue($race['groups'][0]['commitments'][1]['leaving']);
     }
 
+    public function test_log_lists_stances_and_changes_newest_first(): void
+    {
+        $earlier = ['position' => 'undecided', 'date' => '2026-11-10', 'source' => ['title' => 'Interview', 'outlet' => 'Outlet', 'url' => 'https://example.com/earlier', 'type' => 'article']];
+        $this->writeRace('leader', ['commitments' => [
+            $this->commitmentData(['name' => 'Switcher', 'position' => 'schumer', 'date' => '2026-11-14', 'previous' => [$earlier]]),
+            $this->commitmentData(['name' => 'Steady', 'date' => '2026-11-12']),
+        ]]);
+
+        $log = app(RaceLoader::class)->load($this->contentDir.'/races')['leader']['log'];
+
+        $this->assertSame(['Switcher', 'Steady', 'Switcher'], array_column($log, 'name'));
+        $this->assertSame(['For Schumer', 'For Van Hollen', 'Undecided'], array_column($log, 'label'));
+        $this->assertSame(['Undecided', null, null], array_column($log, 'from'));
+        $this->assertSame('https://example.com/earlier', $log[2]['source_url']);
+    }
+
+    public function test_previous_position_must_be_known_and_earlier(): void
+    {
+        $source = ['title' => 'Interview', 'outlet' => 'Outlet', 'url' => 'https://example.com/a', 'type' => 'article'];
+        $this->writeRace('leader', ['commitments' => [$this->commitmentData([
+            'date' => '2026-11-12',
+            'previous' => [
+                ['position' => 'durbin', 'date' => '2026-11-10', 'source' => $source],
+                ['position' => 'undecided', 'date' => '2026-11-13', 'source' => $source],
+            ],
+        ])]]);
+
+        $errors = implode("\n", $this->errorsFor('leader.yaml'));
+
+        $this->assertStringContainsString('previous.0: unknown position "durbin"', $errors);
+        $this->assertStringContainsString('previous.1: dated after the current position', $errors);
+    }
+
     public function test_rejects_unknown_position(): void
     {
         $this->writeRace('leader', ['commitments' => [$this->commitmentData(['position' => 'durbin'])]]);

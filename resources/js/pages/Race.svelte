@@ -28,6 +28,11 @@
             .filter((s) => s.count > 0),
     );
 
+    // The log can run long; the latest handful is what people come back for.
+    const LOG_PREVIEW = 8;
+    let showFullLog = $state(false);
+    const logRows = $derived(showFullLog ? race.log : race.log.slice(0, LOG_PREVIEW));
+
     const seats = $derived(segments.flatMap((s) => Array.from({ length: s.count }, () => s)));
 
     // Seats with no public position that belong to senators-elect, who have no offices to call yet.
@@ -88,6 +93,28 @@
                 Every sitting senator below has a phone number and contact form beside their name.
                 <a href="#group-unstated">See who hasn't said anything yet</a>.
             </p>
+        {/if}
+
+        {#if race.log.length}
+            <section aria-labelledby="log-heading">
+                <h2 id="log-heading">Latest moves</h2>
+                <ol class="log">
+                    {#each logRows as e, i (`${e.name}-${e.date}-${i}`)}
+                        <li>
+                            <time datetime={e.date}>{formatDate(e.date)}</time>
+                            <span class="who">{e.name} ({e.state}){#if e.incoming}, incoming{/if}{#if e.leaving}, leaving{/if}</span>
+                            <a class="move" href={e.source_url} rel="noopener noreferrer">
+                                {#if e.from}{e.from} to {e.label.charAt(0).toLowerCase() + e.label.slice(1)}{:else}{e.label}{/if}
+                            </a>
+                        </li>
+                    {/each}
+                </ol>
+                {#if race.log.length > LOG_PREVIEW}
+                    <button type="button" class="log-toggle" aria-expanded={showFullLog} onclick={() => (showFullLog = !showFullLog)}>
+                        {showFullLog ? 'Show fewer' : `Show all ${race.log.length}`}
+                    </button>
+                {/if}
+            </section>
         {/if}
 
         {#each race.groups as group (group.position)}
@@ -237,6 +264,53 @@
     .under-review a {
         color: inherit;
         font-weight: 600;
+    }
+
+    .log {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: var(--font-ui);
+    }
+
+    .log li {
+        display: grid;
+        grid-template-columns: 7rem 1fr;
+        gap: 0.125rem 1rem;
+        padding: 0.625rem 0;
+        border-bottom: 1px solid var(--rule);
+    }
+
+    .log time {
+        grid-row: span 2;
+        color: var(--ink-muted);
+        font-variant-numeric: tabular-nums;
+    }
+
+    .log .who {
+        font-weight: 600;
+    }
+
+    .log .move {
+        color: var(--ink-secondary);
+    }
+
+    .log-toggle {
+        margin-top: 1rem;
+        padding: 0.375rem 0.875rem;
+        border: 2px solid var(--rule);
+        border-radius: 999px;
+        background: transparent;
+        color: var(--ink-secondary);
+        font-family: var(--font-ui);
+        font-size: 0.9375rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .log-toggle:hover {
+        border-color: var(--ink);
+        color: var(--ink);
     }
 
     .summary {
