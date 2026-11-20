@@ -5,7 +5,7 @@ people: [chuck-schumer]
 category: party-and-primaries
 status: needs-review
 review_note: >
-  Based on private discussions reported by Politico and The Hill. No date change has been made.
+  The caucus has signaled it will keep Dec. 1 but has not formally decided (Roll Call).
 summary: >
   Two days after Sen. Chris Van Hollen launched his challenge, Senate Democrats privately discussed holding
   the leadership election the week of Nov. 16, before the Thanksgiving recess, instead of Dec. 1. Party
@@ -26,7 +26,11 @@ context: >
   On Nov. 16, Sen. Jon Ossoff said, "I would oppose expediting before we've had a full process" (The
   Washington Sun), and Schumer backer Mazie Hirono said the caucus needs "enough time for what I would call
   a robust discussion." MS NOW reported that most Democrats dismissed moving the vote up, which would
-  require changing or overruling caucus rules, and that it remains set for Dec. 1.
+  require changing or overruling caucus rules, and that it remains set for Dec. 1. On Nov. 17, Sen. Mark
+  Kelly, a Schumer backer, endorsed voting as soon as that week: "Anything we can do now and move on to the
+  next thing is probably a good idea" (The Hill). Senators leaving that day's caucus lunch said the topic
+  did not come up, and Sen. Andy Kim said, "I think we should stick with the rules when it comes to the
+  caucus" (Roll Call).
 sources:
 - title: "'A long conversation': Senate Democrats gird for protracted Schumer-Van Hollen fight"
   outlet: Politico (via Yahoo News)
@@ -61,5 +65,15 @@ sources:
 - title: The race for Senate majority leader is only getting messier
   outlet: MS NOW
   url: https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier
+  date: 2026-11-17
+  type: article
+- title: "Kelly: Democrats will discuss moving up date of Schumer-Van Hollen leadership vote"
+  outlet: The Hill (via Yahoo News)
+  url: https://www.yahoo.com/news/politics/articles/kelly-democrats-discuss-moving-date-175910007.html
+  date: 2026-11-17
+  type: article
+- title: Senate Dems dismiss talk of earlier leadership election; Schumer confident
+  outlet: Roll Call
+  url: https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote
   date: 2026-11-17
   type: article

@@ -1,7 +1,7 @@
 slug: senate-leader-2026
 title: Senate Democratic leader race
 election_date: 2026-12-01
-updated: 2026-11-19
+updated: 2026-11-20
 status: needs-review
 review_note: >
   Developing. Counts only on-the-record statements and will change before the vote. Some quotes are
@@ -10,7 +10,8 @@ review_note: >
   Washington Sun).
 summary: >
   Sen. Chris Van Hollen is challenging Chuck Schumer to lead Senate Democrats in the new majority. The caucus
-  votes by secret ballot, set for Dec. 1, though Schumer's allies have discussed moving it earlier. This page
+  votes by secret ballot on Dec. 1. Schumer backer Mark Kelly floated moving it earlier, but most senators
+  opposed that and the caucus has signaled it will keep the date (Roll Call). This page
   lists every senator and senator-elect who has said publicly where they stand, with their own words and a
   source for each. The same vote picks a whip to succeed the retiring Dick Durbin; Brian Schatz, a Schumer
   backer whom Schumer endorsed for the job in August 2025, has no announced opponent (Punchbowl News).
@@ -670,6 +671,53 @@ commitments:
       title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
       outlet: AP (via PBS NewsHour)
       url: https://www.pbs.org/newshour/politics/van-hollens-bid-to-replace-schumer-puts-pressure-on-democrats-to-take-sides
+      date: 2026-11-17
+      type: article
+  - name: Ben Ray Luján
+    state: NM
+    party: D
+    position: undecided
+    date: 2026-11-17
+    quote: to hear the commitments from folks that are pursuing this leadership role
+    source:
+      title: Senate Dems dismiss talk of earlier leadership election; Schumer confident
+      outlet: Roll Call
+      url: https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote
+      date: 2026-11-17
+      type: article
+  - name: Tammy Duckworth
+    state: IL
+    party: D
+    position: undecided
+    date: 2026-11-16
+    quote: I've not announced
+    source:
+      title: The race for Senate majority leader is only getting messier
+      outlet: MS NOW
+      url: https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier
+      date: 2026-11-17
+      type: article
+  - name: Maria Cantwell
+    state: WA
+    party: D
+    position: undecided
+    date: 2026-11-16
+    quote: I don't have a comment for you on that one right now
+    source:
+      title: The race for Senate majority leader is only getting messier
+      outlet: MS NOW
+      url: https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier
+      date: 2026-11-17
+      type: article
+  - name: John Hickenlooper
+    state: CO
+    party: D
+    position: undecided
+    date: 2026-11-16
+    source:
+      title: The race for Senate majority leader is only getting messier
+      outlet: MS NOW
+      url: https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier
       date: 2026-11-17
       type: article
 related_entries:
