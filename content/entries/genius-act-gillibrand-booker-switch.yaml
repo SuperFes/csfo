@@ -1,0 +1,50 @@
+slug: genius-act-gillibrand-booker-switch
+title: Gillibrand and Booker broke Democrats' united front to advance the GENIUS crypto bill
+date: 2025-05-19
+people: [kirsten-gillibrand, cory-booker]
+category: ethics-and-corruption
+status: verified
+summary: >
+  On May 8, 2025, every Democratic-caucus senator voted against advancing the GENIUS Act, a stablecoin bill,
+  and it failed 48-49. Democrats had pushed for stronger anti-corruption provisions after a stablecoin from
+  World Liberty Financial, a Trump family-linked crypto firm, was used in an investment in Binance (CBS
+  News). Eleven days later, 16 Democrats switched and the bill advanced 66-32. They included Gillibrand, the
+  DSCC chair, who CBS said "worked on the bill," and Booker. Both voted for final passage on June 17, 68-30,
+  though CBS reported "some Democrats say their concerns have not been addressed." Among Gillibrand's top
+  employer sources of campaign contributions in 2025-26 are crypto firms Coinbase, Paradigm and Ripple (FEC).
+could_have: >
+  They could have held the united front that blocked the bill on May 8 until Democrats' anti-corruption
+  demands were met.
+context: >
+  The final bill required members of Congress and executive-branch officials to disclose stablecoin holdings
+  over $5,000 and added bankruptcy protections. Sen. Elizabeth Warren called it a "weak bill" that "is worse
+  than no bill at all."
+statement: >
+  Gillibrand called Trump's involvement in crypto "extremely unhelpful" but said it "does not diminish the
+  excellent work in this legislation" (CBS News).
+sources:
+- title: Senate Roll Call Vote 240, cloture on the motion to proceed to S. 1582
+  outlet: senate.gov
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00240.htm
+  date: 2025-05-08
+  type: vote
+- title: Senate Roll Call Vote 262, cloture on the motion to proceed to S. 1582
+  outlet: senate.gov
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00262.htm
+  date: 2025-05-19
+  type: vote
+- title: Senate Roll Call Vote 318, passage of S. 1582
+  outlet: senate.gov
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00318.htm
+  date: 2025-06-17
+  type: vote
+- title: Senate passes landmark crypto regulation bill with bipartisan support
+  outlet: CBS News
+  url: https://www.cbsnews.com/news/senate-vote-genius-act-crypto-stablecoin-bill
+  date: 2025-06-17
+  type: article
+- title: Kirsten Gillibrand, contributions by employer, 2025-26
+  outlet: Federal Election Commission
+  url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+  date: 2026-09-30
+  type: data

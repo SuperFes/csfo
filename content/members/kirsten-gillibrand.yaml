@@ -1,0 +1,96 @@
+slug: kirsten-gillibrand
+name: Kirsten Gillibrand
+party: D
+chamber: senate
+state: NY
+role: Chair, Democratic Senatorial Campaign Committee
+inclusion:
+  - leadership
+status: verified
+summary: >
+  Gillibrand chaired the Democratic Senatorial Campaign Committee, Senate Democrats' campaign arm, through
+  the 2026 midterms. In October 2025 the DSCC backed Maine Gov. Janet Mills in a contested Senate primary.
+  Gillibrand called Mills "a formidable candidate" and said, "My general view is that primaries make
+  candidates stronger" (HuffPost). Mills quit in April 2026, and Graham Platner won the primary. In 2025
+  Gillibrand worked on the GENIUS Act stablecoin bill, and she was one of 16 Democrats who switched to
+  advance it after the caucus had blocked it. Among her top employer sources of campaign contributions in
+  2025-26 are Cantor Fitzgerald and the crypto firms Coinbase, Paradigm and Ripple.
+funding:
+  - label: Total receipts, 2025-26
+    value: $3.5M
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S0NY00410/?cycle=2026
+  - label: From PACs and other political committees, 2025-26
+    value: $198,193
+    as_of: through Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S0NY00410/?cycle=2026
+  - label: Campaign cash on hand
+    value: $2.7M
+    as_of: Sept. 30, 2026
+    source_url: https://www.fec.gov/data/candidate/S0NY00410/?cycle=2026
+  - label: Total receipts, 2019-24 Senate campaign
+    value: $9.8M
+    as_of: through Dec. 31, 2024
+    source_url: https://www.fec.gov/data/candidate/S0NY00410/?cycle=2024
+employers:
+  - name: Cantor Fitzgerald
+    amount: $37,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+  - name: Willkie Farr & Gallagher
+    amount: $36,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+  - name: Coinbase
+    amount: $25,500
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+  - name: Paradigm
+    amount: $23,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+  - name: Boies Schiller Flexner
+    amount: $17,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+  - name: Ripple
+    amount: $16,000
+    period: 2025-26
+    source_url: https://www.fec.gov/data/committee/C00413914/?cycle=2026
+votes:
+  - date: 2025-05-08
+    title: Cloture on the GENIUS Act, stablecoin regulation (S. 1582)
+    position: nay
+    explanation: >
+      Failed 48-49, with every Democratic-caucus senator voting no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00240.htm
+  - date: 2025-05-19
+    title: Cloture on the GENIUS Act, second attempt
+    position: yea
+    explanation: >
+      Agreed to 66-32 after 16 Democratic-caucus senators switched to yes.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00262.htm
+  - date: 2025-06-17
+    title: GENIUS Act, stablecoin regulation (S. 1582)
+    position: yea
+    explanation: >
+      Passed 68-30, with 18 Democrats voting yes and 28 Democratic-caucus senators voting no.
+    url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00318.htm
+related_entries:
+  - michigan-stevens-endorsement-loss
+sources:
+  - title: Democrats Divided Over Who To Back In Maine Senate Race
+    outlet: HuffPost (via Yahoo News)
+    url: https://www.yahoo.com/news/articles/democrats-divided-over-back-maine-201128452.html
+    date: 2025-10-15
+    type: article
+  - title: Senate passes landmark crypto regulation bill with bipartisan support
+    outlet: CBS News
+    url: https://www.cbsnews.com/news/senate-vote-genius-act-crypto-stablecoin-bill
+    date: 2025-06-17
+    type: article
+  - title: Kirsten Gillibrand, candidate financial summary
+    outlet: Federal Election Commission
+    url: https://www.fec.gov/data/candidate/S0NY00410/
+    date: 2026-09-30
+    type: data

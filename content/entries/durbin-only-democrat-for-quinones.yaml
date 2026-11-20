@@ -1,0 +1,39 @@
+slug: durbin-only-democrat-for-quinones
+title: Durbin was the only Democrat to confirm the U.S. attorney who went on to chase Trump's "grand conspiracy"
+date: 2025-08-02
+people: [dick-durbin]
+category: courts
+status: verified
+summary: >
+  On May 22, 2025, Durbin, the Judiciary Committee's top Democrat, put a hold on Jason Reding Quiñones,
+  Trump's nominee for U.S. attorney for the Southern District of Florida, to force a floor roll call under a
+  precedent set by then-Sen. JD Vance. When that vote came on Aug. 2, 2025, Durbin was the only
+  Democratic-caucus senator to vote yes, and Quiñones was confirmed 52-44. By November 2025, Quiñones had
+  "issued more than two dozen subpoenas" in an investigation of the January 2017 intelligence assessment on
+  Russian election interference, part of what The New York Times described as a push for "grand conspiracy"
+  charges against Trump's adversaries.
+could_have: >
+  Durbin could have voted no with the other 44 Democratic senators who voted. His hold was only about
+  forcing a recorded vote, and nothing required him to vote yes.
+context: >
+  His vote did not decide the outcome. The Times reported that whether the subpoenas would lead to charges
+  "is impossible to know."
+statement: >
+  Announcing the hold, Durbin said it was "to ensure the appropriate Floor time is spent considering his
+  nomination" and that "there cannot be one set of rules for Republicans and another set for Democrats."
+sources:
+- title: Senate Roll Call Vote 490, nomination of Jason A. Reding Quiñones
+  outlet: senate.gov
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00490.htm
+  date: 2025-08-02
+  type: vote
+- title: Durbin Announces Hold On The Nomination Of The U.S. Attorney For The Southern District Of Florida
+  outlet: Senate Judiciary Committee Democrats
+  url: https://www.judiciary.senate.gov/press/dem/releases/durbin-announces-hold-on-the-nomination-of-the-us-attorney-for-the-southern-district-of-florida
+  date: 2025-05-22
+  type: primary
+- title: Trump loyalists push 'grand conspiracy' as new subpoenas issued from South Florida
+  outlet: The New York Times (via WLRN)
+  url: https://www.wlrn.org/government-politics/2025-11-10/trump-loyalists-push-grand-conspiracy-as-new-subpoenas-land
+  date: 2025-11-10
+  type: article
