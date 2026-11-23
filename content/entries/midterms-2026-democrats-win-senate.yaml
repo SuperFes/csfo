@@ -22,6 +22,8 @@ context: >
   argue with results" (AP). AP reported Schumer helped Colom raise money; Colom, asked about leadership
   before the call, said only that "too many of our leaders are from the same areas of the country" (Roll
   Call). Several winners nonetheless ran saying they would not back him. Alaska certifies its results Nov. 25.
+  In the House, Democrats had won at least 258 seats to Republicans' 173 as of Nov. 22, with four races
+  outstanding, the party's largest majority since 1992 (AP).
 statement: >
   "The issue is not me," and "I'll be re-elected as Majority Leader, but the issue is focusing on the
   American people" (TIME, Roll Call). He said the majority is a mandate to act on voters' priorities,
@@ -57,6 +59,12 @@ sources:
   outlet: CBS News
   url: https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/
   date: 2026-11-17
+  type: article
+- title: Democrats clinch a historic House majority of at least 258 seats, the largest since 1992
+  outlet: AP (via WTOP)
+  url: >-
+    https://wtop.com/national/2026/11/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/
+  date: 2026-11-22
   type: article
 - title: Rift grows among Senate Democrats over who will lead in majority
   outlet: Roll Call

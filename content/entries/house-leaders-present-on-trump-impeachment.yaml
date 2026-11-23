@@ -19,8 +19,9 @@ context: >
   Republicans had the votes to table each resolution without Democratic help. The leaders said impeachment
   "traditionally requires a comprehensive investigative process" and that "None of that serious work has been
   done" by the Republican majority. In September 2026 they committed to "holding the crooks accountable using
-  every tool available to us beginning on day one" (Deseret News). Democrats won the House in November 2026,
-  and Jeffries is the caucus nominee for speaker.
+  every tool available to us beginning on day one" (Deseret News). Democrats won the House in November 2026
+  with at least 258 seats, and Jeffries is the caucus nominee for speaker; AP reported he "has not ruled out
+  trying to impeach Trump for a third time."
 statement: >
   In a joint statement before the December 2025 vote, the three leaders said, "Accordingly, we will be voting
   'present' on today's motion to table the impeachment resolution," as they "continue our fight to make life
@@ -55,4 +56,10 @@ sources:
   outlet: Deseret News
   url: https://www.deseret.com/politics/2026/09/15/house-rejects-effort-impeach-trump/
   date: 2026-09-15
+  type: article
+- title: Democrats clinch a historic House majority of at least 258 seats, the largest since 1992
+  outlet: AP (via WTOP)
+  url: >-
+    https://wtop.com/national/2026/11/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/
+  date: 2026-11-22
   type: article

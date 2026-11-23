@@ -1,7 +1,7 @@
 slug: senate-leader-2026
 title: Senate Democratic leader race
 election_date: 2026-12-01
-updated: 2026-11-20
+updated: 2026-11-22
 status: needs-review
 review_note: >
   Developing. Counts only on-the-record statements and will change before the vote. Some quotes are
@@ -667,6 +667,19 @@ commitments:
     position: undecided
     date: 2026-11-16
     quote: who is going to put forth the most robust anti-corruption agenda
+    source:
+      title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
+      outlet: AP (via PBS NewsHour)
+      url: https://www.pbs.org/newshour/politics/van-hollens-bid-to-replace-schumer-puts-pressure-on-democrats-to-take-sides
+      date: 2026-11-17
+      type: article
+  - name: Annie Andrews
+    state: SC
+    party: D
+    incoming: true
+    position: undecided
+    date: 2026-11-17
+    quote: sharing my plans to fix our healthcare system
     source:
       title: Van Hollen's bid to replace Schumer puts pressure on Democrats to take sides
       outlet: AP (via PBS NewsHour)
